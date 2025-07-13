@@ -1,8 +1,8 @@
 "use client";
 import { useEffect, useState, useMemo } from "react";
 import { FaGithub, FaTelegramPlane, FaMastodon } from "react-icons/fa";
-import { SiTrakt } from "react-icons/si";
-import { FaXTwitter } from "react-icons/fa6";
+import { TbBrandLetterboxd } from "react-icons/tb";
+import { SiTrakt, SiLinkedin } from "react-icons/si";
 import Image from "next/image";
 import ThemeController from "./components/ThemeController";
 
@@ -65,8 +65,8 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-base-100">
-      {/* Theme Toggle - Fixed Top Right */}
-      <div className="fixed top-4 right-4 z-50">
+      {/* Theme Toggle - Fixed Top Center */}
+      <div className="fixed top-4 left-1/2 -translate-x-1/2 z-50">
         <ThemeController />
       </div>
 
@@ -95,7 +95,7 @@ export default function Home() {
               }`}
               onClick={() => setSelectedFilter("non-academic")}
             >
-              Professional
+              Others
             </a>
           </div>
         </div>
@@ -201,25 +201,33 @@ export default function Home() {
           <div className="flex justify-center mt-12">
             <div className="join">
               <button
-                className={`join-item btn ${currentPage === 1 ? 'btn-disabled' : ''}`}
+                className={`join-item btn ${
+                  currentPage === 1 ? "btn-disabled" : ""
+                }`}
                 onClick={() => setCurrentPage(currentPage - 1)}
                 disabled={currentPage === 1}
               >
                 Previous
               </button>
-              
-              {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
-                <button
-                  key={page}
-                  className={`join-item btn ${currentPage === page ? 'btn-active' : ''}`}
-                  onClick={() => setCurrentPage(page)}
-                >
-                  {page}
-                </button>
-              ))}
-              
+
+              {Array.from({ length: totalPages }, (_, i) => i + 1).map(
+                (page) => (
+                  <button
+                    key={page}
+                    className={`join-item btn ${
+                      currentPage === page ? "btn-active" : ""
+                    }`}
+                    onClick={() => setCurrentPage(page)}
+                  >
+                    {page}
+                  </button>
+                )
+              )}
+
               <button
-                className={`join-item btn ${currentPage === totalPages ? 'btn-disabled' : ''}`}
+                className={`join-item btn ${
+                  currentPage === totalPages ? "btn-disabled" : ""
+                }`}
                 onClick={() => setCurrentPage(currentPage + 1)}
                 disabled={currentPage === totalPages}
               >
@@ -257,11 +265,13 @@ export default function Home() {
               />
             </div>
           </div>
-          
+
           {/* Name and Title */}
           <div className="text-center mb-4">
-            <p className="font-semibold text-lg">Abu Sayed</p>
-            <p className="text-base-content/70 text-sm">Civil Engineer & Full Stack Developer</p>
+            <p className="font-semibold text-lg">Sayed/সাঈদ</p>
+            <p className="text-base-content/70 text-sm">
+              Civil Engineer & build what I want build!
+            </p>
           </div>
 
           {/* Social Links */}
@@ -276,13 +286,13 @@ export default function Home() {
               <FaGithub className="w-5 h-5" />
             </a>
             <a
-              href="https://twitter.com/abusayed0206"
+              href="https://linkedin.com/in/abusayed0206"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-ghost btn-sm"
-              aria-label="Twitter/X"
+              aria-label="LinkedIn"
             >
-              <FaXTwitter className="w-5 h-5" />
+              <SiLinkedin className="w-5 h-5" />
             </a>
             <a
               href="https://trakt.tv/users/lrs"
@@ -300,13 +310,7 @@ export default function Home() {
               className="btn btn-ghost btn-sm"
               aria-label="Letterboxd"
             >
-              <Image
-                src="https://a.ltrbxd.com/logos/letterboxd-decal-dots-pos-rgb.svg"
-                alt="Letterboxd"
-                width={20}
-                height={20}
-                className="w-5 h-5"
-              />
+              <TbBrandLetterboxd className="w-5 h-5" />
             </a>
             <a
               href="https://mastodon.social/@abusayed"
@@ -318,7 +322,7 @@ export default function Home() {
               <FaMastodon className="w-5 h-5" />
             </a>
             <a
-              href="https://t.me/abusayed0206"
+              href="https://t.me/lutforrashidsayed"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-ghost btn-sm"
@@ -330,7 +334,7 @@ export default function Home() {
 
           {/* Copyright */}
           <p className="text-base-content/50 text-xs">
-            © 2024 Abu Sayed. All rights reserved.
+            © 2025 Abu Sayed. All rights reserved.
           </p>
         </aside>
       </footer>
