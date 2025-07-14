@@ -1,8 +1,9 @@
 "use client";
 import { useEffect, useState, useMemo } from "react";
-import { FaGithub, FaTelegramPlane, FaMastodon } from "react-icons/fa";
-import { TbBrandLetterboxd } from "react-icons/tb";
-import { SiTrakt, SiLinkedin } from "react-icons/si";
+import { FaGithub, FaMastodon, FaOrcid } from "react-icons/fa";
+import { FaBluesky } from "react-icons/fa6";
+import { SiLinkedin } from "react-icons/si";
+
 import Image from "next/image";
 import ThemeController from "./components/ThemeController";
 
@@ -74,25 +75,46 @@ export default function Home() {
       <div className="container mx-auto px-4 py-16">
         {/* Project Filter Tabs */}
         <div className="flex justify-center mb-12">
-          <div className="tabs tabs-lifted">
+          <div
+            className="tabs tabs-lifted rounded-xl shadow-lg p-2 
+               bg-white/20 dark:bg-white/5 
+               backdrop-blur-md border border-gray-300 dark:border-white/10"
+          >
             <a
-              className={`tab ${selectedFilter === "all" ? "tab-active" : ""}`}
+              className={`tab transition duration-300 
+                  text-gray-800 dark:text-white 
+                  hover:bg-white/30 dark:hover:bg-white/10 
+                  ${
+                    selectedFilter === "all"
+                      ? "tab-active bg-white/50 text-gray-900 dark:bg-white/20 dark:text-white"
+                      : ""
+                  }`}
               onClick={() => setSelectedFilter("all")}
             >
               All Projects
             </a>
             <a
-              className={`tab ${
-                selectedFilter === "academic" ? "tab-active" : ""
-              }`}
+              className={`tab transition duration-300 
+                  text-gray-800 dark:text-white 
+                  hover:bg-white/30 dark:hover:bg-white/10 
+                  ${
+                    selectedFilter === "academic"
+                      ? "tab-active bg-white/50 text-gray-900 dark:bg-white/20 dark:text-white"
+                      : ""
+                  }`}
               onClick={() => setSelectedFilter("academic")}
             >
               Academic
             </a>
             <a
-              className={`tab ${
-                selectedFilter === "non-academic" ? "tab-active" : ""
-              }`}
+              className={`tab transition duration-300 
+                  text-gray-800 dark:text-white 
+                  hover:bg-white/30 dark:hover:bg-white/10 
+                  ${
+                    selectedFilter === "non-academic"
+                      ? "tab-active bg-white/50 text-gray-900 dark:bg-white/20 dark:text-white"
+                      : ""
+                  }`}
               onClick={() => setSelectedFilter("non-academic")}
             >
               Others
@@ -295,23 +317,24 @@ export default function Home() {
               <SiLinkedin className="w-5 h-5" />
             </a>
             <a
-              href="https://trakt.tv/users/lrs"
+              href="https://orcid.org/0009-0007-8994-5252"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-ghost btn-sm"
-              aria-label="Trakt.tv"
+              aria-label="ORCiD"
             >
-              <SiTrakt className="w-5 h-5" />
+              <FaOrcid className="w-5 h-5" />
             </a>
             <a
-              href="https://letterboxd.com/abusayed"
+              href="https://bsky.app/profile/sayed.page"
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-ghost btn-sm"
-              aria-label="Letterboxd"
+              aria-label="Bluesky"
             >
-              <TbBrandLetterboxd className="w-5 h-5" />
+              <FaBluesky className="w-5 h-5" />
             </a>
+
             <a
               href="https://mastodon.social/@abusayed"
               target="_blank"
@@ -320,15 +343,6 @@ export default function Home() {
               aria-label="Mastodon"
             >
               <FaMastodon className="w-5 h-5" />
-            </a>
-            <a
-              href="https://t.me/lutforrashidsayed"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-ghost btn-sm"
-              aria-label="Telegram"
-            >
-              <FaTelegramPlane className="w-5 h-5" />
             </a>
           </div>
 
