@@ -1,9 +1,11 @@
 // app/login/page.tsx
 "use client";
-import { useRouter, useSearchParams } from "next/navigation";
-import { useState } from "react";
 
-export default function LoginPage() {
+import { useRouter, useSearchParams } from "next/navigation";
+import { useState, Suspense } from "react";
+
+
+function LoginForm() {
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const router = useRouter();
@@ -37,5 +39,13 @@ export default function LoginPage() {
       />
       <button className="bg-black text-white px-4 py-2">Login</button>
     </form>
+  );
+}
+
+export default function LoginPage() {
+  return (
+    <Suspense>
+      <LoginForm />
+    </Suspense>
   );
 }

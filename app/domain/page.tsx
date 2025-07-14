@@ -1,9 +1,12 @@
 import { createClient } from "@/lib/supabase/server";
 import Link from "next/link";
+
 import SyncWrapper from "./SyncWrapper";
 import SyncProjectDomainsButton from "./SyncProjectDomainsButton";
 import AssignDomainButton from "./AssignDomainButton";
 import DeleteDomainButton from "./DeleteDomainButton";
+import { SiVercel } from "react-icons/si";
+import { FaGithub } from "react-icons/fa";
 
 const PAGE_SIZE = 10;
 
@@ -52,7 +55,7 @@ export default async function DomainPage({
             <thead className="bg-base-200">
               <tr>
                 {/* <th>Project ID</th> */}
-                <th className="text-center">Git Repo</th>
+                <th className="text-center">Project</th>
                 <th className="text-center">Vercel Domains</th>
                 <th className="text-center">Custom Domains</th>
                 <th className="text-center">Last Updated</th>
@@ -75,18 +78,30 @@ export default async function DomainPage({
 
                 return (
                   <tr key={proj.id} className="text-center">
-                    <td>
+                    <td className="flex items-center justify-center gap-2">
+                      {/* Vercel Icon Link */}
+                      <a
+                        href={`https://vercel.com/abusayed0206/${proj.name}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title="Vercel Project"
+                        className="text-black hover:text-gray-700"
+                      >
+                        <SiVercel size={22} />
+                      </a>
+                      {/* GitHub Icon Link */}
                       {proj.git_repo ? (
                         <a
-                          href={proj.git_repo}
+                          href={`https://github.com/abusayed0206/${proj.git_repo}`}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="link link-primary break-all"
+                          title="GitHub Repo"
+                          className="text-black hover:text-gray-700"
                         >
-                          {proj.git_repo}
+                          <FaGithub size={22} />
                         </a>
                       ) : (
-                        "-"
+                        <span className="text-gray-400">-</span>
                       )}
                     </td>
                     <td>
