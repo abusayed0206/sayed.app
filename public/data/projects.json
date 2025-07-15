@@ -22,12 +22,12 @@
   {
     "id": 3,
     "academic": false,
-    "name": "CUET Student Information 📚",
+    "name": "CUET Students Directory",
     "description": "Student Information: Access detailed profiles including student ID, name, department, and more. Department Statistics: Get total student counts by batch for each department.",
     "keywords": ["nextjs", "typescript", "react", "supabase", "web-app"],
-    "image": "/imgs/cuet-app.jpg",
+    "image": "/imgs/cuet.png",
     "sourceCode": "https://github.com/abusayed0206/cuet",
-    "livePreview": "https://cuet.sayed.page/"
+    "livePreview": "https://cuet.sayed.app/"
   },
   {
     "id": 4,
