@@ -20,9 +20,24 @@ export function middleware(request: NextRequest) {
     return new NextResponse("Forbidden", { status: 403 });
   }
 
-  // Domain dashboard auth check
+  // List of protected API routes
+  const protectedApiRoutes = [
+    "/api/assign-domain",
+    "/api/delete-domain",
+    "/api/sync-projects",
+    "/api/sync-domains",
+    // Protect dynamic route as well
+    "/api/sync-domains/",
+  ];
+
+  // Check if request is for domain page or protected API route
   const isDomainRoute = pathname.startsWith("/domain");
-  if (isDomainRoute) {
+  const isProtectedApiRoute =
+    protectedApiRoutes.some((route) => pathname === route || pathname.startsWith(route)) ||
+    // Special case for /api/sync-domains/[project_id]
+    /^\/api\/sync-domains\/[\w-]+$/.test(pathname);
+
+  if (isDomainRoute || isProtectedApiRoute) {
     const cookie = request.cookies.get("auth");
     if (!cookie || cookie.value !== DASHBOARD_PASSWORD) {
       const loginUrl = new URL("/login", request.url);
