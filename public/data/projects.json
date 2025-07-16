@@ -32,7 +32,7 @@
   {
     "id": 4,
     "academic": false,
-    "name": "🎬 বাংলা চলচ্চিত্রের TMDB Wrapper",
+    "name": "Bangla movies/series TMDB Wrapper",
     "description": "এখানে বাংলা চলচ্চিত্রের (বাংলাদেশ এবং ভারতের) তালিকা টিএমডিবি এপিআই এর মাধ্যমে পাওয়া যাবে। আপনি সহজেই বিভিন্ন বাংলা সিনেমার তথ্য সংগ্রহ করতে পারবেন। 🎥",
     "keywords": ["nextjs", "typescript", "react", "api", "movies"],
     "image": "/imgs/banglamovies.png",
@@ -42,12 +42,12 @@
   {
     "id": 5,
     "academic": false,
-    "name": "Bangla Quran Audio Platform",
-    "description": "This repository is created to help you listen to the Quran in Bangla without needing to go to YouTube every time. Enjoy the divine words of Allah with ease and convenience!",
-    "keywords": ["nextjs", "typescript", "react", "audio", "quran"],
-    "image": "/imgs/bangla-quran.jpg",
-    "sourceCode": "https://github.com/abusayed0206/banglaquran",
-    "livePreview": "https://banglaquran.pages.dev/"
+    "name": "Laws of Bangladesh",
+    "description": "A website to browse the laws of Bangladesh. It provides a user-friendly interface to search and access various legal documents and acts.",
+    "keywords": ["scraping", "documentation", "web-app", "laws"],
+    "image": "/imgs/laws.png",
+    "sourceCode": "https://github.com/lawsofbangladesh/laws",
+    "livePreview": "https://laws.sayed.app/"
   },
   {
     "id": 6,
