@@ -111,7 +111,7 @@
     "name": "Yearbook",
     "description": "A yearbook website for me . It contains all of my classmates names,ID/roll from schools, college and university.",
     "keywords": ["yearbook", "classmates", "school", "college", "university"],
-    "sourceCode": "https://github.com/abusayed0206/yearbook",
+    "image": "/imgs/yb.png",
     "livePreview": "https://yearbook.sayed.app/"
   }
 ]
