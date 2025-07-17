@@ -57,7 +57,7 @@
     "keywords": ["nextjs", "typescript", "react", "cms", "api"],
     "image": "/imgs/telegraph-cms.jpg",
     "sourceCode": "https://github.com/abusayed0206/telegraphcms",
-    "livePreview": "https://telegraphcms.pages.dev/"
+    "livePreview": "https://telegraphcms.sayed.app/"
   },
   {
     "id": 7,
@@ -85,7 +85,7 @@
     "description": "A website to listen to Bangla Quran audio. It provides a user-friendly interface to listen to the Quran in Bangla language.",
     "keywords": ["quran", "nextjs", "react", "audio", "quran"],
     "sourceCode": "https://github.com/abusayed0206/banglaquran",
-    "livePreview": "https://quran.sayed.page/"
+    "livePreview": "https://quran.sayed.app"
   },
   {
     "id": 10,
@@ -94,6 +94,24 @@
     "description": "A poster style screenshot of a RSS film page from Letterboxd. Updated with the latest film data daily.",
     "keywords": ["film", "letterboxd", "rss", "screenshot"],
     "sourceCode": "https://github.com/abusayed0206/film-page-screenshot?tab=readme-ov-file",
-    "livePreview": "https://letterboxdlrs.pages.dev/film.jpg"
+    "livePreview": "https://letterboxd.sayed.app/film.jpg"
+  },
+  {
+    "id": 11,
+    "academic": false,
+    "name": "RDAPclient",
+    "description": "A client for the RDAP (Registration Data Access Protocol) API and webapp",
+    "keywords": ["rdap", "api", "client"],
+    "sourceCode": "https://github.com/abusayed0206/rdapclient",
+    "livePreview": "https://rdap.sayed.app/"
+  },
+  {
+    "id": 12,
+    "academic": false,
+    "name": "Yearbook",
+    "description": "A yearbook website for me . It contains all of my classmates names,ID/roll from schools, college and university.",
+    "keywords": ["yearbook", "classmates", "school", "college", "university"],
+    "sourceCode": "https://github.com/abusayed0206/yearbook",
+    "livePreview": "https://yearbook.sayed.app/"
   }
 ]

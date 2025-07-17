@@ -119,8 +119,8 @@ export default function Home() {
                   />
                 </figure>
               )}
-              <div className="card-body p-6">
-                <div className="flex flex-wrap gap-2 mb-4">
+              <div className="card-body p-6 text-center">
+                <div className="flex flex-wrap gap-2 mb-4 justify-center">
                   {project.keywords.slice(0, 3).map((keyword, index) => (
                     <div key={index} className="badge badge-neutral badge-sm">
                       {keyword}
@@ -133,7 +133,7 @@ export default function Home() {
                   )}
                 </div>
 
-                <h3 className="card-title text-lg font-semibold text-base-content mb-3 leading-tight">
+                <h3 className="card-title text-lg font-semibold text-base-content mb-3 leading-tight justify-center">
                   {project.name}
                 </h3>
 
@@ -142,7 +142,7 @@ export default function Home() {
                 </p>
 
                 {/* Action Buttons */}
-                <div className="card-actions justify-end gap-3 mt-auto">
+                <div className="card-actions justify-center gap-3 mt-auto">
                   {project.academic ? (
                     <>
                       {project.sourceCode && (
@@ -274,22 +274,10 @@ export default function Home() {
             </p>
             <div className="flex justify-center items-center gap-2 text-base-content text-xs mt-2 ">
               <button className="btn btn-sm btn-outline">
-                <a
-                  href="https://sayed.page"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Intro
-                </a>
+                <a href="https://sayed.page" target="_blank" rel="noopener noreferrer">Intro</a>
               </button>
               <button className="btn btn-sm btn-outline">
-                <a
-                  href="https://abusayed.dev"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Resume
-                </a>
+                <a href="https://abusayed.dev" target="_blank" rel="noopener noreferrer">Resume</a>
               </button>
             </div>
           </div>
