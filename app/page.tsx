@@ -6,17 +6,8 @@ import { SiLinkedin } from "react-icons/si";
 
 import Image from "next/image";
 import ThemeController from "./components/ThemeController";
-
-interface Project {
-  id: number;
-  academic: boolean;
-  name: string;
-  description: string;
-  keywords: string[];
-  image: string;
-  sourceCode: string;
-  livePreview: string;
-}
+import ProjectImage from "@/components/ProjectImage";
+import { Project } from "@/types/project";
 
 type FilterType = "all" | "academic" | "non-academic";
 
@@ -75,50 +66,37 @@ export default function Home() {
       <div className="container mx-auto px-4 py-16">
         {/* Project Filter Tabs */}
         <div className="flex justify-center mb-12">
-          <div
-            className="tabs tabs-lifted rounded-xl shadow-lg p-2 
-               bg-white/20 dark:bg-white/5 
-               backdrop-blur-md border border-gray-300 dark:border-white/10"
-          >
-            <a
-              className={`tab transition duration-300 
-                  text-gray-800 dark:text-white 
-                  hover:bg-white/30 dark:hover:bg-white/10 
-                  ${
-                    selectedFilter === "all"
-                      ? "tab-active bg-white/50 text-gray-900 dark:bg-white/20 dark:text-white"
-                      : ""
-                  }`}
+          <div className="tabs tabs-boxed bg-base-200 rounded-lg p-1">
+            <button
+              className={`tab tab-lg font-medium ${
+                selectedFilter === "all"
+                  ? "tab-active rounded-lg backdrop-blur-xl bg-white/20 dark:bg-white/10 border border-white/30 dark:border-white/20 shadow-lg"
+                  : "text-black dark:text-white"
+              }`}
               onClick={() => setSelectedFilter("all")}
             >
               All Projects
-            </a>
-            <a
-              className={`tab transition duration-300 
-                  text-gray-800 dark:text-white 
-                  hover:bg-white/30 dark:hover:bg-white/10 
-                  ${
-                    selectedFilter === "academic"
-                      ? "tab-active bg-white/50 text-gray-900 dark:bg-white/20 dark:text-white"
-                      : ""
-                  }`}
+            </button>
+            <button
+              className={`tab tab-lg font-medium ${
+                selectedFilter === "academic"
+                  ? "tab-active rounded-lg backdrop-blur-xl bg-white/20 dark:bg-white/10 border border-white/30 dark:border-white/20 shadow-lg"
+                  : "text-black dark:text-white"
+              }`}
               onClick={() => setSelectedFilter("academic")}
             >
               Academic
-            </a>
-            <a
-              className={`tab transition duration-300 
-                  text-gray-800 dark:text-white 
-                  hover:bg-white/30 dark:hover:bg-white/10 
-                  ${
-                    selectedFilter === "non-academic"
-                      ? "tab-active bg-white/50 text-gray-900 dark:bg-white/20 dark:text-white"
-                      : ""
-                  }`}
+            </button>
+            <button
+              className={`tab tab-lg font-medium ${
+                selectedFilter === "non-academic"
+                  ? "tab-active rounded-lg backdrop-blur-xl bg-white/20 dark:bg-white/10 border border-white/30 dark:border-white/20 shadow-lg"
+                  : "text-black dark:text-white"
+              }`}
               onClick={() => setSelectedFilter("non-academic")}
             >
               Others
-            </a>
+            </button>
           </div>
         </div>
 
@@ -130,10 +108,10 @@ export default function Home() {
               className="card bg-base-100 shadow-lg border border-base-200"
             >
               {/* Project Image */}
-              {project.image && (
+              {(project.image || true) && (
                 <figure className="rounded-t-2xl overflow-hidden">
-                  <Image
-                    src={project.image}
+                  <ProjectImage
+                    project={project}
                     alt={project.name}
                     width={400}
                     height={240}
@@ -294,6 +272,26 @@ export default function Home() {
             <p className="text-base-content/70 text-sm">
               Civil Engineer & build what I want build!
             </p>
+            <div className="flex justify-center items-center gap-2 text-base-content text-xs mt-2 ">
+              <button className="btn btn-sm btn-outline">
+                <a
+                  href="https://sayed.page"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Intro
+                </a>
+              </button>
+              <button className="btn btn-sm btn-outline">
+                <a
+                  href="https://abusayed.dev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Resume
+                </a>
+              </button>
+            </div>
           </div>
 
           {/* Social Links */}

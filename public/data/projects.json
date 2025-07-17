@@ -4,10 +4,10 @@
     "academic": true,
     "name": "Engineering Classification of Soil | Sughandha R/A, Chittagong",
     "description": "As part of our geotechnical engineering course (CE 332), we had the opportunity to undertake a significant lab project under the guidance of CUET professors and the Civil Engineering Department.",
-    "keywords": ["geotech", "civil-engineering", "academic", "research"],
-    "image": "/imgs/soil-classification.jpg",
-    "sourceCode": "https://abusayed.dev/engineering-classification-of-soil-sughandha-ra-chittagong",
-    "livePreview": "https://raw.githubusercontent.com/abusayed0206/HashNodeBackUP/ea476a59ed7a67d4c023ddcd6b894a4b8b74527f/assets/PDF/CE-332%20Project.pdf"
+    "keywords": ["geotech", "civil-engineering", "academic"],
+    "image": "/imgs/cuet_logo.png",
+    "sourceCode": "https://blog.abusayed.dev/engineering-classification-of-soil-sughandha-ra-chittagong",
+    "livePreview": "https://public.sayed.page/webdav/articles/CE-332%20Project.pdf"
   },
   {
     "id": 2,
@@ -15,8 +15,8 @@
     "name": "Structural Design and Analysis of a Residential Building",
     "description": "According to the Bangladesh National Building Code (BNBC 2020), this project is for a 10-storied residential building situated on a 14,400 square-foot plot.",
     "keywords": ["structure", "civil-engineering", "academic", "design"],
-    "image": "/imgs/structural-design.jpg",
-    "sourceCode": "https://abusayed.dev/structural-design-and-analysis-of-a-residential-building-at-pinkcity-raozan-chittagong-bangladesh",
+    "image": "/imgs/cuet_logo.png",
+    "sourceCode": "https://blog.abusayed.dev/structural-design-and-analysis-of-a-residential-building-at-pinkcity-raozan-chittagong-bangladesh",
     "livePreview": ""
   },
   {
@@ -33,11 +33,11 @@
     "id": 4,
     "academic": false,
     "name": "Bangla movies/series TMDB Wrapper",
-    "description": "এখানে বাংলা চলচ্চিত্রের (বাংলাদেশ এবং ভারতের) তালিকা টিএমডিবি এপিআই এর মাধ্যমে পাওয়া যাবে। আপনি সহজেই বিভিন্ন বাংলা সিনেমার তথ্য সংগ্রহ করতে পারবেন। 🎥",
+    "description": "A website to browse latest Bangla movies and series. It provides a user-friendly interface to search and access various Bangla movies and series.",
     "keywords": ["nextjs", "typescript", "react", "api", "movies"],
     "image": "/imgs/banglamovies.png",
     "sourceCode": "https://github.com/abusayed0206/banglamovies",
-    "livePreview": "https://banglamovies.sayed.page/"
+    "livePreview": "https://movies.sayed.app/"
   },
   {
     "id": 5,
@@ -61,82 +61,39 @@
   },
   {
     "id": 7,
-    "academic": true,
-    "name": "Engineering Classification of Soil | Sughandha R/A, Chittagong",
-    "description": "As part of our geotechnical engineering course (CE 332), we had the opportunity to undertake a significant lab project under the guidance of CUET professors and the Civil Engineering Department.",
-    "keywords": ["geotech", "civil-engineering", "academic", "research"],
-    "image": "/imgs/soil-classification.jpg",
-    "sourceCode": "https://abusayed.dev/engineering-classification-of-soil-sughandha-ra-chittagong",
-    "livePreview": "https://raw.githubusercontent.com/abusayed0206/HashNodeBackUP/ea476a59ed7a67d4c023ddcd6b894a4b8b74527f/assets/PDF/CE-332%20Project.pdf"
+    "academic": false,
+    "name": "Digitalized Bangla Films updating on IMDB and TMDB",
+    "description": "A project to update/add old Bangla films on IMDB and TMDB.",
+    "keywords": ["csv", "imdb", "tmdb", "bangla-films", "data"],
+    "image": "/imgs/sayed.png",
+    "sourceCode": "https://github.com/abusayed0206/banglafilm"
   },
   {
     "id": 8,
     "academic": true,
-    "name": "Structural Design and Analysis of a Residential Building",
-    "description": "According to the Bangladesh National Building Code (BNBC 2020), this project is for a 10-storied residential building situated on a 14,400 square-foot plot.",
-    "keywords": ["structure", "civil-engineering", "academic", "design"],
-    "image": "/imgs/structural-design.jpg",
-    "sourceCode": "https://abusayed.dev/structural-design-and-analysis-of-a-residential-building-at-pinkcity-raozan-chittagong-bangladesh",
+    "name": "[UG Thesis] Vertical Extension of Civil Engineering Building",
+    "description": "This project focuses on the vertical extension of the Civil Engineering Building at CUET, which is a 3 story building and built in 1968.",
+    "keywords": ["structure", "seismic-evaluation", "BSPP"],
+    "image": "/imgs/verctical_project.png",
+    "sourceCode": "https://blog.abusayed.dev/vertical-extension-of-civil-engineering-building",
     "livePreview": ""
   },
   {
     "id": 9,
     "academic": false,
-    "name": "CUET Student Information 📚",
-    "description": "Student Information: Access detailed profiles including student ID, name, department, and more. Department Statistics: Get total student counts by batch for each department.",
-    "keywords": ["nextjs", "typescript", "react", "supabase", "web-app"],
-    "image": "/imgs/cuet-app.jpg",
-    "sourceCode": "https://github.com/abusayed0206/cuet",
-    "livePreview": "https://cuet.sayed.page/"
+    "name": "Bangla Quran Audio",
+    "description": "A website to listen to Bangla Quran audio. It provides a user-friendly interface to listen to the Quran in Bangla language.",
+    "keywords": ["quran", "nextjs", "react", "audio", "quran"],
+    "sourceCode": "https://github.com/abusayed0206/banglaquran",
+    "livePreview": "https://quran.sayed.page/"
   },
   {
     "id": 10,
     "academic": false,
-    "name": "🎬 বাংলা চলচ্চিত্রের TMDB Wrapper",
-    "description": "এখানে বাংলা চলচ্চিত্রের (বাংলাদেশ এবং ভারতের) তালিকা টিএমডিবি এপিআই এর মাধ্যমে পাওয়া যাবে। আপনি সহজেই বিভিন্ন বাংলা সিনেমার তথ্য সংগ্রহ করতে পারবেন। 🎥",
-    "keywords": ["nextjs", "typescript", "react", "api", "movies"],
-    "image": "/imgs/banglamovies.png",
-    "sourceCode": "https://github.com/abusayed0206/banglamovies",
-    "livePreview": "https://banglamovies.sayed.page/"
-  },
-  {
-    "id": 11,
-    "academic": false,
-    "name": "Bangla Quran Audio Platform",
-    "description": "This repository is created to help you listen to the Quran in Bangla without needing to go to YouTube every time. Enjoy the divine words of Allah with ease and convenience!",
-    "keywords": ["nextjs", "typescript", "react", "audio", "quran"],
-    "image": "/imgs/bangla-quran.jpg",
-    "sourceCode": "https://github.com/abusayed0206/banglaquran",
-    "livePreview": "https://banglaquran.pages.dev/"
-  },
-  {
-    "id": 12,
-    "academic": false,
-    "name": "Telegraph CMS",
-    "description": "Use Telegram's Telegraph platform as a CMS/blogging tool for your site! 🚀",
-    "keywords": ["nextjs", "typescript", "react", "cms", "api"],
-    "image": "/imgs/telegraph-cms.jpg",
-    "sourceCode": "https://github.com/abusayed0206/telegraphcms",
-    "livePreview": "https://telegraphcms.pages.dev/"
-  },
-  {
-    "id": 13,
-    "academic": false,
-    "name": "Telegraph CMS",
-    "description": "Use Telegram's Telegraph platform as a CMS/blogging tool for your site! 🚀",
-    "keywords": ["nextjs", "typescript", "react", "cms", "api"],
-    "image": "/imgs/telegraph-cms.jpg",
-    "sourceCode": "https://github.com/abusayed0206/telegraphcms",
-    "livePreview": "https://telegraphcms.pages.dev/"
-  },
-  {
-    "id": 14,
-    "academic": false,
-    "name": "Telegraph CMS",
-    "description": "Use Telegram's Telegraph platform as a CMS/blogging tool for your site! 🚀",
-    "keywords": ["nextjs", "typescript", "react", "cms", "api"],
-    "image": "/imgs/telegraph-cms.jpg",
-    "sourceCode": "https://github.com/abusayed0206/telegraphcms",
-    "livePreview": "https://telegraphcms.pages.dev/"
+    "name": "Film Page screenshot from Letterboxd",
+    "description": "A poster style screenshot of a RSS film page from Letterboxd. Updated with the latest film data daily.",
+    "keywords": ["film", "letterboxd", "rss", "screenshot"],
+    "sourceCode": "https://github.com/abusayed0206/film-page-screenshot?tab=readme-ov-file",
+    "livePreview": "https://letterboxdlrs.pages.dev/film.jpg"
   }
 ]

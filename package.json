@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@supabase/ssr": "^0.6.1",
+    "@vercel/og": "^0.7.2",
     "@vercel/sdk": "^1.10.0",
     "next": "15.3.5",
     "react": "^19.0.0",
