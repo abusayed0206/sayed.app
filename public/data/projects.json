@@ -113,5 +113,15 @@
     "keywords": ["yearbook", "classmates", "school", "college", "university"],
     "image": "/imgs/yb.png",
     "livePreview": "https://yearbook.sayed.app/"
+  },
+  {
+    "id": 13,
+    "academic": false,
+    "name": "Trakt Web Dashboard",
+    "description": "A web dashboard for Trakt, a platform for showcasing TV shows and movies.",
+    "keywords": ["trakt", "dashboard", "web-app", "movies", "tv-shows"],
+    "image": "/imgs/trakt.png",
+    "sourceCode": "https://github.com/abusayed0206/trakt",
+    "livePreview": "https://trakt.sayed.app/"
   }
 ]
