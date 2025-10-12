@@ -291,7 +291,7 @@ export default function Home() {
                   Resume/CV
                 </a>
               </button>
-              <button>
+              <button className="btn btn-sm btn-outline">
                 <a
                   href="https://sayed.blog"
                   target="_blank"
