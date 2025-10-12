@@ -123,5 +123,13 @@
     "image": "/imgs/trakt.png",
     "sourceCode": "https://github.com/abusayed0206/trakt",
     "livePreview": "https://trakt.sayed.app/"
+  },
+    {
+    "id": 14,
+    "academic": false,
+    "name": "Bangla Quran Windows App",
+    "description": "Flutter based windows app for listening quran in Bangla. Nothing else!",
+    "keywords": ["bangla", "quran"],
+    "livePreview": "https://apps.microsoft.com/detail/9n3gsz7v18zp?hl=en-US&gl=GD"
   }
 ]

@@ -270,14 +270,35 @@ export default function Home() {
           <div className="text-center mb-4">
             <p className="font-semibold text-lg">Sayed/সাঈদ</p>
             <p className="text-base-content/70 text-sm">
-              Civil Engineer & build what I want build!
+              Civil Engineer & build what I want to build!
             </p>
             <div className="flex justify-center items-center gap-2 text-base-content text-xs mt-2 ">
               <button className="btn btn-sm btn-outline">
-                <a href="https://sayed.page" target="_blank" rel="noopener noreferrer">Intro</a>
+                <a
+                  href="https://sayed.page"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Intro
+                </a>
               </button>
               <button className="btn btn-sm btn-outline">
-                <a href="https://abusayed.dev" target="_blank" rel="noopener noreferrer">Resume</a>
+                <a
+                  href="https://abusayed.dev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Resume/CV
+                </a>
+              </button>
+              <button>
+                <a
+                  href="https://sayed.blog"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Blog
+                </a>
               </button>
             </div>
           </div>
