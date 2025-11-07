@@ -9,6 +9,7 @@ const hindSiliguri = Hind_Siliguri({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://sayed.app'),
   title: "Sayed | Projects",
   description: "To showcase my projects and research work",
   keywords: ["portfolio", "projects", "research"],

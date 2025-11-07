@@ -5,6 +5,7 @@
     "name": "Engineering Classification of Soil | Sughandha R/A, Chittagong",
     "description": "As part of our geotechnical engineering course (CE 332), we had the opportunity to undertake a significant lab project under the guidance of CUET professors and the Civil Engineering Department.",
     "keywords": ["geotech", "civil-engineering", "academic"],
+    "slug": "engineering-classification-of-soil-sughandha-ra-chittagong",
     "image": "/imgs/cuet_logo.png",
     "sourceCode": "https://blog.abusayed.dev/engineering-classification-of-soil-sughandha-ra-chittagong",
     "livePreview": "https://public.sayed.page/webdav/articles/CE-332%20Project.pdf"
@@ -15,6 +16,7 @@
     "name": "Structural Design and Analysis of a Residential Building",
     "description": "According to the Bangladesh National Building Code (BNBC 2020), this project is for a 10-storied residential building situated on a 14,400 square-foot plot.",
     "keywords": ["structure", "civil-engineering", "academic", "design"],
+    "slug": "structural-design-and-analysis-of-a-residential-building-at-pinkcity-raozan-chittagong-bangladesh",
     "image": "/imgs/cuet_logo.png",
     "sourceCode": "https://blog.abusayed.dev/structural-design-and-analysis-of-a-residential-building-at-pinkcity-raozan-chittagong-bangladesh",
     "livePreview": ""
@@ -25,6 +27,7 @@
     "name": "CUET Students Directory",
     "description": "Student Information: Access detailed profiles including student ID, name, department, and more. Department Statistics: Get total student counts by batch for each department.",
     "keywords": ["nextjs", "typescript", "react", "supabase", "web-app"],
+    "slug": "cuet-students-directory",
     "image": "/imgs/cuet.png",
     "sourceCode": "https://github.com/abusayed0206/cuet",
     "livePreview": "https://cuet.sayed.app/"
@@ -35,6 +38,7 @@
     "name": "Bangla movies/series TMDB Wrapper",
     "description": "A website to browse latest Bangla movies and series. It provides a user-friendly interface to search and access various Bangla movies and series.",
     "keywords": ["nextjs", "typescript", "react", "api", "movies"],
+    "slug": "bangla-movies-series-tmdb-wrapper",
     "image": "/imgs/banglamovies.png",
     "sourceCode": "https://github.com/abusayed0206/banglamovies",
     "livePreview": "https://movies.sayed.app/"
@@ -45,6 +49,7 @@
     "name": "Laws of Bangladesh",
     "description": "A website to browse the laws of Bangladesh. It provides a user-friendly interface to search and access various legal documents and acts.",
     "keywords": ["scraping", "documentation", "web-app", "laws"],
+    "slug": "laws-of-bangladesh",
     "image": "/imgs/laws.png",
     "sourceCode": "https://github.com/lawsofbangladesh/laws",
     "livePreview": "https://laws.sayed.app/"
@@ -55,6 +60,7 @@
     "name": "Telegraph CMS",
     "description": "Use Telegram's Telegraph platform as a CMS/blogging tool for your site! 🚀",
     "keywords": ["nextjs", "typescript", "react", "cms", "api"],
+    "slug": "telegraph-cms",
     "image": "/imgs/telegraph-cms.jpg",
     "sourceCode": "https://github.com/abusayed0206/telegraphcms",
     "livePreview": "https://telegraphcms.sayed.app/"
@@ -65,6 +71,7 @@
     "name": "Digitalized Bangla Films updating on IMDB and TMDB",
     "description": "A project to update/add old Bangla films on IMDB and TMDB.",
     "keywords": ["csv", "imdb", "tmdb", "bangla-films", "data"],
+    "slug": "digitalized-bangla-films-updating-on-imdb-and-tmdb",
     "image": "/imgs/sayed.png",
     "sourceCode": "https://github.com/abusayed0206/banglafilm"
   },
@@ -74,6 +81,7 @@
     "name": "[UG Thesis] Vertical Extension of Civil Engineering Building",
     "description": "This project focuses on the vertical extension of the Civil Engineering Building at CUET, which is a 3 story building and built in 1968.",
     "keywords": ["structure", "seismic-evaluation", "BSPP"],
+    "slug": "vertical-extension-of-civil-engineering-building",
     "image": "/imgs/verctical_project.png",
     "sourceCode": "https://blog.abusayed.dev/vertical-extension-of-civil-engineering-building",
     "livePreview": ""
@@ -84,6 +92,7 @@
     "name": "Bangla Quran Audio",
     "description": "A website to listen to Bangla Quran audio. It provides a user-friendly interface to listen to the Quran in Bangla language.",
     "keywords": ["quran", "nextjs", "react", "audio", "quran"],
+    "slug": "bangla-quran-audio",
     "sourceCode": "https://github.com/abusayed0206/banglaquran",
     "livePreview": "https://quran.sayed.app"
   },
@@ -93,6 +102,7 @@
     "name": "Film Page screenshot from Letterboxd",
     "description": "A poster style screenshot of a RSS film page from Letterboxd. Updated with the latest film data daily.",
     "keywords": ["film", "letterboxd", "rss", "screenshot"],
+    "slug": "film-page-screenshot-from-letterboxd",
     "sourceCode": "https://github.com/abusayed0206/film-page-screenshot?tab=readme-ov-file",
     "livePreview": "https://letterboxd.sayed.app/film.jpg"
   },
@@ -102,6 +112,7 @@
     "name": "RDAPclient",
     "description": "A client for the RDAP (Registration Data Access Protocol) API and webapp",
     "keywords": ["rdap", "api", "client"],
+    "slug": "rdapclient",
     "sourceCode": "https://github.com/abusayed0206/rdapclient",
     "livePreview": "https://rdap.sayed.app/"
   },
@@ -111,6 +122,7 @@
     "name": "Yearbook",
     "description": "A yearbook website for me . It contains all of my classmates names,ID/roll from schools, college and university.",
     "keywords": ["yearbook", "classmates", "school", "college", "university"],
+    "slug": "yearbook",
     "image": "/imgs/yb.png",
     "livePreview": "https://yearbook.sayed.app/"
   },
@@ -120,6 +132,7 @@
     "name": "Trakt Web Dashboard",
     "description": "A web dashboard for Trakt, a platform for showcasing TV shows and movies.",
     "keywords": ["trakt", "dashboard", "web-app", "movies", "tv-shows"],
+    "slug": "trakt-web-dashboard",
     "image": "/imgs/trakt.png",
     "sourceCode": "https://github.com/abusayed0206/trakt",
     "livePreview": "https://trakt.sayed.app/"
@@ -130,6 +143,16 @@
     "name": "Bangla Quran Windows App",
     "description": "Flutter based windows app for listening quran in Bangla. Nothing else!",
     "keywords": ["bangla", "quran"],
+    "slug": "bangla-quran-windows-app",
     "livePreview": "https://apps.microsoft.com/detail/9n3gsz7v18zp?hl=en-US&gl=GD"
+  },
+  {
+    "id": 15,
+    "academic": false,
+    "name": "Bsky Tools AIO",
+    "description": "An all-in-one toolkit for Bluesky social network users, featuring profile download profile, did to handle, handle to did, and more.",
+    "keywords": ["bluesky","atproto", "aio", "tools", "social-network"],
+    "slug": "bsky-tools-aio",
+    "livePreview": "https://bsky.sayed.app/"
   }
 ]

@@ -4,6 +4,7 @@ export interface Project {
   name: string;
   description: string;
   keywords: string[];
+  slug: string;
   image: string;
   sourceCode: string;
   livePreview: string;

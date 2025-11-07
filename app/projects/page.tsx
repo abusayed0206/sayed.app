@@ -1,15 +1,11 @@
 "use client";
 import { useEffect, useState, useMemo } from "react";
-import Image from "next/image";
 import Header from "@/components/Header";
 import { Project } from "@/types/project";
-import { FaGithub, FaMastodon, FaOrcid } from "react-icons/fa";
-import { FaBluesky } from "react-icons/fa6";
-import { SiLinkedin } from "react-icons/si";
 
 type FilterType = "all" | "academic" | "non-academic";
 
-export default function Home() {
+export default function ProjectsPage() {
   const [projects, setProjects] = useState<Project[]>([]);
   const [selectedFilter, setSelectedFilter] = useState<FilterType>("all");
   const [currentPage, setCurrentPage] = useState(1);
@@ -51,165 +47,24 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-neutral-50 dark:bg-neutral-950">
-      {/* Header */}
       <Header />
 
-      {/* Hero Section - 3 Columns */}
-      <section className="py-12">
-        <div className="max-w-5xl mx-auto px-4">
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            {/* Column 1: Profile */}
-            <div className="flex flex-col items-center text-center">
-              <div className="w-24 h-24 rounded-full overflow-hidden mb-4">
-                <Image
-                  src="/imgs/sayed.webp"
-                  alt="Abu Sayed"
-                  width={96}
-                  height={96}
-                  className="rounded-full w-full h-full object-cover"
-                  priority
-                />
-              </div>
-
-              <h1 className="text-2xl font-bold mb-2 text-neutral-900 dark:text-neutral-100">
-                Sayed / সাঈদ
-              </h1>
-              <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-3">
-                Civil Engineer & Developer
-              </p>
-
-              {/* Links - Compact */}
-              <div className="flex flex-wrap gap-2 justify-center text-xs mb-3">
-                <a
-                  href="https://sayed.page"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-3 py-1.5 bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-900 rounded-md hover:bg-neutral-800 dark:hover:bg-neutral-200 transition-colors"
-                >
-                  About
-                </a>
-                <a
-                  href="https://abusayed.dev"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-3 py-1.5 border border-neutral-300 dark:border-neutral-700 text-neutral-900 dark:text-neutral-100 rounded-md hover:bg-neutral-100 dark:hover:bg-neutral-900 transition-colors"
-                >
-                  Resume
-                </a>
-                <a
-                  href="https://sayed.blog"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-3 py-1.5 border border-neutral-300 dark:border-neutral-700 text-neutral-900 dark:text-neutral-100 rounded-md hover:bg-neutral-100 dark:hover:bg-neutral-900 transition-colors"
-                >
-                  Blog
-                </a>
-              </div>
-
-              {/* Social Links */}
-              <div className="flex gap-2 justify-center">
-                <a
-                  href="https://github.com/abusayed0206"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-1.5 text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
-                  aria-label="GitHub"
-                >
-                  <FaGithub className="w-4 h-4" />
-                </a>
-                <a
-                  href="https://linkedin.com/in/abusayed0206"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-1.5 text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
-                  aria-label="LinkedIn"
-                >
-                  <SiLinkedin className="w-4 h-4" />
-                </a>
-                <a
-                  href="https://orcid.org/0009-0007-8994-5252"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-1.5 text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
-                  aria-label="ORCiD"
-                >
-                  <FaOrcid className="w-4 h-4" />
-                </a>
-                <a
-                  href="https://bsky.app/profile/sayed.page"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-1.5 text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
-                  aria-label="Bluesky"
-                >
-                  <FaBluesky className="w-4 h-4" />
-                </a>
-                <a
-                  href="https://mastodon.social/@abusayed"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-1.5 text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
-                  aria-label="Mastodon"
-                >
-                  <FaMastodon className="w-4 h-4" />
-                </a>
-              </div>
-            </div>
-
-            {/* Column 2: Feed (sayed.app) */}
-            <div className="flex flex-col items-center text-center border border-neutral-200 dark:border-neutral-800 rounded-lg p-6 hover:border-neutral-400 dark:hover:border-neutral-600 transition-colors">
-              <div className="mb-4">
-                <FaBluesky className="w-12 h-12 text-[#0085ff]" />
-              </div>
-              <h2 className="text-xl font-bold mb-2 text-neutral-900 dark:text-neutral-100">
-                Feed
-              </h2>
-              <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
-                Here you can visit the feed of my bsky bot
-              </p>
-              <a
-                href="/feed"
-                className="px-4 py-2 text-sm bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-900 rounded-md hover:bg-neutral-800 dark:hover:bg-neutral-200 transition-colors"
-              >
-                Feed(@sayed.app)
-              </a>
-            </div>
-
-            {/* Column 3: Personal Feed */}
-            <div className="flex flex-col items-center text-center border border-neutral-200 dark:border-neutral-800 rounded-lg p-6 hover:border-neutral-400 dark:hover:border-neutral-600 transition-colors">
-              <div className="mb-4">
-                <FaBluesky className="w-12 h-12 text-[#0085ff]" />
-              </div>
-              <h2 className="text-xl font-bold mb-2 text-neutral-900 dark:text-neutral-100">
-                Personal Feed
-              </h2>
-              <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
-                Visit my Personal feed(@sayed.page)
-              </p>
-              <a
-                href="/personal-feed"
-                className="px-4 py-2 text-sm bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-900 rounded-md hover:bg-neutral-800 dark:hover:bg-neutral-200 transition-colors"
-              >
-                Personal Feed(@sayed.page)
-              </a>
-            </div>
-          </div>
+      {/* Page Header */}
+      <section className="py-8 border-b border-neutral-200 dark:border-neutral-800">
+        <div className="max-w-5xl mx-auto px-4 text-center">
+          <h1 className="text-2xl font-bold mb-2 text-neutral-900 dark:text-neutral-100">
+            Projects
+          </h1>
+          <p className="text-sm text-neutral-600 dark:text-neutral-400">
+            Explore my academic research and personal projects
+          </p>
         </div>
       </section>
 
       {/* Projects Section */}
       <section className="py-8">
         <div className="max-w-5xl mx-auto px-4">
-          {/* Section Header */}
-          <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold mb-2 text-neutral-900 dark:text-neutral-100">
-              Projects
-            </h2>
-            <p className="text-sm text-neutral-600 dark:text-neutral-400">
-              Explore my academic research and personal projects
-            </p>
-          </div>
-          {/* Filter Tabs - Compact */}
+          {/* Filter Tabs */}
           <div className="flex justify-center gap-2 mb-6">
             <button
               className={`px-4 py-1.5 text-sm font-medium rounded-md transition-colors ${
@@ -243,19 +98,17 @@ export default function Home() {
             </button>
           </div>
 
-          {/* Projects Grid - 3 columns on desktop */}
+          {/* Projects Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {currentProjects.map((project) => (
               <div
                 key={project.id}
                 className="flex flex-col border border-neutral-200 dark:border-neutral-800 rounded-lg p-3 hover:border-neutral-400 dark:hover:border-neutral-600 transition-all hover:shadow-sm"
               >
-                {/* Clickable Project Card */}
                 <a
                   href={`/projects/${project.slug}`}
                   className="flex-1 flex flex-col cursor-pointer"
                 >
-                  {/* Title and Type */}
                   <div className="flex items-start gap-2 mb-2">
                     <h3 className="text-sm font-semibold text-neutral-900 dark:text-neutral-100 flex-1 line-clamp-2">
                       {project.name}
@@ -265,12 +118,10 @@ export default function Home() {
                     </span>
                   </div>
 
-                  {/* Description */}
                   <p className="text-xs text-neutral-600 dark:text-neutral-400 mb-3 line-clamp-3 flex-1">
                     {project.description}
                   </p>
 
-                  {/* Keywords */}
                   <div className="flex flex-wrap gap-1 mb-3">
                     {project.keywords.slice(0, 3).map((keyword, index) => (
                       <span
@@ -288,7 +139,6 @@ export default function Home() {
                   </div>
                 </a>
 
-                {/* Action Buttons - Centered Below */}
                 <div className="flex justify-center gap-1.5 pt-3 border-t border-neutral-200 dark:border-neutral-800 text-xs">
                   {project.academic ? (
                     <>
@@ -346,7 +196,7 @@ export default function Home() {
             ))}
           </div>
 
-          {/* Pagination - Compact */}
+          {/* Pagination */}
           {totalPages > 1 && (
             <div className="flex justify-center mt-6 gap-1">
               <button
@@ -405,8 +255,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer - Compact */}
-      <footer className="py-6 mt-8">
+      {/* Footer */}
+      <footer className="border-t border-neutral-200 dark:border-neutral-800 py-6 mt-8">
         <div className="max-w-5xl mx-auto px-4">
           <p className="text-center text-xs text-neutral-500 dark:text-neutral-500">
             © 2025 Abu Sayed
