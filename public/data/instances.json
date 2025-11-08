@@ -488,5 +488,6170 @@
     "domain": "g0v.social",
     "name": "g0v.social",
     "type": "mastodon"
+  },
+  {
+    "domain": "bsky.brid.gy",
+    "name": "Bridgy Fed (Bluesky)",
+    "type": "bridgy"
+  },
+  {
+    "domain": "fed.brid.gy",
+    "name": "Bridgy Fed",
+    "type": "bridgy"
+  },
+  {
+    "domain": "threads.net",
+    "name": "Threads",
+    "type": "threads"
+  },
+  {
+    "domain": "ruby.social",
+    "name": "If you are interested in the Ruby programming language, come join us! Tell us about yourself when signing up",
+    "type": "mastodon"
+  },
+  {
+    "domain": "wehavecookies.social",
+    "name": "Join us, we have cookies!\r\nEverything and everyone is welcome here: humor, technology, politics, cats, dogs, nerds, entertainment, incoherent thoughts, you name it",
+    "type": "mastodon"
+  },
+  {
+    "domain": "nerdculture.de",
+    "name": "Be excellent to each other, live humanism, no nazis, no hate speech",
+    "type": "mastodon"
+  },
+  {
+    "domain": "metalhead.club",
+    "name": "Metalhead",
+    "type": "mastodon"
+  },
+  {
+    "domain": "phpc.social",
+    "name": "A server for PHP programmers & friends",
+    "type": "mastodon"
+  },
+  {
+    "domain": "climatejustice.social",
+    "name": "Welcome to this Fediverse instance for climate justice activists",
+    "type": "mastodon"
+  },
+  {
+    "domain": "sciences.social",
+    "name": "Non-profit, ad-free social media for social scientists",
+    "type": "mastodon"
+  },
+  {
+    "domain": "noc.social",
+    "name": "This instance is focused on technology, networking, linux, privacy, security, infosec, engineering, but open to anyone",
+    "type": "mastodon"
+  },
+  {
+    "domain": "sunny.garden",
+    "name": "sunny",
+    "type": "mastodon"
+  },
+  {
+    "domain": "bark.lgbt",
+    "name": "Furry focused instance for critters that like to bark!\r\nLGBTQ+ run and friendly, active moderation",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.me.uk",
+    "name": "Open, user-supported, corporation-free social networking for the UK",
+    "type": "mastodon"
+  },
+  {
+    "domain": "blorbo.social",
+    "name": "Blorbo",
+    "type": "mastodon"
+  },
+  {
+    "domain": "hostux.social",
+    "name": "European mastodon instance hosted in TH2LF (FR)",
+    "type": "mastodon"
+  },
+  {
+    "domain": "furry.engineer",
+    "name": "An instance aimed at techies and engineers of all types within the furry fandom, but anyone is welcome",
+    "type": "mastodon"
+  },
+  {
+    "domain": "urbanists.social",
+    "name": "We're a server for people who like bikes, transit, and walkable cities",
+    "type": "mastodon"
+  },
+  {
+    "domain": "hcommons.social",
+    "name": "hcommons",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mstdn.games",
+    "name": "We are a gaming-focused space on Mastodon",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mapstodon.space",
+    "name": "Mapstodon",
+    "type": "mastodon"
+  },
+  {
+    "domain": "discuss.systems",
+    "name": "Discussion of computer systems research & practice -- OSes, distributed systems, networks, databases, architecture, etc -- for researchers, academics, & professionals",
+    "type": "mastodon"
+  },
+  {
+    "domain": "tilde.zone",
+    "name": "mastodon instance of the tildeverse, a collection of small public access *nix systems for collaboration, creativity, and socializing",
+    "type": "mastodon"
+  },
+  {
+    "domain": "woof.tech",
+    "name": "Queer, tech and furry instance",
+    "type": "mastodon"
+  },
+  {
+    "domain": "expressional.social",
+    "name": "Mastodon server hosted in Copenhagen, Denmark, by a dane",
+    "type": "mastodon"
+  },
+  {
+    "domain": "lgbtqia.space",
+    "name": "This is a cute server for all LGBTQIA ppl out there that want a caring and safe environment",
+    "type": "mastodon"
+  },
+  {
+    "domain": "retro.pizza",
+    "name": "A poly-fandom instance for nerds to talk about nerd culture",
+    "type": "mastodon"
+  },
+  {
+    "domain": "socel.net",
+    "name": "Socel is a place for animation professionals, freelancers, independents, students, and fans to connect and grow together",
+    "type": "mastodon"
+  },
+  {
+    "domain": "peoplemaking.games",
+    "name": "We're a community of folks who celebrate the craft of creating interactive experiences, whether they're working in games or around them! This is a space for games folks and creatives to call home!",
+    "type": "mastodon"
+  },
+  {
+    "domain": "cupoftea.social",
+    "name": "A Small Community Mastodon Server for Casual Chit-Chat",
+    "type": "mastodon"
+  },
+  {
+    "domain": "sakurajima.moe",
+    "name": "A comfy, non-toxic, and inclusive Anime/Manga/Japanese Media fandom and Japanese Media/Culture Content Creators (Bloggers/Artists/Video Creators/Podcasters/etc",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastoart.social",
+    "name": "mastoart",
+    "type": "mastodon"
+  },
+  {
+    "domain": "toad.social",
+    "name": "Mastodon server operated by David Troy, a tech pioneer and investigative journalist addressing threats to democracy",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.berlin",
+    "name": "MIT ÖKOSTROM BETRIEBEN:Erste Instanz,wenn dir BerlinerLuft nicht reicht",
+    "type": "mastodon"
+  },
+  {
+    "domain": "vmst.io",
+    "name": "Mastodon for respectful technologists, geeks and nerds of every type and stripe",
+    "type": "mastodon"
+  },
+  {
+    "domain": "famichiki.jp",
+    "name": "We are a community-driven server operated by a diverse group of foreigners residing in Japan",
+    "type": "mastodon"
+  },
+  {
+    "domain": "union.place",
+    "name": "The Union Place: a federated server for union members, organizations, friends, and allies",
+    "type": "mastodon"
+  },
+  {
+    "domain": "veganism.social",
+    "name": "Veganism Social is a welcoming space on the internet for vegans to connect and engage with the broader decentralized social media community",
+    "type": "mastodon"
+  },
+  {
+    "domain": "urusai.social",
+    "name": "A friendly and non-toxic English-first Mastodon community for anime, manga, and other otaku subjects",
+    "type": "mastodon"
+  },
+  {
+    "domain": "gaygeek.social",
+    "name": "This server is intended as a safe place for LGBTQIA+ individuals to socialize",
+    "type": "mastodon"
+  },
+  {
+    "domain": "pawb.fun",
+    "name": "This instance aimed at any and all within the furry fandom, though anyone is welcome! We're friendly towards members of the LGBTQ+ community and aiming to offer a safe space for our users",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.com.pl",
+    "name": "(PL): Mastodon Polska - Bezpieczna, wolna instancja otwartej sieci społecznościowej Mastodon",
+    "type": "mastodon"
+  },
+  {
+    "domain": "corteximplant.com",
+    "name": "CORTEX IMPLANT - an international cyberpunk'ish LGBTQIA+ friendly Fediverse instance for edgerunners, netrunners and cyberpunks and all who want to become one",
+    "type": "mastodon"
+  },
+  {
+    "domain": "bookstodon.com",
+    "name": "A place for bibliophiles, bookworms, book lovers, and all things bookish 📚📚📚 hosted by Thunderhost",
+    "type": "mastodon"
+  },
+  {
+    "domain": "fandom.ink",
+    "name": "fandom",
+    "type": "mastodon"
+  },
+  {
+    "domain": "graphics.social",
+    "name": "A gathering place for the computer graphics community to discuss 3D and 2D graphics, computer science, and any related topics",
+    "type": "mastodon"
+  },
+  {
+    "domain": "disabled.social",
+    "name": "A place for people who are chronically ill, mentally ill, disabled, and friends/families/allies to come together, meet, share knowledge and random banter, and just about anything else",
+    "type": "mastodon"
+  },
+  {
+    "domain": "musicworld.social",
+    "name": "Server for all music enthusiasts",
+    "type": "mastodon"
+  },
+  {
+    "domain": "eupolicy.social",
+    "name": "This Mastodon server is a friendly and respectful discussion space for people working in areas related to EU policy",
+    "type": "mastodon"
+  },
+  {
+    "domain": "4bear.com",
+    "name": "Mastodon Server for the LGBT+ Bear Community",
+    "type": "mastodon"
+  },
+  {
+    "domain": "stranger.social",
+    "name": "Welcome to Stranger Social, where strangers become friends and the world becomes a little smaller",
+    "type": "mastodon"
+  },
+  {
+    "domain": "pnw.zone",
+    "name": "Come join the Pacific Northwest (US/Canada) Community! A regional instance for anyone that lives in or enjoys the PNW",
+    "type": "mastodon"
+  },
+  {
+    "domain": "masto.nyc",
+    "name": "🗽 A regional server for New York City! Engage with your neighbors, friends, and the whole fediverse",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mstdn.dk",
+    "name": "Just your average friendly Danish Mastodon server",
+    "type": "mastodon"
+  },
+  {
+    "domain": "qaf.men",
+    "name": "QAF (Queer as Folk) sincerely invites the LGBTQIA+ community to join us, where we offer a safe and friendly home",
+    "type": "mastodon"
+  },
+  {
+    "domain": "libretooth.gr",
+    "name": "a mastodon instance run by LibreOps",
+    "type": "mastodon"
+  },
+  {
+    "domain": "furries.club",
+    "name": "Another server for the furry community",
+    "type": "mastodon"
+  },
+  {
+    "domain": "musicians.today",
+    "name": "Fediverse community for musicians of all levels, instruments, regions, languages, and genres",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mountains.social",
+    "name": "Mastodon instance focusing on hiking, mountaineering, climbing, backpacking and the outdoors",
+    "type": "mastodon"
+  },
+  {
+    "domain": "fairy.id",
+    "name": "銀河耿耿兮寒氣侵，月色橫斜兮玉漏沉。憂心炳炳兮發我哀吟，吟復吟兮寄我知音。\r\nThe time is gone, the story is over, thought we'd something more to say",
+    "type": "mastodon"
+  },
+  {
+    "domain": "privacysafe.social",
+    "name": "Your Stylish Replacement for Twitter X",
+    "type": "mastodon"
+  },
+  {
+    "domain": "musician.social",
+    "name": "Mastodon site for Musicians and people into Music",
+    "type": "mastodon"
+  },
+  {
+    "domain": "babka.social",
+    "name": "A site where you can be unapologetically Jewish, with a healthy, diverse community of Jews and Jewish allies",
+    "type": "mastodon"
+  },
+  {
+    "domain": "hear-me.social",
+    "name": "Boston, MA area but open to all",
+    "type": "mastodon"
+  },
+  {
+    "domain": "dmv.community",
+    "name": "A small regional Mastodon instance for those in the DC, Maryland, and Virginia areas",
+    "type": "mastodon"
+  },
+  {
+    "domain": "thecanadian.social",
+    "name": "Politics, sports, current events and laughs from Canada and across the fediverse",
+    "type": "mastodon"
+  },
+  {
+    "domain": "archaeo.social",
+    "name": "archaeo",
+    "type": "mastodon"
+  },
+  {
+    "domain": "social.seattle.wa.us",
+    "name": "A server for people who live in the Seattle region",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.energy",
+    "name": "We are a server dedicated to professional and academic individuals and organizations working on energy transition policy, infrastructure, technology, journalism, and science",
+    "type": "mastodon"
+  },
+  {
+    "domain": "drupal.community",
+    "name": "Mastodon instance focused on the Drupal CMS",
+    "type": "mastodon"
+  },
+  {
+    "domain": "gamepad.club",
+    "name": "Gamepad",
+    "type": "mastodon"
+  },
+  {
+    "domain": "donphan.social",
+    "name": "This generalist Mastodon server welcomes enthusiasts of the Pokémon franchise, to talk about it or anything else",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mast.hpc.social",
+    "name": "Mastodon instance to support and encourage communication among the High Performance Computing community and related fields",
+    "type": "mastodon"
+  },
+  {
+    "domain": "is.nota.live",
+    "name": "timeline's always dead 'round these parts",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mograph.social",
+    "name": "mograph",
+    "type": "mastodon"
+  },
+  {
+    "domain": "norcal.social",
+    "name": "Welcome to NorCal",
+    "type": "mastodon"
+  },
+  {
+    "domain": "ani.work",
+    "name": "This is Aniwork Network, which aims to discuss animation",
+    "type": "mastodon"
+  },
+  {
+    "domain": "hometech.social",
+    "name": "HomeTech",
+    "type": "mastodon"
+  },
+  {
+    "domain": "toot.funami.tech",
+    "name": "Safe and free-for-all hang out space without hate, discrimination, operated by YuruVerse / YuruVerse에 의해 운영되는 혐오와 차별이 없는 자유로운 대화 공간",
+    "type": "mastodon"
+  },
+  {
+    "domain": "social.silicon.moe",
+    "name": "SiliconForest 커뮤니티 마스토돈 - 전자쟁이와 CS쟁이들 환영\r\nAn IT and electronics centric Fediverse instance for & by the SiliconForest community",
+    "type": "mastodon"
+  },
+  {
+    "domain": "epicure.social",
+    "name": "A Mastodon community with a food and wine focus",
+    "type": "mastodon"
+  },
+  {
+    "domain": "theatl.social",
+    "name": "theATL",
+    "type": "mastodon"
+  },
+  {
+    "domain": "wargamers.social",
+    "name": "Mastodon server for people who are interested in tabletop wargames of the board, card, mini, and hex and counter variety",
+    "type": "mastodon"
+  },
+  {
+    "domain": "opencoaster.net",
+    "name": "A community of coaster and themed entertainment enthusiasts",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.africa",
+    "name": "Mastodon",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.london",
+    "name": "Hi, this is the fediverse instance for Londoners and for everyone associated with London",
+    "type": "mastodon"
+  },
+  {
+    "domain": "gardenstate.social",
+    "name": "A place for all things New Jersey",
+    "type": "mastodon"
+  },
+  {
+    "domain": "cultur.social",
+    "name": "Für alle Wesen, die unsere Welt kreativ gestalten und Neues erschaffen wollen",
+    "type": "mastodon"
+  },
+  {
+    "domain": "genealysis.social",
+    "name": "Social interaction for anyone interested in #Genealogy",
+    "type": "mastodon"
+  },
+  {
+    "domain": "datasci.social",
+    "name": "Community of researchers & practitioners in human-centric data science, broadly defined, like network science, computational social science, geospatial data science",
+    "type": "mastodon"
+  },
+  {
+    "domain": "toot.garden",
+    "name": "A server for art, gaming, and musings about the world, with the occasional meme and lighthearted joke",
+    "type": "mastodon"
+  },
+  {
+    "domain": "h-net.social",
+    "name": "H-Net Humanities and Social Sciences Online",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.pirateparty.be",
+    "name": "Mastodon.pirateparty.be",
+    "type": "mastodon"
+  },
+  {
+    "domain": "elekk.xyz",
+    "name": "Elekk.xyz",
+    "type": "mastodon"
+  },
+  {
+    "domain": "esq.social",
+    "name": "A Mastodon instance for legal professionals and folks in law-adjacent fields",
+    "type": "mastodon"
+  },
+  {
+    "domain": "friendsofdesoto.social",
+    "name": "Greatest Trek Podcast Fans! This is a Star Trek Podcast Community for people a little embarrassed to be part of a Star Trek Podcast Community",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.education",
+    "name": "#k12 #VO #PO #OP #OOP #Educatie & #Education\r\n\r\n**DUTCH**\r\n\"de\" plek voor ieder die Onderwijs een warm hart toedraagt",
+    "type": "mastodon"
+  },
+  {
+    "domain": "indieauthors.social",
+    "name": "This server is dedicated to self-published, independent authors who want to help, encourage, and socialize with other indies",
+    "type": "mastodon"
+  },
+  {
+    "domain": "hoosier.social",
+    "name": "A small, independent Mastodon server focused on serving Indiana residents",
+    "type": "mastodon"
+  },
+  {
+    "domain": "apobangpo.space",
+    "name": "A fediverse home for BTS ARMY and KPop Fans",
+    "type": "mastodon"
+  },
+  {
+    "domain": "seocommunity.social",
+    "name": "Mastodon server for the SEO (Search Engine Optimization) Community",
+    "type": "mastodon"
+  },
+  {
+    "domain": "planetearth.social",
+    "name": "🌍 Join planetearth",
+    "type": "mastodon"
+  },
+  {
+    "domain": "frontrange.co",
+    "name": "For anyone who values kindness and inclusivity",
+    "type": "mastodon"
+  },
+  {
+    "domain": "techtoots.com",
+    "name": "An english Mastodon community focused around technology (any vintage!)",
+    "type": "mastodon"
+  },
+  {
+    "domain": "opalstack.social",
+    "name": "For professionals and brands",
+    "type": "mastodon"
+  },
+  {
+    "domain": "poweredbygay.social",
+    "name": "Server for all LGBTQIA+ (and Allies)",
+    "type": "mastodon"
+  },
+  {
+    "domain": "raphus.social",
+    "name": "Raphus Social 🦤 is a better bird site, a safe and inclusive place for bringing together open minded people interested in technology, open source, tabletop games, and other general geekery",
+    "type": "mastodon"
+  },
+  {
+    "domain": "fairmove.net",
+    "name": "A place for people who do fair moves",
+    "type": "mastodon"
+  },
+  {
+    "domain": "library.love",
+    "name": "library",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.sg",
+    "name": "Hosted in Singapore 🇸🇬\r\nFor Singaporeans local and abroad or friends of Singapore, welcome!",
+    "type": "mastodon"
+  },
+  {
+    "domain": "rail.chat",
+    "name": "Discussing passenger and freight rail, its connections to transit and other non-car options, and the economic, environmental and equity benefits of seamless mobility",
+    "type": "mastodon"
+  },
+  {
+    "domain": "drumstodon.net",
+    "name": "Server intended primarily for drummers of all kinds and ages, but all other musicians and music lovers are welcome here!",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.bot",
+    "name": "mastodon",
+    "type": "mastodon"
+  },
+  {
+    "domain": "toots.nu",
+    "name": "Welcome to this open and positive server located in Sweden",
+    "type": "mastodon"
+  },
+  {
+    "domain": "camp.smolnet.org",
+    "name": "This is camp",
+    "type": "mastodon"
+  },
+  {
+    "domain": "cwb.social",
+    "name": "Servidor Mastodon de propósito geral, participante da rede mundial do Fediverso",
+    "type": "mastodon"
+  },
+  {
+    "domain": "arvr.social",
+    "name": "arvr",
+    "type": "mastodon"
+  },
+  {
+    "domain": "paktodon.asia",
+    "name": "Paktodon is an Independent social-platform for the Global South – an ‘azad’ space for ordinary citizens, students, and activists to share, learn, grow, and collaborate in",
+    "type": "mastodon"
+  },
+  {
+    "domain": "vermont.masto.host",
+    "name": "A Mastodon instance for Vermonters and Vermonters at heart",
+    "type": "mastodon"
+  },
+  {
+    "domain": "okla.social",
+    "name": "Oklahoma",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.cipherbliss.com",
+    "name": "la meilleure instance mastodon du fédiverse, rien que ça",
+    "type": "mastodon"
+  },
+  {
+    "domain": "growers.social",
+    "name": "Welcome to Growers Social, the perfect online community for green thumb enthusiasts! Whether you're a gardening pro an amateur grower or a newbie farmer, Come grow with us! We also love cats here",
+    "type": "mastodon"
+  },
+  {
+    "domain": "squawk.mytransponder.com",
+    "name": "myTransponder makes aviation more social",
+    "type": "mastodon"
+  },
+  {
+    "domain": "masto.yttrx.com",
+    "name": "A community of Mastodon enthusiasts run by friends",
+    "type": "mastodon"
+  },
+  {
+    "domain": "birdon.social",
+    "name": "A Mastodon server dedicated to bird and nature lovers",
+    "type": "mastodon"
+  },
+  {
+    "domain": "k8s.social",
+    "name": "Unofficial ⎈Kubernetes Mastodon instance for container and cloud native enthusiasts",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.babb.no",
+    "name": "This Norwegian Mastodon server is an unofficial meeting place for University of Oslo people, and more!",
+    "type": "mastodon"
+  },
+  {
+    "domain": "skastodon.com",
+    "name": "A Mastodon server for ska musicians, artists, fans, and anyone else in the ska community",
+    "type": "mastodon"
+  },
+  {
+    "domain": "lounge.town",
+    "name": "A chill server for folks to hang out",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.frl",
+    "name": "Voor iedereen die een warme band heeft met Fryslân",
+    "type": "mastodon"
+  },
+  {
+    "domain": "kcmo.social",
+    "name": "Hey Kansas City, be friendly!",
+    "type": "mastodon"
+  },
+  {
+    "domain": "synapse.cafe",
+    "name": "A Mastodon instance for anyone interested in neuroscience, from cell biology to electrophysiology to behavior to clinical applications, anyone is welcome!",
+    "type": "mastodon"
+  },
+  {
+    "domain": "cville.online",
+    "name": "A small regional Mastodon server open to everyone interested in creating a more livable Cville area for all",
+    "type": "mastodon"
+  },
+  {
+    "domain": "episcodon.net",
+    "name": "a Mastodon instance for Episcopalians",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mcr.wtf",
+    "name": "A community open to all whilst intended for people in, from, identify with or are just interested in Greater Manchester!",
+    "type": "mastodon"
+  },
+  {
+    "domain": "nomanssky.social",
+    "name": "A community for all No Man's Sky fans!🚀\r\nWe strive to keep this server safe & fun for all travelers!☄️\r\n\r\nNOTE: This is a Fan Project & We are NOT affiliated with Hello Games",
+    "type": "mastodon"
+  },
+  {
+    "domain": "silversword.online",
+    "name": "Silversword is a general English-speaking instance for gamers",
+    "type": "mastodon"
+  },
+  {
+    "domain": "kzoo.to",
+    "name": "A community Mastodon server for the Kalamazoo area",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.iow.social",
+    "name": "Server by @cleatsandcode's business Isitmeanttodothat",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.ee",
+    "name": "Räägime Eestist, eestlaste tegevusest ja muust maailmast",
+    "type": "mastodon"
+  },
+  {
+    "domain": "nfld.me",
+    "name": "Newfoundland and Labrador's Mastodon Server",
+    "type": "mastodon"
+  },
+  {
+    "domain": "23.illuminati.org",
+    "name": "The Illuminati! On Mastadon! Or maybe not",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.hosnet.fr",
+    "name": "Libre accès à l'information et le partage, décentralisé et Open-Source, tout le contraire des toxicités des concurrents méta-méga pisteurs ^^",
+    "type": "mastodon"
+  },
+  {
+    "domain": "social.sndevs.com",
+    "name": "The largest independent ServiceNow developer community with over 11,000 registered members and 500 active daily users",
+    "type": "mastodon"
+  },
+  {
+    "domain": "dariox.club",
+    "name": "A safe space for tech-centered LGBTQI+ folks and furries",
+    "type": "mastodon"
+  },
+  {
+    "domain": "darticulate.com",
+    "name": "A Mastodon instance for Dartisans, run by myself Steve Hamblett as user shamblett, on pub",
+    "type": "mastodon"
+  },
+  {
+    "domain": "ms.maritime.social",
+    "name": "Maritime Social is a community with a mission to bring together maritime enthusiasts and professionals",
+    "type": "mastodon"
+  },
+  {
+    "domain": "fpl.social",
+    "name": "fpl",
+    "type": "mastodon"
+  },
+  {
+    "domain": "nutmeg.social",
+    "name": "A Mastodon server for #Connecticut",
+    "type": "mastodon"
+  },
+  {
+    "domain": "jaxbeach.social",
+    "name": "Local server based in Jacksonville Beach Florida",
+    "type": "mastodon"
+  },
+  {
+    "domain": "freeradical.zone",
+    "name": "Infosec and privacy and technology and leftward politics and cats and dogs and",
+    "type": "mastodon"
+  },
+  {
+    "domain": "learningdisability.social",
+    "name": "An inclusive community for people with an interest in learning disabilities (intellectual disability)",
+    "type": "mastodon"
+  },
+  {
+    "domain": "computerfairi.es",
+    "name": "Computer Fairies is a Mastodon server that aims to be as queer, friendly and furry as possible",
+    "type": "mastodon"
+  },
+  {
+    "domain": "pixelfed.social",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixey.org",
+    "name": "Pixey",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "fotofed.nl",
+    "name": "Fotofed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.art",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "metapixl.com",
+    "name": "Metapixl",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.au",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "luzeed.org",
+    "name": "Luzeed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "hidden.pics",
+    "name": "Hidden",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelshot.it",
+    "name": "Pixelshot",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "photofed.world",
+    "name": "Photofed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.dk",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "milpamerica.org",
+    "name": "Milpamerica",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pics.80px.com",
+    "name": "Pics",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pix.anduin.net",
+    "name": "Pix",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.cz",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.ru",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pellicule.bim.land",
+    "name": "Pellicule",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "fedisnap.com",
+    "name": "Fedisnap",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pi.dead.guru",
+    "name": "Pi",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "spicy.social",
+    "name": "Spicy",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.bachgau.social",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "geekdom.pics",
+    "name": "Geekdom",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "bolha.photos",
+    "name": "Bolha",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "kinkpic.site",
+    "name": "Kinkpic",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.es",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.ca",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixl.fi",
+    "name": "Pixl",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.scot",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.eus",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "yourpix.au",
+    "name": "Yourpix",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pxlfd.ca",
+    "name": "Pxlfd",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.lovetux.net",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "instapix.org",
+    "name": "Instapix",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.babb.no",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "lgbt.earth",
+    "name": "Lgbt",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "photos.social",
+    "name": "Photos",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.global",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixel-food.com",
+    "name": "Pixel-food",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pix.netfreaks.fr",
+    "name": "Pix",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixel.pol.social",
+    "name": "Pixel",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "nicagram.com",
+    "name": "Nicagram",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "fotolibre.social",
+    "name": "Fotolibre",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.ch",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pics.gayfr.online",
+    "name": "Pics",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pix.ublog.tech",
+    "name": "Pix",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "sajin.life",
+    "name": "Sajin",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "instafops.net",
+    "name": "Instafops",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "faf.photos",
+    "name": "Faf",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixels.gsi.li",
+    "name": "Pixels",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.furryfandom.me",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixel.sp-codes.de",
+    "name": "Pixel",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "www.polylux.xyz",
+    "name": "Www",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.cl",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "bonn.pics",
+    "name": "Bonn",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.ie",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixl.pt",
+    "name": "Pixl",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "rightbay.se",
+    "name": "Rightbay",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pet.tax",
+    "name": "Pet",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "sub-pixel.de",
+    "name": "Sub-pixel",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "punk.photos",
+    "name": "Punk",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "gn2.pics",
+    "name": "Gn2",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pix.famichiki.jp",
+    "name": "Pix",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pxlfed.de",
+    "name": "Pxlfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "chueok.pics",
+    "name": "Chueok",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "crafty.social",
+    "name": "Crafty",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.katholisch.social",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "photo.ivanamat.es",
+    "name": "Photo",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "foto.libre.bzh",
+    "name": "Foto",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.one",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.pix-n-chill.fr",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "img.hoof-paw.art",
+    "name": "Img",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "paw.photo",
+    "name": "Paw",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.aargaunet.ch",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.apobangpo.art",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.tommydavids.synology.me",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixaroid.de",
+    "name": "Pixaroid",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "sfe.pics",
+    "name": "Sfe",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.sjm.ovh",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "fedi.srsh.io",
+    "name": "Fedi",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "cuddly.pics",
+    "name": "Cuddly",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "kaptr.eu",
+    "name": "Kaptr",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pawb.ink",
+    "name": "Pawb",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.s-w2.de",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.homelab.officebot.io",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "wanderers-waypoint.com",
+    "name": "Wanderers-waypoint",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.plaureano.nohost.me",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.mesnumeriques.fr",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "pixelfed.rzgierskopp.de",
+    "name": "Pixelfed",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "kvasir.lanofthedead.xyz",
+    "name": "Kvasir",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "biketravel.photos",
+    "name": "Biketravel",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "giftme.love",
+    "name": "Giftme",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "idar.us",
+    "name": "Idar",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "photos.grossermensch.eu",
+    "name": "Photos",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "iamgoingplaces.social",
+    "name": "Iamgoingplaces",
+    "type": "pixelfed"
+  },
+  {
+    "domain": "misskey.gamelore.fun",
+    "name": "ゲームすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "voskey.icalo.net",
+    "name": "ぼすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.day",
+    "name": "ふじさんすきー【misskey.day】",
+    "type": "misskey"
+  },
+  {
+    "domain": "mivatter.com",
+    "name": "Mivatter",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.design",
+    "name": "一次創作 misskey.design",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.yukineko.me",
+    "name": "隠れ家",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.systems",
+    "name": "みすてむず　いず　みすきーしすてむず",
+    "type": "misskey"
+  },
+  {
+    "domain": "redfuku.com",
+    "name": "わくわく保育園",
+    "type": "misskey"
+  },
+  {
+    "domain": "m.eskey.click",
+    "name": "ESkey",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.ranranhome.info",
+    "name": "Misskey by ranranhome.info（登録開放中）",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.shrimpia.network",
+    "name": "シュリンピア",
+    "type": "misskey"
+  },
+  {
+    "domain": "jiskey.dev",
+    "name": "jiskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "onsen-musume.fun",
+    "name": "ふろすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.nekonet.cyou",
+    "name": "ねこネット",
+    "type": "misskey"
+  },
+  {
+    "domain": "armpit.space",
+    "name": "Armpit.space",
+    "type": "misskey"
+  },
+  {
+    "domain": "pari.cafe",
+    "name": "Pari Cafe",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.favskey.online",
+    "name": "ふぁぼすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskirara.net",
+    "name": "Misskirara",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.ikkaku.me",
+    "name": "いっかくみー",
+    "type": "misskey"
+  },
+  {
+    "domain": "serafuku.moe",
+    "name": "세라복.모에",
+    "type": "misskey"
+  },
+  {
+    "domain": "chiranote.com",
+    "name": "ちらのーと2",
+    "type": "misskey"
+  },
+  {
+    "domain": "n-kaiwai.work",
+    "name": "なりきりすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "kanitamadaisukiclub.xsns.jp",
+    "name": "かにたまだいすきクラブ",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.sunset0916.net",
+    "name": "さんせすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.noellabo.jp",
+    "name": "のえすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "yami.ski",
+    "name": "やみすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskeymint.net",
+    "name": "MisskeyMint",
+    "type": "misskey"
+  },
+  {
+    "domain": "uttaeruyo.com",
+    "name": "Ibukey",
+    "type": "misskey"
+  },
+  {
+    "domain": "posskey.com",
+    "name": "ぽすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "yumesuki.net",
+    "name": "ゆめすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "daepi.so",
+    "name": "대피소",
+    "type": "misskey"
+  },
+  {
+    "domain": "azkey.azuki.blue",
+    "name": "あずきインターネット",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.7ka.org",
+    "name": "かんなすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.f72u.net",
+    "name": "ふるすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.taichan.site",
+    "name": "なですきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "pri.monster",
+    "name": "ぷり幕府（封建制）",
+    "type": "misskey"
+  },
+  {
+    "domain": "msky.haruyjsn.net",
+    "name": "HaruYJSN.net",
+    "type": "misskey"
+  },
+  {
+    "domain": "omunchu.life",
+    "name": "んぱぴーす",
+    "type": "misskey"
+  },
+  {
+    "domain": "loli.church",
+    "name": "Loli Church",
+    "type": "misskey"
+  },
+  {
+    "domain": "bellsskey.xsns.jp",
+    "name": "べるすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "chunchun.world",
+    "name": "ちゅんちゅんわーるど",
+    "type": "misskey"
+  },
+  {
+    "domain": "sns.mochimochi-planet.com",
+    "name": "もちもち惑星",
+    "type": "misskey"
+  },
+  {
+    "domain": "m.itsukey.jp",
+    "name": "みつきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.takehi.to",
+    "name": "🌴🎍たけすきー（ドロピカル）🎋🥥",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.de",
+    "name": "misskey.de",
+    "type": "misskey"
+  },
+  {
+    "domain": "anyehua.xyz",
+    "name": "Astral Academy(Chrono Faculty)",
+    "type": "misskey"
+  },
+  {
+    "domain": "speacqua.com",
+    "name": "＠ここにインスタンスの名前を入れる＠",
+    "type": "misskey"
+  },
+  {
+    "domain": "soukun.io",
+    "name": "シン・真・新元祖本家ネオ腋すきー2",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.br-project.jp",
+    "name": "くろうさすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "kaoism.xyz",
+    "name": "はすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "stfate.site",
+    "name": "celeskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "neondystopia.world",
+    "name": "NeonDystopia",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.bubbletea.dev",
+    "name": "bubbletea.dev",
+    "type": "misskey"
+  },
+  {
+    "domain": "p1.a9z.dev",
+    "name": "p1.a9z.dev",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.fryer.net.au",
+    "name": "Nerdtropolis",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.sirsegv.moe",
+    "name": "Nerdtropolis",
+    "type": "misskey"
+  },
+  {
+    "domain": "yuri.garden",
+    "name": "백합.정원",
+    "type": "misskey"
+  },
+  {
+    "domain": "paneworld.life",
+    "name": "ぱにゅわーるど",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.kitsunebi-ya.com",
+    "name": "きあらんち",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.social",
+    "name": "Misskey Social",
+    "type": "misskey"
+  },
+  {
+    "domain": "ms.obak-key.com",
+    "name": "ウィンチェスター・オバケやしきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "nya.one",
+    "name": "喵窝",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.qwjyh.net",
+    "name": "​​​​​​",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.blindalley.net",
+    "name": "袋小路",
+    "type": "misskey"
+  },
+  {
+    "domain": "speacqua.net",
+    "name": "＠ここにインスタンスの名前を入れる＠",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.miyara.site",
+    "name": "MiyaraKey",
+    "type": "misskey"
+  },
+  {
+    "domain": "mistyreverie.org",
+    "name": "MistyReverie.org",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.xiupos.net",
+    "name": "ぽすポラス海峡🐇",
+    "type": "misskey"
+  },
+  {
+    "domain": "fallsky.xsns.jp",
+    "name": "空の最果て",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.delmulin.com",
+    "name": "ダイスキー",
+    "type": "misskey"
+  },
+  {
+    "domain": "shrie-key-shack.com",
+    "name": "酒浸りの屋敷トロピカル本店",
+    "type": "misskey"
+  },
+  {
+    "domain": "moemoe.dev",
+    "name": "moemoe.dev",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.dog",
+    "name": "いぬすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "pomesskey.xsns.jp",
+    "name": "ぽめすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "gypso.fun",
+    "name": "Gypso",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.rockcutter.jp",
+    "name": "rockcutter::misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "everlasting.green",
+    "name": "늘푸른숲",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.soli0222.com",
+    "name": "Polestar",
+    "type": "misskey"
+  },
+  {
+    "domain": "yatoigawa.xsns.jp",
+    "name": "Yatoisskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "lokyoski.casacamelia.xyz",
+    "name": "ろりきょぬーすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "hope-pf27.moe",
+    "name": "終着点",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.hatachanoima.net",
+    "name": "はたCITY",
+    "type": "misskey"
+  },
+  {
+    "domain": "i.amase.cc",
+    "name": "にゃーん2.0",
+    "type": "misskey"
+  },
+  {
+    "domain": "gp.tsukimi.club",
+    "name": "月ミの会",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.hobymour.net",
+    "name": "NEW シュミスキー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.shinanomai.xyz",
+    "name": "秋風を感じて@1st Anniversary!",
+    "type": "misskey"
+  },
+  {
+    "domain": "empire.miyaco.moe",
+    "name": "神聖みやこ帝国",
+    "type": "misskey"
+  },
+  {
+    "domain": "pinky.st",
+    "name": "Pinky.st",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.tomadoi.com",
+    "name": "ㅤ",
+    "type": "misskey"
+  },
+  {
+    "domain": "nunosaki.net",
+    "name": "五月の麦の心",
+    "type": "misskey"
+  },
+  {
+    "domain": "suimisskey.xsns.jp",
+    "name": "すいみんすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "kouchan50da4.xvps.jp",
+    "name": "こうちゃん50da4-XVPS",
+    "type": "misskey"
+  },
+  {
+    "domain": "kasakoso.lol",
+    "name": "かさこそ(lol)",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.mochi33.com",
+    "name": "もちすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "chur.hello-kiwi.com",
+    "name": "にゅーじーらんど",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.seitendan.com",
+    "name": "星海天測団ーMisskey支部",
+    "type": "misskey"
+  },
+  {
+    "domain": "gyutte.site",
+    "name": "ぎゅッてして - Misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "reax.work",
+    "name": "リアクションするだけのお仕事",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.tenpest-moon.uk",
+    "name": "月のテンペスト",
+    "type": "misskey"
+  },
+  {
+    "domain": "204.jp",
+    "name": "テレホ鯖",
+    "type": "misskey"
+  },
+  {
+    "domain": "softglow.blue",
+    "name": "siluma",
+    "type": "misskey"
+  },
+  {
+    "domain": "oita.blue",
+    "name": "Aoita",
+    "type": "misskey"
+  },
+  {
+    "domain": "nemudaru.uk",
+    "name": "おとうふ王国",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.hakoniwa-project.com",
+    "name": "箱庭すきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "darn.xsns.jp",
+    "name": "鴨の土手",
+    "type": "misskey"
+  },
+  {
+    "domain": "kanikouenclub.xsns.jp",
+    "name": "蟹公園倶楽部",
+    "type": "misskey"
+  },
+  {
+    "domain": "omochifestival.com",
+    "name": "おもちすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "minorunooka.xsns.jp",
+    "name": "みのるの丘",
+    "type": "misskey"
+  },
+  {
+    "domain": "comet.xsns.jp",
+    "name": "Comet",
+    "type": "misskey"
+  },
+  {
+    "domain": "whalewatcher.xsns.jp",
+    "name": "ほえーるうぉっちゃー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.kakun.jp",
+    "name": "Misskeyかぁくん鯖",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskeytsf.love",
+    "name": "MisskeyTSF.love",
+    "type": "misskey"
+  },
+  {
+    "domain": "unisuki.xsns.jp",
+    "name": "うにすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "key.dill.moe",
+    "name": "Dillkey",
+    "type": "misskey"
+  },
+  {
+    "domain": "nantoyadokari.xsns.jp",
+    "name": "やどかりのやど",
+    "type": "misskey"
+  },
+  {
+    "domain": "ohal473.xsns.jp",
+    "name": "鮭総車所",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.nanako-net.info",
+    "name": "mi.nanako-net.info",
+    "type": "misskey"
+  },
+  {
+    "domain": "nekolobby.niri.la",
+    "name": "ねころびばーちゃる",
+    "type": "misskey"
+  },
+  {
+    "domain": "villa.hirunekingdom.com",
+    "name": "ひみつきち",
+    "type": "misskey"
+  },
+  {
+    "domain": "semisskey.com",
+    "name": "せみすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "umbrellaworld.blue",
+    "name": "あんぶれらわーるど",
+    "type": "misskey"
+  },
+  {
+    "domain": "mechadekasky.xsns.jp",
+    "name": "おおぞら",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.c30.life",
+    "name": "炒めて切った野菜ジュース（第二期）",
+    "type": "misskey"
+  },
+  {
+    "domain": "loli.rodeo",
+    "name": "UOHHH",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.fusenstage.com",
+    "name": "ふうすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "gameguard.moe",
+    "name": "게임가드",
+    "type": "misskey"
+  },
+  {
+    "domain": "na.yami.ski",
+    "name": "なやみすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "yurigasaki.com",
+    "name": "百合ヶ咲",
+    "type": "misskey"
+  },
+  {
+    "domain": "naddyhouse.net",
+    "name": "ナディハウス",
+    "type": "misskey"
+  },
+  {
+    "domain": "popisland.xsns.jp",
+    "name": "BearBear",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.les-requin.net",
+    "name": "チョリソリングとさめすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "masost.one",
+    "name": "맛소스통",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.intinfinity.com",
+    "name": "おうち",
+    "type": "misskey"
+  },
+  {
+    "domain": "ramomomo.xsns.jp",
+    "name": "らもきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.furry-r-moonrabbitbower.com",
+    "name": "つきうさぎ亭",
+    "type": "misskey"
+  },
+  {
+    "domain": "paneworld-twilo.xsns.jp",
+    "name": "paneworld twilo",
+    "type": "misskey"
+  },
+  {
+    "domain": "social.pascal-leinert.de",
+    "name": "Pascals Misskey Instanz",
+    "type": "misskey"
+  },
+  {
+    "domain": "munochi.moe",
+    "name": "무놋치.모에",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.udongein.reisen",
+    "name": "Eientei Social MkIII",
+    "type": "misskey"
+  },
+  {
+    "domain": "achichaiskey.xsns.jp",
+    "name": "あちちゃいすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.tsubasa.pro",
+    "name": "mi.tsubasa.pro",
+    "type": "misskey"
+  },
+  {
+    "domain": "kadaiyare.com",
+    "name": "kadaiyare.com",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk2.usakoya.net",
+    "name": "兔娘屋 Mark 2",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.tako2bo.com",
+    "name": "たこつぼ",
+    "type": "misskey"
+  },
+  {
+    "domain": "romantichatoba.fun",
+    "name": "ロマンティック波止場",
+    "type": "misskey"
+  },
+  {
+    "domain": "summary.ink",
+    "name": "サマリー",
+    "type": "misskey"
+  },
+  {
+    "domain": "houshindai.net",
+    "name": "封神台",
+    "type": "misskey"
+  },
+  {
+    "domain": "misachan.net",
+    "name": "みさっちぃ",
+    "type": "misskey"
+  },
+  {
+    "domain": "metaskey.net",
+    "name": "Metaskey / めたすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.kazuiton.com",
+    "name": "かずスキー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mkultra.x27.one",
+    "name": "MissKey ULTRA-pro",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.edel-ornstein.pro",
+    "name": "まったりスタジオ",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.t5n.dev",
+    "name": "たいにー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.maple-tree.net",
+    "name": "もみじ小屋",
+    "type": "misskey"
+  },
+  {
+    "domain": "byeolvit.space",
+    "name": "Byeolvit.",
+    "type": "misskey"
+  },
+  {
+    "domain": "stargazer.xsns.jp",
+    "name": "星見の机",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.ice-house.net",
+    "name": "Snowの部屋",
+    "type": "misskey"
+  },
+  {
+    "domain": "doushishokun.com",
+    "name": "同志諸君",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.objektiv2.net",
+    "name": "misskey.objektiv2.net",
+    "type": "misskey"
+  },
+  {
+    "domain": "oniwasskey.life",
+    "name": "水仙の庭",
+    "type": "misskey"
+  },
+  {
+    "domain": "paseo.casacamelia.xyz",
+    "name": "CasaCamelia -paseo-",
+    "type": "misskey"
+  },
+  {
+    "domain": "ikyou.xsns.jp",
+    "name": "翠の籠",
+    "type": "misskey"
+  },
+  {
+    "domain": "ohtrmi.cbrx.io",
+    "name": "さいばれのいえ",
+    "type": "misskey"
+  },
+  {
+    "domain": "arxkey.xyz",
+    "name": "arxkey",
+    "type": "misskey"
+  },
+  {
+    "domain": "m.ryugu.link",
+    "name": "m.ryugu.link",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.azumabashi.dev",
+    "name": "misskey.azumabashi.dev",
+    "type": "misskey"
+  },
+  {
+    "domain": "udon.icu",
+    "name": "UdonHub",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.yumechi.jp",
+    "name": "ゆめちのくに",
+    "type": "misskey"
+  },
+  {
+    "domain": "hamadder3.tokyo",
+    "name": "浜野文芸",
+    "type": "misskey"
+  },
+  {
+    "domain": "irotoridori.xsns.jp",
+    "name": "イロトリドリ",
+    "type": "misskey"
+  },
+  {
+    "domain": "mercur.ing",
+    "name": "머큐링",
+    "type": "misskey"
+  },
+  {
+    "domain": "m.77iro.life",
+    "name": "なないろLab.",
+    "type": "misskey"
+  },
+  {
+    "domain": "panyapanya.xsns.jp",
+    "name": "ぱにゃにゃんだー帝国",
+    "type": "misskey"
+  },
+  {
+    "domain": "teramr.jp",
+    "name": "Teramiss",
+    "type": "misskey"
+  },
+  {
+    "domain": "pwp.space",
+    "name": "pwp.space",
+    "type": "misskey"
+  },
+  {
+    "domain": "foxkey.xsns.jp",
+    "name": "ふぉっくすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "lifeool.xsns.jp",
+    "name": "スライムライフ",
+    "type": "misskey"
+  },
+  {
+    "domain": "aoharu.place",
+    "name": "Aoharu:Place (청춘:플레이스)",
+    "type": "misskey"
+  },
+  {
+    "domain": "saikyou.xsns.jp",
+    "name": "✟究極最強ギルド✟",
+    "type": "misskey"
+  },
+  {
+    "domain": "n9.wl-i0ta.net",
+    "name": "i0ta::Node9",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey-dabansky.com",
+    "name": "Misskey Dabansky",
+    "type": "misskey"
+  },
+  {
+    "domain": "mintama.one",
+    "name": "みんたま.one",
+    "type": "misskey"
+  },
+  {
+    "domain": "murasakijikan-28.xsns.jp",
+    "name": "紫時間",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.laruyan.moe",
+    "name": "LaruYan's personal instance",
+    "type": "misskey"
+  },
+  {
+    "domain": "kuromizu-sta.xsns.jp",
+    "name": "のんびりすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.bakedbanana.net",
+    "name": "ベバスキー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.soda-net.com",
+    "name": "Coffee Break",
+    "type": "misskey"
+  },
+  {
+    "domain": "msk.i-red.info",
+    "name": "geoMisskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "simauzebra.xsns.jp",
+    "name": "ぜぶらすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "tadanemukey.xyz",
+    "name": "ただねむきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.pars.ee",
+    "name": "Parsee",
+    "type": "misskey"
+  },
+  {
+    "domain": "moriskaya.xsns.jp",
+    "name": "もりちかと愉快な仲間たち",
+    "type": "misskey"
+  },
+  {
+    "domain": "msky.41kg.com",
+    "name": "4 1 k g",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.himbeer.me",
+    "name": "mk.himbeer.me",
+    "type": "misskey"
+  },
+  {
+    "domain": "shizuku.hawawa.io",
+    "name": "Shizuku.",
+    "type": "misskey"
+  },
+  {
+    "domain": "social.dednet.co",
+    "name": "'/.DedNET'/.Social-System",
+    "type": "misskey"
+  },
+  {
+    "domain": "room202.xsns.jp",
+    "name": "202号室の住人",
+    "type": "misskey"
+  },
+  {
+    "domain": "apub.xn--w8jhy7fte.net",
+    "name": "良いインターネット",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.donotclickthis.link",
+    "name": "Do Not Click This Link",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.todanano-fune.moe",
+    "name": "todanano-fune",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.kcs1959.jp",
+    "name": "KCSkey",
+    "type": "misskey"
+  },
+  {
+    "domain": "gr.villstudio.com",
+    "name": "Room048",
+    "type": "misskey"
+  },
+  {
+    "domain": "bunchinken220.xsns.jp",
+    "name": "ブンチン軒",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi-room1865.com",
+    "name": "1865号室",
+    "type": "misskey"
+  },
+  {
+    "domain": "iroirosskey.xsns.jp",
+    "name": "とれじゃーぼっくすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "sakurarium.me",
+    "name": "sakurarium",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.ly2314.cc",
+    "name": "Misskey @ ly2314.cc",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.haun.jp",
+    "name": "はうンみすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "key.tpc3.org",
+    "name": "Kaisendon(Misskey)",
+    "type": "misskey"
+  },
+  {
+    "domain": "uchusen.xsns.jp",
+    "name": "uchusen",
+    "type": "misskey"
+  },
+  {
+    "domain": "urnoet.xsns.jp",
+    "name": "梅屋の詠嘆",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.utvirtual.com",
+    "name": "UT-virtual Misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "kudaizuna.top",
+    "name": "彼岸泉奈（Izuna World）",
+    "type": "misskey"
+  },
+  {
+    "domain": "miku.social",
+    "name": "miku.social",
+    "type": "misskey"
+  },
+  {
+    "domain": "seafloorundersmoke.xsns.jp",
+    "name": "白煙海底",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.lianphy6.net",
+    "name": "永音のお部屋",
+    "type": "misskey"
+  },
+  {
+    "domain": "chatsubo.cbrpnk.dev",
+    "name": "Chatsubo on CBRPNK.dev",
+    "type": "misskey"
+  },
+  {
+    "domain": "remembkey.xyz",
+    "name": "rememberKey",
+    "type": "misskey"
+  },
+  {
+    "domain": "itsukarine.com",
+    "name": "イツカリネ",
+    "type": "misskey"
+  },
+  {
+    "domain": "littlewing.yumieko.com",
+    "name": "雏翼同好会",
+    "type": "misskey"
+  },
+  {
+    "domain": "hashi.icu",
+    "name": "橋",
+    "type": "misskey"
+  },
+  {
+    "domain": "hi.hashi.icu",
+    "name": "橋",
+    "type": "misskey"
+  },
+  {
+    "domain": "etomusu-sns.xsns.jp",
+    "name": "えとむす-アホ毛とツノと、時々、むすひ-",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.osyakasyama.me",
+    "name": "misskey.osyakasyama.me",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi2.pwn.moe",
+    "name": "mi2.pwn.moe",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.canpavon.cat",
+    "name": "Dr. Slump!",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.mugiko.moe",
+    "name": "mugiko.moe(misskeyのすがた)",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.nu1.dev",
+    "name": "/dev/nu1",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.eap.vg",
+    "name": "mi.eap.vg",
+    "type": "misskey"
+  },
+  {
+    "domain": "kawaii.party",
+    "name": "Kawaii Party",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.sbite0138.net",
+    "name": "misskey.sbite0138.net",
+    "type": "misskey"
+  },
+  {
+    "domain": "a2c.misskey.casa",
+    "name": "みーくりあ！Ver.A2",
+    "type": "misskey"
+  },
+  {
+    "domain": "faraway-raw-liver.xsns.jp",
+    "name": "レバ刺しを偲ぶ会",
+    "type": "misskey"
+  },
+  {
+    "domain": "miki.live4you.one",
+    "name": "Live4You!",
+    "type": "misskey"
+  },
+  {
+    "domain": "makai.chaotic.ninja",
+    "name": "Makai",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.ihoronir.com",
+    "name": "iほろん",
+    "type": "misskey"
+  },
+  {
+    "domain": "showcase.meows.lol",
+    "name": "Meow",
+    "type": "misskey"
+  },
+  {
+    "domain": "sns.mouii.net",
+    "name": "カムナ",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey-r1.hopeinthefield.net",
+    "name": "ゆきゆきこんこん / おひとりサマー☀️ランド",
+    "type": "misskey"
+  },
+  {
+    "domain": "social.akk.moe",
+    "name": "Akk.moe",
+    "type": "misskey"
+  },
+  {
+    "domain": "shark.misskey.jp",
+    "name": "Sharks",
+    "type": "misskey"
+  },
+  {
+    "domain": "so-made-su.xsns.jp",
+    "name": "so made su",
+    "type": "misskey"
+  },
+  {
+    "domain": "cocoronavi.com",
+    "name": "こころナビ.com",
+    "type": "misskey"
+  },
+  {
+    "domain": "bbs.fedibox.com",
+    "name": "Tele Proboscide",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey-naosuki.net",
+    "name": "misskey-naosuki.net",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi2.suzusiro.com",
+    "name": "みもすそ川",
+    "type": "misskey"
+  },
+  {
+    "domain": "freakmix.com",
+    "name": "FreakMiX",
+    "type": "misskey"
+  },
+  {
+    "domain": "dev.pari.cafe",
+    "name": "Pari Test!",
+    "type": "misskey"
+  },
+  {
+    "domain": "beta.puzzlesskey.com",
+    "name": "パズルゲームすきーβ",
+    "type": "misskey"
+  },
+  {
+    "domain": "rumraisin.cc",
+    "name": "Rumraisin",
+    "type": "misskey"
+  },
+  {
+    "domain": "uchinokoskey.com",
+    "name": "うちの子すきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "azkey-dev.azuki.blue",
+    "name": "あずきインターネット(DEV)",
+    "type": "misskey"
+  },
+  {
+    "domain": "prodotmisskey.xsns.jp",
+    "name": "焼きそばもぐもぐクラブ",
+    "type": "misskey"
+  },
+  {
+    "domain": "my-sky.blue",
+    "name": "MySky",
+    "type": "misskey"
+  },
+  {
+    "domain": "knightclub.0am.jp",
+    "name": "ポツンと一軒SNS Knight Club",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.miyaco.moe",
+    "name": "mi.miyaco.moe",
+    "type": "misskey"
+  },
+  {
+    "domain": "catpost.link",
+    "name": "Catpost",
+    "type": "misskey"
+  },
+  {
+    "domain": "go.coffee-break.cc",
+    "name": "GAME OVER",
+    "type": "misskey"
+  },
+  {
+    "domain": "susirisskey.xsns.jp",
+    "name": "すしりすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "ririse.net",
+    "name": "わくわく保育園(避難用)",
+    "type": "misskey"
+  },
+  {
+    "domain": "trpg.social",
+    "name": "TRPG.social",
+    "type": "misskey"
+  },
+  {
+    "domain": "m.tsai.it",
+    "name": "Tsai I-ta's Microblog",
+    "type": "misskey"
+  },
+  {
+    "domain": "microblog.nalzus.com",
+    "name": "microblog.nalzus.com",
+    "type": "misskey"
+  },
+  {
+    "domain": "kyent.kr",
+    "name": "인텔 N100 미니PC 서버",
+    "type": "misskey"
+  },
+  {
+    "domain": "m.huling.org",
+    "name": "Huling 鯖",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.turretlabs.io",
+    "name": "Turretlabs",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.soa3.net",
+    "name": "もんきーぷれいす",
+    "type": "misskey"
+  },
+  {
+    "domain": "jbgs.jp",
+    "name": "Japan Basketball Game SNS",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.moe",
+    "name": "糸糸萌｜MissMoe",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.godspeed.moe",
+    "name": "mulmeyun's instance",
+    "type": "misskey"
+  },
+  {
+    "domain": "m.zimiao.moe",
+    "name": "Azunyan Misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "owovo.cc",
+    "name": "釉色墨香",
+    "type": "misskey"
+  },
+  {
+    "domain": "msky.ospn.jp",
+    "name": "OSPN Misskey server",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.5ouma.me",
+    "name": "Souma's Misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.oseiso.net",
+    "name": "おせいそねっと",
+    "type": "misskey"
+  },
+  {
+    "domain": "test0.mi.yumechi.jp",
+    "name": "ゆめちのくに Test0",
+    "type": "misskey"
+  },
+  {
+    "domain": "otakuzatoka.cz",
+    "name": "Otaku Zátoka",
+    "type": "misskey"
+  },
+  {
+    "domain": "meto-hako.xsns.jp",
+    "name": "はこにわ",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.ay0.org",
+    "name": "aya's misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "nmnm.xsns.jp",
+    "name": "m@nko",
+    "type": "misskey"
+  },
+  {
+    "domain": "yaofur.com",
+    "name": "yaofur",
+    "type": "misskey"
+  },
+  {
+    "domain": "wl-i0ta.net",
+    "name": "イオタ・ネットワーク",
+    "type": "misskey"
+  },
+  {
+    "domain": "nekocwd.link",
+    "name": "The Cat Paradice",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.chiffon-sepxipl.com",
+    "name": "chiffon's misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.bootjp.me",
+    "name": "bootjp の misskey サーバー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.notr.app",
+    "name": "notr.app",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.walnuts.dev",
+    "name": "walnuts.dev",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.double-oxygen.net",
+    "name": "MISSing_monKEY",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.yoxoy.server-on.net",
+    "name": "misskey.yoxoy.server-on.net",
+    "type": "misskey"
+  },
+  {
+    "domain": "pmk.noflm.cc",
+    "name": "みこすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "tukika.com",
+    "name": "つきかのお城",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.gourry.zip",
+    "name": "Gourry´s Misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.usounds.work",
+    "name": "ゆーのおひとりすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.fal.moe",
+    "name": "fal.moe",
+    "type": "misskey"
+  },
+  {
+    "domain": "prodline.social",
+    "name": "Prodline Social",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.chiwa.net",
+    "name": "Chiwa Misskey World",
+    "type": "misskey"
+  },
+  {
+    "domain": "dev.nya.one",
+    "name": "NyaOne Dev",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey-test-1.yunochi.com",
+    "name": "무놋치-테스트2",
+    "type": "misskey"
+  },
+  {
+    "domain": "radio.mutebot.net",
+    "name": "Radio Tower",
+    "type": "misskey"
+  },
+  {
+    "domain": "curren.win",
+    "name": "#CurrenChan",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.tobitti.net",
+    "name": "misskey.tobitti.net",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.suzuri.jp",
+    "name": "SUZURI倶楽部",
+    "type": "misskey"
+  },
+  {
+    "domain": "msky.launchpencil.f5.si",
+    "name": "lp-misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.fxmech.com",
+    "name": "misskey@fxmech",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.758.works",
+    "name": "旧逓信局(Misskey)",
+    "type": "misskey"
+  },
+  {
+    "domain": "twilight-phosphorescence.xsns.jp",
+    "name": "宵闇の燐光",
+    "type": "misskey"
+  },
+  {
+    "domain": "yottasky.xsns.jp",
+    "name": "よたすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "scr-ty.xsns.jp",
+    "name": "scr.Misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "ponz.xsns.jp",
+    "name": "penpen",
+    "type": "misskey"
+  },
+  {
+    "domain": "shunaz.xyz",
+    "name": "しゅなすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "freedom.xsns.jp",
+    "name": "Freedom Chamber",
+    "type": "misskey"
+  },
+  {
+    "domain": "lied.marjo.win",
+    "name": "ほしのうた",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey-this.xsns.jp",
+    "name": "厚顔堂",
+    "type": "misskey"
+  },
+  {
+    "domain": "toasskey.net",
+    "name": "兎亜すきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "sasafune.xsns.jp",
+    "name": "ささふね",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.yumeka.xyz",
+    "name": "Yumeka MK",
+    "type": "misskey"
+  },
+  {
+    "domain": "kzhimfine.xsns.jp",
+    "name": "箱庭 CASABLANCA",
+    "type": "misskey"
+  },
+  {
+    "domain": "hysd-no-mori.net",
+    "name": "林田の森",
+    "type": "misskey"
+  },
+  {
+    "domain": "xn--1iq612k.jp",
+    "name": "華乃すきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk-dev.xiupos.net",
+    "name": "mk-dev.xiupos.net",
+    "type": "misskey"
+  },
+  {
+    "domain": "kagamirrorrr.com",
+    "name": "もちもちらんど",
+    "type": "misskey"
+  },
+  {
+    "domain": "asaseeland.xsns.jp",
+    "name": "江戸川アサセーランド",
+    "type": "misskey"
+  },
+  {
+    "domain": "buttersc.one",
+    "name": "버터스콘",
+    "type": "misskey"
+  },
+  {
+    "domain": "45sukey.net",
+    "name": "シコすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.gg",
+    "name": "Misskey.gg ",
+    "type": "misskey"
+  },
+  {
+    "domain": "milkiyatelier.quest",
+    "name": "밀키웨이 아틀리에",
+    "type": "misskey"
+  },
+  {
+    "domain": "maniakey.com",
+    "name": "Maniakey",
+    "type": "misskey"
+  },
+  {
+    "domain": "confeito.me",
+    "name": "별사탕성운",
+    "type": "misskey"
+  },
+  {
+    "domain": "side.misskey.productions",
+    "name": "さいどみすきー sideMisskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "iqhina.org",
+    "name": "노트(Knot)",
+    "type": "misskey"
+  },
+  {
+    "domain": "maniakey.homes",
+    "name": "Maniakey Homes",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.numbertales-radiann.net",
+    "name": "百花繚乱研究所 公式Misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.damnx.net",
+    "name": "ななおすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.life",
+    "name": "みすきーらいふ！",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.puzzlesskey.com",
+    "name": "パズルゲームすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.id",
+    "name": "Misskey Indonesia",
+    "type": "misskey"
+  },
+  {
+    "domain": "and.farewell.my",
+    "name": "Farewell",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.8mitsu.net",
+    "name": "はちみすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "ebiverse.social",
+    "name": "Ebiverse",
+    "type": "misskey"
+  },
+  {
+    "domain": "salmonjerky.net",
+    "name": "鮭とば salmonjerky",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.nukumori-sky.net",
+    "name": "ぬくもりすきー（Nukumori-Sky）",
+    "type": "misskey"
+  },
+  {
+    "domain": "futonsuki.com",
+    "name": "ふとんすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "moeanime.io",
+    "name": "萌えアニメ",
+    "type": "misskey"
+  },
+  {
+    "domain": "wowcool.moe",
+    "name": "哇酷wowcool",
+    "type": "misskey"
+  },
+  {
+    "domain": "m.moec.top",
+    "name": "礼物萌",
+    "type": "misskey"
+  },
+  {
+    "domain": "misky.rikunagiweb.jp",
+    "name": "凪すky",
+    "type": "misskey"
+  },
+  {
+    "domain": "m.n7m.xyz",
+    "name": "ちのなななみ",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.tsujigoya.net",
+    "name": "(ひ)つじごや🐑",
+    "type": "misskey"
+  },
+  {
+    "domain": "mylittle.boutique",
+    "name": "작은 양품점",
+    "type": "misskey"
+  },
+  {
+    "domain": "seediqbale.xyz",
+    "name": "Seediqbale",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.ap-log.net",
+    "name": "ろぐすきー🪵",
+    "type": "misskey"
+  },
+  {
+    "domain": "rustearain.space",
+    "name": "RusteaRain",
+    "type": "misskey"
+  },
+  {
+    "domain": "msky.toma09to.com",
+    "name": "msky.toma09to.com",
+    "type": "misskey"
+  },
+  {
+    "domain": "msky.misononoa.cc",
+    "name": "歯磨き",
+    "type": "misskey"
+  },
+  {
+    "domain": "catgirls.technology",
+    "name": "catgirls.technology",
+    "type": "misskey"
+  },
+  {
+    "domain": "msk.kitamiss.com",
+    "name": "きたみすÆ",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi1.sha0.jp",
+    "name": "mi1.sha0.jp",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.frainsan.net",
+    "name": "ふれ鯖",
+    "type": "misskey"
+  },
+  {
+    "domain": "i.wakakyu.net",
+    "name": "wakakyu's misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.hiyoko.club",
+    "name": "ひよこスキー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.kosen.world",
+    "name": "高専わーるど",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.kokufu62.net",
+    "name": "どーにかなるべ日和",
+    "type": "misskey"
+  },
+  {
+    "domain": "crownel.monster",
+    "name": "백귀야행",
+    "type": "misskey"
+  },
+  {
+    "domain": "boiledscript.com",
+    "name": "URSpace SNS",
+    "type": "misskey"
+  },
+  {
+    "domain": "biii.li",
+    "name": "洛雨的Misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "mycircle.events",
+    "name": "CircleEvents",
+    "type": "misskey"
+  },
+  {
+    "domain": "m5y.usuyuki.net",
+    "name": "うすゆきーv2",
+    "type": "misskey"
+  },
+  {
+    "domain": "stkr.dev",
+    "name": "STKR's Misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "social.onlinesession.app",
+    "name": "とあるMisskey鯖",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.7mi.site",
+    "name": "nana-misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "mineskey.xyz",
+    "name": "まいんすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.pokete.dev",
+    "name": "ぽっきーでぶ",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.nicovrc.net",
+    "name": "misskey.nicovrc.net",
+    "type": "misskey"
+  },
+  {
+    "domain": "old.sharlayan.in",
+    "name": "old sharlayan",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.kimama-lab.net",
+    "name": "kimama-lab",
+    "type": "misskey"
+  },
+  {
+    "domain": "fed.nanao.moe",
+    "name": "nanaoFed",
+    "type": "misskey"
+  },
+  {
+    "domain": "mini.tolehata.net",
+    "name": "在りし日の縁側",
+    "type": "misskey"
+  },
+  {
+    "domain": "sushi.ski",
+    "name": "すしすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey-square.net",
+    "name": "みすきーすくえあ！",
+    "type": "misskey"
+  },
+  {
+    "domain": "noc.ski",
+    "name": "オランスキー ノクターン",
+    "type": "misskey"
+  },
+  {
+    "domain": "stella.place",
+    "name": "Stella",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.04.si",
+    "name": "りんごぱい",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.pipnua.net",
+    "name": "しゅがすきー / misskey-springroll",
+    "type": "misskey"
+  },
+  {
+    "domain": "warpday.net",
+    "name": "Warpday.net 只今招待制",
+    "type": "misskey"
+  },
+  {
+    "domain": "social.naun.stream",
+    "name": "naun.stream",
+    "type": "misskey"
+  },
+  {
+    "domain": "novoa.nagoya",
+    "name": "Novoa",
+    "type": "misskey"
+  },
+  {
+    "domain": "meow.nyanpuppu.cat",
+    "name": "냥뿌뿌캣!",
+    "type": "misskey"
+  },
+  {
+    "domain": "drdr.club",
+    "name": "#だらだら倶楽部",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.shunrin.com",
+    "name": "misskey.shunrin.com",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.caligula-sea.net",
+    "name": "ねこのみすきー Powered by 7743号室のかりぐらし",
+    "type": "misskey"
+  },
+  {
+    "domain": "sciencp.work",
+    "name": "网上邻居 Sciencp",
+    "type": "misskey"
+  },
+  {
+    "domain": "ff.rainy.kr",
+    "name": "Mizukey",
+    "type": "misskey"
+  },
+  {
+    "domain": "ningen.ahoaho.jp",
+    "name": "太腿帝国腹口県押入区巣穴",
+    "type": "misskey"
+  },
+  {
+    "domain": "cachapa.cc",
+    "name": "Cachapa.cc",
+    "type": "misskey"
+  },
+  {
+    "domain": "nagisa.town",
+    "name": "海辺の街🍁",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.t1nyb0x.cloud",
+    "name": "ナーラ公苑内放牧地",
+    "type": "misskey"
+  },
+  {
+    "domain": "lovelive-misskey.t1nyb0x.cloud",
+    "name": "ラブライブ！スキー！",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.sou7.io",
+    "name": "ななつ星",
+    "type": "misskey"
+  },
+  {
+    "domain": "hvac-tf.net",
+    "name": "排熱対策委員会",
+    "type": "misskey"
+  },
+  {
+    "domain": "mech-misskey.com",
+    "name": "Mech-Misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.kuropen.org",
+    "name": "MICROPEN",
+    "type": "misskey"
+  },
+  {
+    "domain": "my.vanilla.cat",
+    "name": "네코파라다이스",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.tarohouse.net",
+    "name": "たろハウス",
+    "type": "misskey"
+  },
+  {
+    "domain": "blebmi.denvi.casa",
+    "name": "ぶれぶみすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.kinachan.com",
+    "name": "HouseParty S2",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.bokukoha.dev",
+    "name": "俺の部屋",
+    "type": "misskey"
+  },
+  {
+    "domain": "mewl.me",
+    "name": "めうる.み",
+    "type": "misskey"
+  },
+  {
+    "domain": "virtualkemomimi.net",
+    "name": "バーチャルケモミミ！",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.harumakizaemon.net",
+    "name": "はるまきー / harumakey",
+    "type": "misskey"
+  },
+  {
+    "domain": "o.floccus.net",
+    "name": "floccus2.0",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.mintcream.blue",
+    "name": "きょうのねどこ",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.seanut.app",
+    "name": "Mi.seanut",
+    "type": "misskey"
+  },
+  {
+    "domain": "nekomimisskey.online",
+    "name": "魔王の城",
+    "type": "misskey"
+  },
+  {
+    "domain": "tyazzkey.work",
+    "name": "Tyazzkey",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.chromoly.work",
+    "name": "クロモリすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mitir.social",
+    "name": "미티르",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.tsukuba.dev",
+    "name": "つくばねすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "msky.halfdos.net",
+    "name": "msky.halfdos.net",
+    "type": "misskey"
+  },
+  {
+    "domain": "maid.lat",
+    "name": "メイド🎀",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.kontovr.site",
+    "name": "misskey.kontovr.site",
+    "type": "misskey"
+  },
+  {
+    "domain": "m.isle.moe",
+    "name": "岛🏝️",
+    "type": "misskey"
+  },
+  {
+    "domain": "mewmew.moe",
+    "name": "mew~ mew~ moe~",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey2.subaseka.net",
+    "name": "すばらしきこのせかい",
+    "type": "misskey"
+  },
+  {
+    "domain": "zmi.im",
+    "name": "眯 >_< 💤",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.electronblueberry.xyz",
+    "name": "电子蓝莓",
+    "type": "misskey"
+  },
+  {
+    "domain": "cpuls.land",
+    "name": "しぷるすらんど",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.wolfpaw.kr",
+    "name": "misskey.wolfpaw.kr",
+    "type": "misskey"
+  },
+  {
+    "domain": "soshar.dess.ga",
+    "name": "ソーシャルですが",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.animerxn.hk",
+    "name": "ANIMErxn misskey (RXNETWORK.INC Misskey)",
+    "type": "misskey"
+  },
+  {
+    "domain": "misaka.social",
+    "name": "Misaka",
+    "type": "misskey"
+  },
+  {
+    "domain": "mkacg.com",
+    "name": "竹服 Ciallo～(∠・ω< ) 二周目",
+    "type": "misskey"
+  },
+  {
+    "domain": "seiro-apartment.com",
+    "name": "せいろマンション３号棟",
+    "type": "misskey"
+  },
+  {
+    "domain": "tiwit.tr",
+    "name": "Mahalle - Bağımsız Sosyal Ağ",
+    "type": "misskey"
+  },
+  {
+    "domain": "stellanaut.net",
+    "name": "Cafe&Bar Stellanaut",
+    "type": "misskey"
+  },
+  {
+    "domain": "social.kyaru.xyz",
+    "name": "星辰",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.fitudao.work",
+    "name": "ふぃてゅのみすきーβ",
+    "type": "misskey"
+  },
+  {
+    "domain": "vcasskey.net",
+    "name": "vcasskey.net",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.kzkr.xyz",
+    "name": "狐桜サーバー",
+    "type": "misskey"
+  },
+  {
+    "domain": "port.mk",
+    "name": "bsd.port.mk",
+    "type": "misskey"
+  },
+  {
+    "domain": "lounge.dtzbts.xyz",
+    "name": "Lounge",
+    "type": "misskey"
+  },
+  {
+    "domain": "char.lissocial.com",
+    "name": "どんぐり食べ食べ",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.lag129.net",
+    "name": "misskey.lag129.net",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.yude.moe",
+    "name": "油田",
+    "type": "misskey"
+  },
+  {
+    "domain": "nr.akarinext.org",
+    "name": "nr.akarinext.org",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.adlyrs.io",
+    "name": "Nasskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.thejustcube.xyz",
+    "name": "Kiskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "m.chars.jp",
+    "name": "Random Key",
+    "type": "misskey"
+  },
+  {
+    "domain": "chars.moe",
+    "name": "Deterministic Key",
+    "type": "misskey"
+  },
+  {
+    "domain": "succubi.services",
+    "name": "Succubi Services~",
+    "type": "misskey"
+  },
+  {
+    "domain": "weebvr.social",
+    "name": "WeebVR",
+    "type": "misskey"
+  },
+  {
+    "domain": "lolita.technology",
+    "name": "lolita.technology",
+    "type": "misskey"
+  },
+  {
+    "domain": "matrix.rocks",
+    "name": "Matrix Rocks",
+    "type": "misskey"
+  },
+  {
+    "domain": "urweibo.com",
+    "name": "URWeibo",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.fediland.in.ua",
+    "name": "Misskey|UA Fediland",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.antoru.me",
+    "name": "あんとるめすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "nightly.hvac-tf.net",
+    "name": "ひーぶないとりー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.yufushiro.dev",
+    "name": "mi.yufushiro.dev",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.bisco.moe",
+    "name": "mi.bisco.moe",
+    "type": "misskey"
+  },
+  {
+    "domain": "yuri.doll.gl",
+    "name": "do plastic dolls dream of porcelain maids",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.rilycat.f5.si",
+    "name": "すいか村",
+    "type": "misskey"
+  },
+  {
+    "domain": "hiya.moe",
+    "name": "Hiya (β)",
+    "type": "misskey"
+  },
+  {
+    "domain": "k8s-misskey-dev.stesan.dev",
+    "name": "k8s-misskey-dev.stesan.dev",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.xiaohan-kaka.top",
+    "name": "晓寒の小窝",
+    "type": "misskey"
+  },
+  {
+    "domain": "oekakiskey.com",
+    "name": "お絵かきすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "ikaskey.bktsk.com",
+    "name": "いかすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.niri.la",
+    "name": "にりらみすきー部",
+    "type": "misskey"
+  },
+  {
+    "domain": "torikago-suki.net",
+    "name": "鳥籠すきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.resonite.love",
+    "name": "Resonite.love",
+    "type": "misskey"
+  },
+  {
+    "domain": "invillage-outvillage.com",
+    "name": "Misskingway",
+    "type": "misskey"
+  },
+  {
+    "domain": "iksky.ikasoba.net",
+    "name": "いかそば実験室",
+    "type": "misskey"
+  },
+  {
+    "domain": "premis.one",
+    "name": "Premis",
+    "type": "misskey"
+  },
+  {
+    "domain": "kmmi-skey.com",
+    "name": "かもまい",
+    "type": "misskey"
+  },
+  {
+    "domain": "focalorus.io",
+    "name": "Focalorus.io",
+    "type": "misskey"
+  },
+  {
+    "domain": "negi.usbharu.dev",
+    "name": "ねぎはうす！2",
+    "type": "misskey"
+  },
+  {
+    "domain": "uneune.one",
+    "name": "₍₍⁽⁽(ી( ･◡︎･ )ʃ)₎₎⁾⁾",
+    "type": "misskey"
+  },
+  {
+    "domain": "mfmf.club",
+    "name": "もふもふクラブ",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.kyanos.one",
+    "name": "Kyanos",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.cbrx.io",
+    "name": "さいばれすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.nokotaro.com",
+    "name": "のこたろハウス",
+    "type": "misskey"
+  },
+  {
+    "domain": "yojohan.cc",
+    "name": "四畳半",
+    "type": "misskey"
+  },
+  {
+    "domain": "kyent.net",
+    "name": "장식용 서버",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.upa4.com",
+    "name": "うぱすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.usbharu.dev",
+    "name": "usbharu.dev",
+    "type": "misskey"
+  },
+  {
+    "domain": "it.21stcentury.day",
+    "name": "21세기 연구소",
+    "type": "misskey"
+  },
+  {
+    "domain": "fle.st",
+    "name": "ふれすたじお。",
+    "type": "misskey"
+  },
+  {
+    "domain": "zadankai.club",
+    "name": "座談会倶楽部×公明",
+    "type": "misskey"
+  },
+  {
+    "domain": "bgempire.net",
+    "name": "Burger Empire",
+    "type": "misskey"
+  },
+  {
+    "domain": "superneko.net",
+    "name": "すーぱーねこ",
+    "type": "misskey"
+  },
+  {
+    "domain": "m.sv209.com",
+    "name": "信号機研究所",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.takaion.net",
+    "name": "イオンすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.u0conveni.club",
+    "name": "ゆ〜れいコンビニ♨",
+    "type": "misskey"
+  },
+  {
+    "domain": "wara.lol",
+    "name": "藁すきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.howamun.day",
+    "name": "ほわむんびより",
+    "type": "misskey"
+  },
+  {
+    "domain": "xn--s8w913fdga.chn.moe",
+    "name": "铜锣湾",
+    "type": "misskey"
+  },
+  {
+    "domain": "rewarp.com",
+    "name": "Rewarp's Fedi Instance",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.arkw.work",
+    "name": "mi.arkw.work",
+    "type": "misskey"
+  },
+  {
+    "domain": "next.yncrypt.net",
+    "name": "Next",
+    "type": "misskey"
+  },
+  {
+    "domain": "sns.lemondouble.com",
+    "name": "🍋 Lemon Misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "n7.social",
+    "name": "N7",
+    "type": "misskey"
+  },
+  {
+    "domain": "e4le.me",
+    "name": "注意摸鱼时机！",
+    "type": "misskey"
+  },
+  {
+    "domain": "xiaozhu.ningyu.icu",
+    "name": "凝雨小筑",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.hk-shuttle.net",
+    "name": "mi.hk-shuttle.net",
+    "type": "misskey"
+  },
+  {
+    "domain": "social.bcicorporate.com",
+    "name": "BCI Corporate Social",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.kawasemi256.net",
+    "name": "kawasemisskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "gensousakuya.icu",
+    "name": "The House in Fata Morgana",
+    "type": "misskey"
+  },
+  {
+    "domain": "yasuragino.space",
+    "name": "やすらぎのスペース",
+    "type": "misskey"
+  },
+  {
+    "domain": "kousaka.space",
+    "name": "せんりんち",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.tpt.works",
+    "name": "独房",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.aotake91.net",
+    "name": "青竹荘 Misskey Server（個人用）",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.takejohn.jp",
+    "name": "mk.takejohn.jp",
+    "type": "misskey"
+  },
+  {
+    "domain": "e21.kyent.net",
+    "name": "느린 장식용 서버",
+    "type": "misskey"
+  },
+  {
+    "domain": "nerv.agency",
+    "name": "第三新东京市",
+    "type": "misskey"
+  },
+  {
+    "domain": "anymanystreams.cc",
+    "name": "AnyManyStreams",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.ha5hi8.space",
+    "name": "みはしや",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.waya0125.com",
+    "name": "わやすきー / Wayaskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.shellgei.org",
+    "name": "しぇるげいすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "social.jumpsca.red",
+    "name": "Jumpscared",
+    "type": "misskey"
+  },
+  {
+    "domain": "thecle.land",
+    "name": "TheCLE.Land",
+    "type": "misskey"
+  },
+  {
+    "domain": "d0nuts.im",
+    "name": "d0nuts.im",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.yuki6ra.com",
+    "name": "みすくら",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi0.robotician.jp",
+    "name": "roboticskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "fedi.fyralabs.com",
+    "name": "Fyra Labs Misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.bqc0n.com",
+    "name": "misskey.bqc0n.com",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.hawk-tomy.dev",
+    "name": "hawk-tomy's misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.nyaa.app",
+    "name": "にゃっぷ！",
+    "type": "misskey"
+  },
+  {
+    "domain": "mede.family",
+    "name": "mede.family",
+    "type": "misskey"
+  },
+  {
+    "domain": "im.ckyl.in",
+    "name": "呆凌的Sharkey站点",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.mercuryksm.net",
+    "name": "kasumi.net",
+    "type": "misskey"
+  },
+  {
+    "domain": "kosen-agola-misskey.kouta2133.work",
+    "name": "高専のアゴラ",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.kamedayo.com",
+    "name": "かめすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.erenoa.com",
+    "name": "えれにゃんこどっと(mi)すきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.lalafell.org",
+    "name": "ララすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "auroradrop.com",
+    "name": "Auroradrop",
+    "type": "misskey"
+  },
+  {
+    "domain": "balbc.net",
+    "name": "ばるぶＣねっと",
+    "type": "misskey"
+  },
+  {
+    "domain": "mioc.uleh.net",
+    "name": "οCeti",
+    "type": "misskey"
+  },
+  {
+    "domain": "m.zuiho.moe",
+    "name": "ZuihoSocial",
+    "type": "misskey"
+  },
+  {
+    "domain": "key.dokodare.ovh",
+    "name": "仮インスタンス",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.crashrt.work",
+    "name": "waiwai",
+    "type": "misskey"
+  },
+  {
+    "domain": "m.estampie.work",
+    "name": "estampie",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.menhera.org",
+    "name": "misskey.menhera.org",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.kokshi.com",
+    "name": "Misskey in こくしラボ",
+    "type": "misskey"
+  },
+  {
+    "domain": "soratomo.info",
+    "name": "そらとも.info",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.anizumin.com",
+    "name": "ズミミミーン！",
+    "type": "misskey"
+  },
+  {
+    "domain": "shahu.ski",
+    "name": "しゃふすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "social.metamuffin.org",
+    "name": "meta's misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.vpx.moe",
+    "name": "Mi Test Server (vpx.moe)",
+    "type": "misskey"
+  },
+  {
+    "domain": "darnell.moe",
+    "name": "Darnell (M.O.E.)",
+    "type": "misskey"
+  },
+  {
+    "domain": "bodybag.zip",
+    "name": "Bodybag 💀",
+    "type": "misskey"
+  },
+  {
+    "domain": "sas.monster",
+    "name": "SAS Heavy Industries",
+    "type": "misskey"
+  },
+  {
+    "domain": "nep.one",
+    "name": "Nep.one",
+    "type": "misskey"
+  },
+  {
+    "domain": "homo.1919810.space",
+    "name": "Nekoの小屋",
+    "type": "misskey"
+  },
+  {
+    "domain": "m.chariri.moe",
+    "name": "茶栗栗屋 in UNiVERSE",
+    "type": "misskey"
+  },
+  {
+    "domain": "m.telecom.moe",
+    "name": "萌の国度",
+    "type": "misskey"
+  },
+  {
+    "domain": "kafuu.space",
+    "name": "kafuu.space",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.peruki.dev",
+    "name": "ぺるきのMisskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.fosfor.dev",
+    "name": "fosfor.dev",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.sigma-project.jp",
+    "name": "Sigma private server",
+    "type": "misskey"
+  },
+  {
+    "domain": "stg.miria.shiosyakeyakini.info",
+    "name": "Miria検証環境サーバー",
+    "type": "misskey"
+  },
+  {
+    "domain": "ster.email",
+    "name": "im@s.email",
+    "type": "misskey"
+  },
+  {
+    "domain": "mosslawn.space",
+    "name": "Mosslawn.space",
+    "type": "misskey"
+  },
+  {
+    "domain": "devmi1.oyasumi.dev",
+    "name": "oyasumi-dev misv1",
+    "type": "misskey"
+  },
+  {
+    "domain": "akiba.social",
+    "name": "アキバ SOCIAL",
+    "type": "misskey"
+  },
+  {
+    "domain": "test.misite.ddns.net",
+    "name": "MISITE-TEST",
+    "type": "misskey"
+  },
+  {
+    "domain": "oga.aiichiro.jp",
+    "name": "あい宅",
+    "type": "misskey"
+  },
+  {
+    "domain": "plasmium.xyz",
+    "name": "플라즈미움",
+    "type": "misskey"
+  },
+  {
+    "domain": "social.infernalerror.com",
+    "name": "Infernal Error",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.momizi06.com",
+    "name": "るもみ",
+    "type": "misskey"
+  },
+  {
+    "domain": "cab.kemomi.me",
+    "name": "のーるーむ",
+    "type": "misskey"
+  },
+  {
+    "domain": "mojimoji.date",
+    "name": "もじもじデート",
+    "type": "misskey"
+  },
+  {
+    "domain": "deck.makearmy.io",
+    "name": "MakeArmy Deck",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.art",
+    "name": "Misskey.art",
+    "type": "misskey"
+  },
+  {
+    "domain": "kasei.ski",
+    "name": "かせいすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "social.mikala.one",
+    "name": "mikala.one",
+    "type": "misskey"
+  },
+  {
+    "domain": "abyss.cafe",
+    "name": "Abyss Café",
+    "type": "misskey"
+  },
+  {
+    "domain": "natuyasumisskey.jp",
+    "name": "なつやすみすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "garden.kaku-girl-laboratory.xyz",
+    "name": "kaku-girl-laboratory",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.elmakyu.net",
+    "name": "キュネット",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.lazywildcat.net",
+    "name": "misskey.lazywildcat.net",
+    "type": "misskey"
+  },
+  {
+    "domain": "uhouho.life",
+    "name": "うほうほ.life",
+    "type": "misskey"
+  },
+  {
+    "domain": "clockcrock.click",
+    "name": "clockcrock.click",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.temama.soy",
+    "name": "てまみすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "zs.s-zensky.com",
+    "name": "ZenSky",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.ellidaf.ru",
+    "name": "Большая семья",
+    "type": "misskey"
+  },
+  {
+    "domain": "zapiyome.com",
+    "name": "ざぱぬそー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.kknt.net",
+    "name": "かきなつのなつみかん",
+    "type": "misskey"
+  },
+  {
+    "domain": "neko.ci",
+    "name": "暖ロリ猫の家",
+    "type": "misskey"
+  },
+  {
+    "domain": "furrysocial.ru",
+    "name": "FurrySocial - российское фурри сообщество",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.zyoshoka.com",
+    "name": "じょしょかすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.gregorius.club",
+    "name": "Gregorius.club",
+    "type": "misskey"
+  },
+  {
+    "domain": "social.interordi.com",
+    "name": "Interordi Social",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.yancya.club",
+    "name": "やんちゃクラブ",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.4nm1tsu.com",
+    "name": "misskey.4nm1tsu.com",
+    "type": "misskey"
+  },
+  {
+    "domain": "rinpuhome.monster",
+    "name": "りんぷほーむ",
+    "type": "misskey"
+  },
+  {
+    "domain": "msky.ntr.homes",
+    "name": "ntr.homes",
+    "type": "misskey"
+  },
+  {
+    "domain": "usasa.ky",
+    "name": "うささKey！",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.chikage.net",
+    "name": "ちかげすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.4587-aya-0p.work",
+    "name": "aya's misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.emymin.net",
+    "name": "Misskeymin",
+    "type": "misskey"
+  },
+  {
+    "domain": "ski.takoyaki.xyz",
+    "name": "たこ焼きスキー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.ee",
+    "name": "Misskey.EE",
+    "type": "misskey"
+  },
+  {
+    "domain": "social.ogiso.me",
+    "name": "P:Alive",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.pibo.moe",
+    "name": "crystalsys",
+    "type": "misskey"
+  },
+  {
+    "domain": "fed.rbq.pw",
+    "name": "Azure",
+    "type": "misskey"
+  },
+  {
+    "domain": "roliascii.net",
+    "name": "ろりあすきー部",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.hypernovae.co.uk",
+    "name": "Hypernovae",
+    "type": "misskey"
+  },
+  {
+    "domain": "satotsuki.design",
+    "name": "さとつきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.io",
+    "name": "Misskey.io",
+    "type": "misskey"
+  },
+  {
+    "domain": "sns.copi.pe",
+    "name": "コピペすきー ",
+    "type": "misskey"
+  },
+  {
+    "domain": "cremebrul.ee",
+    "name": "크림브륄레",
+    "type": "misskey"
+  },
+  {
+    "domain": "comfy.social",
+    "name": "Comfy.Social",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.riperbool.com",
+    "name": "りぱぶーる",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.shinamonlifelog.uk",
+    "name": "デンシナ生体記録鯖",
+    "type": "misskey"
+  },
+  {
+    "domain": "az.calmo.blue",
+    "name": "あずま屋",
+    "type": "misskey"
+  },
+  {
+    "domain": "sns.ogadra.com",
+    "name": "ogadra's misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.kabo.cab",
+    "name": "みかぼ",
+    "type": "misskey"
+  },
+  {
+    "domain": "kora.moe",
+    "name": "Kora!!!",
+    "type": "misskey"
+  },
+  {
+    "domain": "calckey.tsukuba.page",
+    "name": "Tsukuba Page",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.accordi.online",
+    "name": "misskey.accordi.online",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.injabie3.moe",
+    "name": "ネコミミ楽園",
+    "type": "misskey"
+  },
+  {
+    "domain": "miss.jo3qma.com",
+    "name": "[TESTING]miss.jo3qma.com",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.suikoden.info",
+    "name": "幻水総選挙",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.rup.one",
+    "name": "reportage",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.hakutaku.org",
+    "name": "hakutaku's Misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.misomayo.info",
+    "name": "mi.misomayo.info",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.zawataku.com",
+    "name": "misskey.zawataku.com",
+    "type": "misskey"
+  },
+  {
+    "domain": "d.kg-misskey.net",
+    "name": "着ぐるみすきー！",
+    "type": "misskey"
+  },
+  {
+    "domain": "anarkey.xennippon.net",
+    "name": "あなあき",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.cyakigasi.net",
+    "name": "Tiramisu",
+    "type": "misskey"
+  },
+  {
+    "domain": "stormskey.works",
+    "name": "すとーむすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "orcacruises.pro",
+    "name": "orca",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.yopo.work",
+    "name": "暫定よぽすき",
+    "type": "misskey"
+  },
+  {
+    "domain": "roke-island.club",
+    "name": "柔克岛俱乐部",
+    "type": "misskey"
+  },
+  {
+    "domain": "316room.com",
+    "name": "316号室",
+    "type": "misskey"
+  },
+  {
+    "domain": "lirisia.io",
+    "name": "りりすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.precure.fun",
+    "name": "きゅあすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "dustyrab.biz",
+    "name": "먼지토끼굴",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.joji-ani.me",
+    "name": "misskey.joji-ani.me",
+    "type": "misskey"
+  },
+  {
+    "domain": "oyasumi.ski",
+    "name": "おやすみすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "haochibook.org",
+    "name": "耽乐美食",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk2.toyoko.in",
+    "name": "mk2.toyoko.in",
+    "type": "misskey"
+  },
+  {
+    "domain": "kussy.kg-misskey.net",
+    "name": "男子更衣室",
+    "type": "misskey"
+  },
+  {
+    "domain": "edmontonian.social",
+    "name": "Edmontonian Social",
+    "type": "misskey"
+  },
+  {
+    "domain": "m.eri.cx",
+    "name": "Pudding Planet",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.donokoanoko.jp",
+    "name": "DONOKO,Anoko's private server",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.syahu.com",
+    "name": "自宅警備員Misskey支部",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.natsuworks.com",
+    "name": "なつわーくすみすきー部",
+    "type": "misskey"
+  },
+  {
+    "domain": "with.hotoa.st",
+    "name": "Hotoast",
+    "type": "misskey"
+  },
+  {
+    "domain": "b.koa.im",
+    "name": "喵~",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.shiro.ink",
+    "name": "ほるすき～",
+    "type": "misskey"
+  },
+  {
+    "domain": "vrccl.life",
+    "name": "VRC CREATOR LOUNGE",
+    "type": "misskey"
+  },
+  {
+    "domain": "m.chomechome.jp",
+    "name": "チョメチョメ",
+    "type": "misskey"
+  },
+  {
+    "domain": "phz.jp",
+    "name": "phz",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey00.moirai.dev",
+    "name": "minstance",
+    "type": "misskey"
+  },
+  {
+    "domain": "bskey.social",
+    "name": "ぶるーすきー!!",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.ryopon404.net",
+    "name": "ryopon's misskey server",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.chcolte.com",
+    "name": "chcolte's Misskey Server",
+    "type": "misskey"
+  },
+  {
+    "domain": "buicha.social",
+    "name": "ぶいちゃ.social",
+    "type": "misskey"
+  },
+  {
+    "domain": "next.misskey.io",
+    "name": "Misskey.io Next",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.fearisfreedom.com",
+    "name": "misskey.fearisfreedom.com",
+    "type": "misskey"
+  },
+  {
+    "domain": "ortensia-moe-moe.club",
+    "name": "オルタンシア萌え萌えクラブ",
+    "type": "misskey"
+  },
+  {
+    "domain": "headspace.faraway.one",
+    "name": "꿈세계 @ 패러웨이 타운",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.exaltia.fr",
+    "name": "Exaltia's nest",
+    "type": "misskey"
+  },
+  {
+    "domain": "somos.dev.br",
+    "name": "Somos Dev BR",
+    "type": "misskey"
+  },
+  {
+    "domain": "shinamikaidou42.com",
+    "name": "Shinamisskey / Loading",
+    "type": "misskey"
+  },
+  {
+    "domain": "miss.yunpon.club",
+    "name": "ゆんぽぽくらぶ",
+    "type": "misskey"
+  },
+  {
+    "domain": "komugisuki.com",
+    "name": "小麦のつどい",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.omhnc.net",
+    "name": "しーもハウス",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.aramugi.com",
+    "name": "あらむぎー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.slrcat.net",
+    "name": "みつはうす",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.starlamp.su",
+    "name": "ほしのあかり",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.yunpon.club",
+    "name": "パチカスキー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.shrine.moe",
+    "name": "Moe Shrine",
+    "type": "misskey"
+  },
+  {
+    "domain": "suyasuya.love",
+    "name": "ESkey",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.roolone.me",
+    "name": "RooLone Hangout",
+    "type": "misskey"
+  },
+  {
+    "domain": "key.aoki.app",
+    "name": "Aokey",
+    "type": "misskey"
+  },
+  {
+    "domain": "abyssal.rip",
+    "name": "AbyssalCodiumFragile",
+    "type": "misskey"
+  },
+  {
+    "domain": "msky.work",
+    "name": "労働者たちのMisskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.daboa.dev",
+    "name": "だぼあーの杜",
+    "type": "misskey"
+  },
+  {
+    "domain": "mirastera.net",
+    "name": "mirastera",
+    "type": "misskey"
+  },
+  {
+    "domain": "kitsune.moe",
+    "name": "Kitsune.MOE",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.maintedor.com",
+    "name": "さくらゆっきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.u03.net",
+    "name": "蜃気楼の庭 🐇",
+    "type": "misskey"
+  },
+  {
+    "domain": "s.ktsn.dev",
+    "name": "s.ktsn.dev",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.cmbg.ws",
+    "name": "mi::cmbg",
+    "type": "misskey"
+  },
+  {
+    "domain": "lab.liteyuki.org",
+    "name": "Liteyuki Lab - 轻雪社区",
+    "type": "misskey"
+  },
+  {
+    "domain": "fuzzle.me.uk",
+    "name": "fuzzle.me.uk misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.ssks-ss.com",
+    "name": "じょもにゃん",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.klamath.jp",
+    "name": "Misskey Klamath Server",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.feccc.site",
+    "name": "misskey.feccc.site",
+    "type": "misskey"
+  },
+  {
+    "domain": "samlapa.purva.yoga",
+    "name": "乃至一小音",
+    "type": "misskey"
+  },
+  {
+    "domain": "social.cyntija.live",
+    "name": "social.cyntija.live",
+    "type": "misskey"
+  },
+  {
+    "domain": "erica.hiyuki2578.net",
+    "name": "ひゆきねっと(misskey edition)",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.typeling1578.dev",
+    "name": "たいぷりんぐのおへや",
+    "type": "misskey"
+  },
+  {
+    "domain": "anime.midday.top",
+    "name": "米哈游乐园",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.nekovo.dev",
+    "name": "Rain's Misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.byakkohaku.moe",
+    "name": "ハクと愉快な仲間たち",
+    "type": "misskey"
+  },
+  {
+    "domain": "x.miku.today",
+    "name": "MIKUFANS-ロ⊂(゜ ▽゜ )-乾杯",
+    "type": "misskey"
+  },
+  {
+    "domain": "firefish.imirhil.fr",
+    "name": "imirhil.fr",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.kencir.blog",
+    "name": "幻想地帝国",
+    "type": "misskey"
+  },
+  {
+    "domain": "live-theater.net",
+    "name": "LIVE THE@TER NET",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.mashiro.site",
+    "name": "みすほわいと",
+    "type": "misskey"
+  },
+  {
+    "domain": "beretsky.net",
+    "name": "beretsky",
+    "type": "misskey"
+  },
+  {
+    "domain": "uma-aji.com",
+    "name": "うま味",
+    "type": "misskey"
+  },
+  {
+    "domain": "social.pseudo-whiskey.bar",
+    "name": "似非ウィスキー",
+    "type": "misskey"
+  },
+  {
+    "domain": "eth.rumiserver.com",
+    "name": "るみ共和国連邦",
+    "type": "misskey"
+  },
+  {
+    "domain": "myamisskey.ddo.jp",
+    "name": "みゃみーすきー！",
+    "type": "misskey"
+  },
+  {
+    "domain": "hollow.raccoon.quest",
+    "name": "Raccoon Hollow",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.cannorin.net",
+    "name": "あるびのすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.chilitreat.dev",
+    "name": "限界集落",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.shiromaru.work",
+    "name": "まるもふ工房",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.virtualrocketwatching.net",
+    "name": "ロケット打ち上げを観る集会",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.wotsulabo.net",
+    "name": "隔離厨房",
+    "type": "misskey"
+  },
+  {
+    "domain": "the-box.work",
+    "name": "The BOX",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.nekokaze.cc",
+    "name": "ねこかぜ.cc",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.shinanoji.xyz",
+    "name": "信濃路",
+    "type": "misskey"
+  },
+  {
+    "domain": "rufusky.xyz",
+    "name": "紅ノ空",
+    "type": "misskey"
+  },
+  {
+    "domain": "ingen.work",
+    "name": "ingen.work",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.aramakey.net",
+    "name": "あらまきさんち",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.mirenk.net",
+    "name": "みれんくねっと",
+    "type": "misskey"
+  },
+  {
+    "domain": "kokagenotes.net",
+    "name": "kokagenotes",
+    "type": "misskey"
+  },
+  {
+    "domain": "quietplace.xyz",
+    "name": "A Quiet Place",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.sindastra.net",
+    "name": "Sindastra's Misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "inokashiraskey.jp",
+    "name": "イノカシラシクィイ",
+    "type": "misskey"
+  },
+  {
+    "domain": "wxw.cat",
+    "name": "呜喵 w(> ʌ <)w",
+    "type": "misskey"
+  },
+  {
+    "domain": "tickler.cc",
+    "name": "Tickle社区",
+    "type": "misskey"
+  },
+  {
+    "domain": "www1.misskey.nagoya",
+    "name": "尾張名古屋は城で持つ",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.kurenai.life",
+    "name": "焉支山下",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.mushus.net",
+    "name": "mi.mushus.net",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.hacusk.net",
+    "name": "はくすけ邸",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.tosaken1116.com",
+    "name": "土佐犬のmisskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "channel.veru.moe",
+    "name": "Veru's Mischief Stop",
+    "type": "misskey"
+  },
+  {
+    "domain": "veru.moe",
+    "name": "Veru's Mischief Stop",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi-k.cloud",
+    "name": "みきー！",
+    "type": "misskey"
+  },
+  {
+    "domain": "sky.drago.moe",
+    "name": "どらごすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "swurl.land",
+    "name": "SwurlLand!",
+    "type": "misskey"
+  },
+  {
+    "domain": "chaskey.net",
+    "name": "ちゃすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.syachiku.info",
+    "name": "しゃちくきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "unicuskey.com",
+    "name": "ゆにくすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.maco.pics",
+    "name": "misskey.maco.pics",
+    "type": "misskey"
+  },
+  {
+    "domain": "pickey.net",
+    "name": "pickey.net",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.sasakulab.com",
+    "name": "漠然とした不安学会",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.hotolab.win",
+    "name": "HotoLab Services Federated Webzone 2.0",
+    "type": "misskey"
+  },
+  {
+    "domain": "fullof.buzz",
+    "name": "http://[::1]/",
+    "type": "misskey"
+  },
+  {
+    "domain": "m.nekohub.uk",
+    "name": "Нэкохуб",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.bluelacan.com",
+    "name": "mksskey.bluelacan.com",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.zvz.be",
+    "name": "JellyKey",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.bakedmochacha.net",
+    "name": "もちゃの炊飯器",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.briconbric.com",
+    "name": "bobmisskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "2248.live",
+    "name": "2248.live",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.ciffelia.com",
+    "name": "misskey.ciffelia.com",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.akyoz.net",
+    "name": "あきょすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "shibuya.top",
+    "name": "しぶやりんすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mkey.enzan.org",
+    "name": "I・P・C",
+    "type": "misskey"
+  },
+  {
+    "domain": "aiart.makeup",
+    "name": "AIアート隔離サーバー",
+    "type": "misskey"
+  },
+  {
+    "domain": "niscii.xyz",
+    "name": "にすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "feed.vance.land",
+    "name": "vance.land",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.rikukimura.com",
+    "name": "りくサーバー",
+    "type": "misskey"
+  },
+  {
+    "domain": "nsfwmisskey.narazaka.net",
+    "name": "NSFWisskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "inmusky.net",
+    "name": "いんむすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "sugarplanet.hotoast.cc",
+    "name": "설탕별",
+    "type": "misskey"
+  },
+  {
+    "domain": "fedi.rumi-room.net",
+    "name": "るみさんのお部屋 in Fediverse",
+    "type": "misskey"
+  },
+  {
+    "domain": "xiexianemoxix.com",
+    "name": "Monochrome Deep Sea",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.2dgirls.date",
+    "name": "2dgirls",
+    "type": "misskey"
+  },
+  {
+    "domain": "therisingeagle.info",
+    "name": "therisingeagle.info",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.unispot.net",
+    "name": "mi.unispot.net",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.luxic.my.id",
+    "name": "Luxic Misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "gc-key.xn--vusz0j.life",
+    "name": "グルコスキー",
+    "type": "misskey"
+  },
+  {
+    "domain": "virtualsinger.jp",
+    "name": "New! ぼかろすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.pleiades92.net",
+    "name": "ぷれあですきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.bktsk.com",
+    "name": "ぼくのたどりつくばしょ",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.yakijake.net",
+    "name": "やきすぎー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.b-guild.net",
+    "name": "ぶらっきぎるど",
+    "type": "misskey"
+  },
+  {
+    "domain": "papi.n1l.dev",
+    "name": "にる村",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.vocalodon.net",
+    "name": "ボカロ丼 misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "post.yourein.net",
+    "name": "Yourein's Notebook",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.exmonji.com",
+    "name": "超文字",
+    "type": "misskey"
+  },
+  {
+    "domain": "kogamisskey.com",
+    "name": "こがみすきー！",
+    "type": "misskey"
+  },
+  {
+    "domain": "bluesskey.jp",
+    "name": "Bluesskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "mkiii.amplifie.red",
+    "name": "mkiii.amplifie.red",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.ginnannman.com",
+    "name": "銀杏投擲部",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.greent.jp",
+    "name": "misskey.greent.jp",
+    "type": "misskey"
+  },
+  {
+    "domain": "neon.ecarlate.app",
+    "name": "ecarlate «neon»",
+    "type": "misskey"
+  },
+  {
+    "domain": "fluffy.social",
+    "name": "FluffySocial",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.irunu.co",
+    "name": "いるぬこ",
+    "type": "misskey"
+  },
+  {
+    "domain": "84bami.net",
+    "name": "はしばみ村",
+    "type": "misskey"
+  },
+  {
+    "domain": "social.camph.net",
+    "name": "CAMPHOR- Social",
+    "type": "misskey"
+  },
+  {
+    "domain": "pink-hair.studio",
+    "name": "ピンク髪ちゃんサーバー",
+    "type": "misskey"
+  },
+  {
+    "domain": "imsim.dev",
+    "name": "Immersive Sims",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.eulendore.xyz",
+    "name": "Eulendore 2.0",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.kyoupro.com",
+    "name": "競プロ鯖",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.depra.net",
+    "name": "depra.net misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "minecraft.bktsk.com",
+    "name": "Minecraft Misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.mamisrv.ne.jp",
+    "name": "Mamisskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.sukumizuloli.com",
+    "name": "スク水ロリMisskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "papercaton.net",
+    "name": "ぺぱきゃと",
+    "type": "misskey"
+  },
+  {
+    "domain": "msk.canor.kr",
+    "name": "머스캣",
+    "type": "misskey"
+  },
+  {
+    "domain": "eses.space",
+    "name": "銀河鉄道",
+    "type": "misskey"
+  },
+  {
+    "domain": "geoplanetary.net",
+    "name": "じおぷらねたりー",
+    "type": "misskey"
+  },
+  {
+    "domain": "social.linarphy.net",
+    "name": "linarphy's personal instance",
+    "type": "misskey"
+  },
+  {
+    "domain": "s.lacko.network",
+    "name": "Khronos",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.wagaya.sbs",
+    "name": "我が家すきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "cb.ameuma.net",
+    "name": "かにすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.growthers.dev",
+    "name": "Growthers",
+    "type": "misskey"
+  },
+  {
+    "domain": "ap.nsr.life",
+    "name": "nsr.life",
+    "type": "misskey"
+  },
+  {
+    "domain": "rhythmisskey.games",
+    "name": "りずみすきー / rhythmisskey.games",
+    "type": "misskey"
+  },
+  {
+    "domain": "ojousama-tea.party",
+    "name": "お嬢様達のお茶会",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.sweshelo.jp",
+    "name": "閻魔帳 Misskey支部",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.1588.red",
+    "name": "無敵艦隊1588",
+    "type": "misskey"
+  },
+  {
+    "domain": "zabbi.ru",
+    "name": "Zabbi's Hub",
+    "type": "misskey"
+  },
+  {
+    "domain": "wintry.blue",
+    "name": "빙하",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.yurut.net",
+    "name": "ゆるっとみすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.mofumofu.me",
+    "name": "misskey.mofumofu.me",
+    "type": "misskey"
+  },
+  {
+    "domain": "tkkmk.momoimidori.cc",
+    "name": "TKK モモイミドリ サーバー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.atago.moe",
+    "name": "若鸿的小窝",
+    "type": "misskey"
+  },
+  {
+    "domain": "m.ronki.moe",
+    "name": "ronkimoe",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.yoshirusu.work",
+    "name": "Yoshirusu Social",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.nazetws.com",
+    "name": "なななみすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.eri-sunaga.com",
+    "name": "すながの部屋",
+    "type": "misskey"
+  },
+  {
+    "domain": "submarin.online",
+    "name": "Submarin",
+    "type": "misskey"
+  },
+  {
+    "domain": "msk.kitazawa.me",
+    "name": "きたざわ🎃みすき",
+    "type": "misskey"
+  },
+  {
+    "domain": "nicomedkey.cc",
+    "name": "nicomedkey.cc",
+    "type": "misskey"
+  },
+  {
+    "domain": "hasu.kaminsskey.jp",
+    "name": "かみんすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.noyaskey.net",
+    "name": "のやすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.stream",
+    "name": "Stream",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.mtomo.uk",
+    "name": "つばすきー🐟️",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.kochudaho.me",
+    "name": "【2024年秋強化版】比較的新しい🍑ぁほすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "der.cyberterror.ist",
+    "name": "der.cyberterror.ist",
+    "type": "misskey"
+  },
+  {
+    "domain": "ekmm.footbath.me",
+    "name": "Denstagram",
+    "type": "misskey"
+  },
+  {
+    "domain": "pool2.matcha1919.com",
+    "name": "繁殖池",
+    "type": "misskey"
+  },
+  {
+    "domain": "oasys.earth",
+    "name": "OASYS EARTH",
+    "type": "misskey"
+  },
+  {
+    "domain": "parang.apartments",
+    "name": "파랑 아파트",
+    "type": "misskey"
+  },
+  {
+    "domain": "nukers-misskey.hpc-densi.f5.si",
+    "name": "Nukers第5インターナショナルRe",
+    "type": "misskey"
+  },
+  {
+    "domain": "team.matechan.com",
+    "name": "Momogumi",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.ayutsuki.net",
+    "name": "あゆつきねっと@みすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.ruste.red",
+    "name": "ruste.red：misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "space.starnest.app",
+    "name": "Space",
+    "type": "misskey"
+  },
+  {
+    "domain": "kagura.ch",
+    "name": "しろかみの里",
+    "type": "misskey"
+  },
+  {
+    "domain": "www.kagura.ch",
+    "name": "しろかみの里",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.adzukimame.com",
+    "name": "まめすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.nanon.net",
+    "name": "Renge Misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.akatuki-host.com",
+    "name": "アオゾラサーバー",
+    "type": "misskey"
+  },
+  {
+    "domain": "soloskey.site",
+    "name": "ソロRPGスキー",
+    "type": "misskey"
+  },
+  {
+    "domain": "sns.cocoacaa.com",
+    "name": "可可綠茶 SNS",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.amaxtest.com",
+    "name": "Space",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey-origin.amaxtest.com",
+    "name": "origin",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.gingarenpo.com",
+    "name": "Gingarenpo's Misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "m.okaprog.com",
+    "name": "岡崎算譜",
+    "type": "misskey"
+  },
+  {
+    "domain": "lab.under-cherrytree.net",
+    "name": "櫻の樹の下研究所",
+    "type": "misskey"
+  },
+  {
+    "domain": "pub.odekake.love",
+    "name": "Odekakey",
+    "type": "misskey"
+  },
+  {
+    "domain": "space.lilygl.net",
+    "name": "りりすぺーす (Lilyspace)",
+    "type": "misskey"
+  },
+  {
+    "domain": "hiruuki.com",
+    "name": "hiruuki.com",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.commojun.com",
+    "name": "Commosky",
+    "type": "misskey"
+  },
+  {
+    "domain": "msk.roppongimfg.xyz",
+    "name": "米司雞 MissChicken (β)",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.halby24.com",
+    "name": "Halky",
+    "type": "misskey"
+  },
+  {
+    "domain": "tamausa.trigonoretrism.com",
+    "name": "たまうさ村",
+    "type": "misskey"
+  },
+  {
+    "domain": "msky.alicia.ne.jp",
+    "name": "アリシアすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.lehhair.net",
+    "name": "乐呵呵的秘密基地",
+    "type": "misskey"
+  },
+  {
+    "domain": "msky.co8rt.blue",
+    "name": "msky.co8rt.blue",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.amari-noa.com",
+    "name": "あまりすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.polyhymnia.page",
+    "name": "misskey.polyhymnia.page",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.v-nr.net",
+    "name": "仮想国有鉄道 VRC運輸区 Misskey支部",
+    "type": "misskey"
+  },
+  {
+    "domain": "ax.mkhost.social",
+    "name": "♰神聖アステリア王国♰",
+    "type": "misskey"
+  },
+  {
+    "domain": "girls-band.sskey.jp",
+    "name": "空前の大ガールズバンドsskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "ktnfm.com",
+    "name": "ことね家",
+    "type": "misskey"
+  },
+  {
+    "domain": "snow-white.xyz",
+    "name": "日影荘",
+    "type": "misskey"
+  },
+  {
+    "domain": "after1ife.rip",
+    "name": "피안도시",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.tech",
+    "name": "Misskey.tech",
+    "type": "misskey"
+  },
+  {
+    "domain": "sns.ourt-ai.work",
+    "name": "Misskey Powered by アワートAI",
+    "type": "misskey"
+  },
+  {
+    "domain": "miexp.hirasu.com",
+    "name": "ヒラみす",
+    "type": "misskey"
+  },
+  {
+    "domain": "maekongtown.xyz",
+    "name": "메콩타운",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.maikaze.moe",
+    "name": "mi.maikaze.moe",
+    "type": "misskey"
+  },
+  {
+    "domain": "cozy-space.blue",
+    "name": "ソファのある部屋",
+    "type": "misskey"
+  },
+  {
+    "domain": "twt.rs",
+    "name": "twt.rs",
+    "type": "misskey"
+  },
+  {
+    "domain": "onara.nanaroru.com",
+    "name": "Gasskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.arks.cafe",
+    "name": "arks.cafe 💫 misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "a.sukazyo.cc",
+    "name": "Mekoshop - 不稳定运行中",
+    "type": "misskey"
+  },
+  {
+    "domain": "maidfuku.moe",
+    "name": "메이드복.모에",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.snowdrop.cloud",
+    "name": "かめすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "rainyme.ca",
+    "name": "Rainyme",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.c-at.jp",
+    "name": "Mi.c-at.jp",
+    "type": "misskey"
+  },
+  {
+    "domain": "in.coffin.rip",
+    "name": "coffin",
+    "type": "misskey"
+  },
+  {
+    "domain": "shogi.pkkis.com",
+    "name": "将棋鯖",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.tsukiyo.dev",
+    "name": "つきのよる",
+    "type": "misskey"
+  },
+  {
+    "domain": "com.in-nw.net",
+    "name": "IN Network Community",
+    "type": "misskey"
+  },
+  {
+    "domain": "fbk.moe",
+    "name": "yuna0x0 Misskey (fbk.moe)",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.yurax2.dev",
+    "name": "ゆらすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.osamu-storage.info",
+    "name": "mi.osamu-storage.info",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.amfedisr.net",
+    "name": "あむふぇすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.moris.day",
+    "name": "moris.day",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.kekyo.net",
+    "name": "mi.kekyo.net",
+    "type": "misskey"
+  },
+  {
+    "domain": "mogeko.monster",
+    "name": "モゲコ村",
+    "type": "misskey"
+  },
+  {
+    "domain": "ward2.bouvardia.icu",
+    "name": "bouvardia.icu(第二病棟)",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.vikingkong.xyz",
+    "name": "VikingKong's Den",
+    "type": "misskey"
+  },
+  {
+    "domain": "fedi.tyil.nl",
+    "name": "fedi.tyil.nl",
+    "type": "misskey"
+  },
+  {
+    "domain": "social.coolmathgames.tech",
+    "name": "Cool Math Games Social",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.fumo.pictures",
+    "name": "mk.fumo.pictures",
+    "type": "misskey"
+  },
+  {
+    "domain": "ac.akirin.xyz",
+    "name": "Orange Ac",
+    "type": "misskey"
+  },
+  {
+    "domain": "sayaka-mikey.com",
+    "name": "sayaka-mikey.com",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.nekosake.net",
+    "name": "ねこさけランド",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.kakunpc.com",
+    "name": "Kakun Misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "egirls.gay",
+    "name": "eGirls Dot Gay",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.t03.io",
+    "name": "The Persistent Universe",
+    "type": "misskey"
+  },
+  {
+    "domain": "sns.nuemedia.se",
+    "name": "NueMedia SNS",
+    "type": "misskey"
+  },
+  {
+    "domain": "nijimiss.moe",
+    "name": "にじみす.moe",
+    "type": "misskey"
+  },
+  {
+    "domain": "dosei.fun",
+    "name": "どせいすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.na.in.th",
+    "name": "มิสคีย์ นะ.ไทย",
+    "type": "misskey"
+  },
+  {
+    "domain": "feels.moe",
+    "name": "feelsmoe",
+    "type": "misskey"
+  },
+  {
+    "domain": "hoto.moe",
+    "name": "hotomoe",
+    "type": "misskey"
+  },
+  {
+    "domain": "open.noyaskey.net",
+    "name": "おーぷんのやすきー！",
+    "type": "misskey"
+  },
+  {
+    "domain": "murayakey.com",
+    "name": "むらやきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "bluearchitough.net",
+    "name": "ブルーアーカイタフ@避難所",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.kazahana.cafe",
+    "name": "mi.kazahana.cafe",
+    "type": "misskey"
+  },
+  {
+    "domain": "kawane.misskey.online",
+    "name": "かわねすきー Kawaneskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "skaya.ligun.net",
+    "name": "大りぐんすかや王国",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.siotter.xyz",
+    "name": "mi.siotter.xyz",
+    "type": "misskey"
+  },
+  {
+    "domain": "warubure.online",
+    "name": "ワルブレオンライン",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.amikass.dev",
+    "name": "Amikassberg",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.mkihr-ojisan.com",
+    "name": "MKOJskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "kusso-yotta.com",
+    "name": "kusso-yotta.com",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.3dcg.love",
+    "name": "3DCGすきー!",
+    "type": "misskey"
+  },
+  {
+    "domain": "coretalk.space",
+    "name": "Core ◆ Talk",
+    "type": "misskey"
+  },
+  {
+    "domain": "ark.misskey.online",
+    "name": "しなち吸引インスタンス",
+    "type": "misskey"
+  },
+  {
+    "domain": "rafale.misskey.online",
+    "name": "Rafale's Spaceship",
+    "type": "misskey"
+  },
+  {
+    "domain": "sakana-no-bone.net",
+    "name": "sakana-no-bone.net",
+    "type": "misskey"
+  },
+  {
+    "domain": "mai.waifuism.life",
+    "name": "mai waifuism life",
+    "type": "misskey"
+  },
+  {
+    "domain": "9yo.punipoka.pink",
+    "name": "ぷにぽかこどもの国",
+    "type": "misskey"
+  },
+  {
+    "domain": "birb.space",
+    "name": "birb space",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.sui-ryu.net",
+    "name": "Hideout",
+    "type": "misskey"
+  },
+  {
+    "domain": "aru.mol.lu",
+    "name": "아!루 몰?루",
+    "type": "misskey"
+  },
+  {
+    "domain": "pisskey.io",
+    "name": "Pisskey.io",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.potp.ro",
+    "name": "misskey.potp.ro",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.mfmfuyu.net",
+    "name": "Misskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "rasp.n1l.dev",
+    "name": "rasp.n1l.dev",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.himriu.com",
+    "name": "himriusskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.linfiel.com",
+    "name": "りんふぃー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.tani-exe.net",
+    "name": "mi.tani-exe.net",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.takutk.com",
+    "name": "misskey.takutk.com",
+    "type": "misskey"
+  },
+  {
+    "domain": "social.lolihouse.top",
+    "name": "LoliMedia",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.shojirou.com",
+    "name": "しょじすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "mi.wf91st-street.com",
+    "name": "九十一番通",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.kasu.me",
+    "name": "KASUMISSKEY",
+    "type": "misskey"
+  },
+  {
+    "domain": "black.len-q-phantom.stream",
+    "name": "れんすきー(仮)",
+    "type": "misskey"
+  },
+  {
+    "domain": "yumk.xyz",
+    "name": "あかつきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "metreee.com",
+    "name": "metreee",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.assaultli.ly",
+    "name": "百合ヶ丘女学院考証科",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.doujin.games",
+    "name": "misskey.doujin.games",
+    "type": "misskey"
+  },
+  {
+    "domain": "yagimofu.moe",
+    "name": "WORLD_OF_YAGIMOFU",
+    "type": "misskey"
+  },
+  {
+    "domain": "mof.kemomi.me",
+    "name": "けもみみの里",
+    "type": "misskey"
+  },
+  {
+    "domain": "2done.club",
+    "name": "にどねクラブ",
+    "type": "misskey"
+  },
+  {
+    "domain": "osage.moe",
+    "name": "osage.moe | おさげもえ",
+    "type": "misskey"
+  },
+  {
+    "domain": "takanoriskey.toppu.jp",
+    "name": "にしかわたかのりすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.seacolorswind.com",
+    "name": "えろーなおーおー公式",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.okayurisotto.net",
+    "name": "Pulsekey",
+    "type": "misskey"
+  },
+  {
+    "domain": "u-stella.net",
+    "name": "ユーステラSNS[u-stella.net]",
+    "type": "misskey"
+  },
+  {
+    "domain": "never.bid",
+    "name": "Unyated States",
+    "type": "misskey"
+  },
+  {
+    "domain": "social.uhy.ooo",
+    "name": "social.uhy.ooo",
+    "type": "misskey"
+  },
+  {
+    "domain": "honi.stesan.dev",
+    "name": "おふとん",
+    "type": "misskey"
+  },
+  {
+    "domain": "kokt.club",
+    "name": "こけっちくらぶ 開店中",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.xianon.net",
+    "name": "しあのすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "msky.crawling-with-love.com",
+    "name": "もげすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "labo.wovs.tk",
+    "name": "おちゃすき〜 / Ochaskey 🍵",
+    "type": "misskey"
+  },
+  {
+    "domain": "msk.seppuku.club",
+    "name": "切腹🔑",
+    "type": "misskey"
+  },
+  {
+    "domain": "msk.ilnk.info",
+    "name": "グローバルねるんえとねるん🌐@Красные Миски🗾",
+    "type": "misskey"
+  },
+  {
+    "domain": "mk.taiy.me",
+    "name": "mk.taiy.me",
+    "type": "misskey"
+  },
+  {
+    "domain": "nekomiya.net",
+    "name": "ねこみやすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "eter9.com",
+    "name": "ETER9",
+    "type": "misskey"
+  },
+  {
+    "domain": "shusuki.fd-sns.com",
+    "name": "しゅうすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "prismisskey.space",
+    "name": "PrisMisskey",
+    "type": "misskey"
+  },
+  {
+    "domain": "denkigaideguchi.fd-sns.com",
+    "name": "3番線ホーム電話ボックス横",
+    "type": "misskey"
+  },
+  {
+    "domain": "schnee.fd-sns.com",
+    "name": "撥条に雪",
+    "type": "misskey"
+  },
+  {
+    "domain": "gensp.fd-sns.com",
+    "name": "GenbuSuki",
+    "type": "misskey"
+  },
+  {
+    "domain": "baikalsuki.fd-sns.com",
+    "name": "バイカル湖すきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "m1zuu.fd-sns.com",
+    "name": "おみじゅすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "kuroyuki-server.misskey.one",
+    "name": "秘境の花園",
+    "type": "misskey"
+  },
+  {
+    "domain": "abtorytka.fd-sns.com",
+    "name": "ほしのやどり",
+    "type": "misskey"
+  },
+  {
+    "domain": "nocturne.reverie-world.net",
+    "name": "夢想世界",
+    "type": "misskey"
+  },
+  {
+    "domain": "c.fd-sns.com",
+    "name": "Sinistral Cult",
+    "type": "misskey"
+  },
+  {
+    "domain": "panda510.fd-sns.com",
+    "name": "PanDype4ny",
+    "type": "misskey"
+  },
+  {
+    "domain": "roost.fd-sns.com",
+    "name": "とおいどこかの丘の上",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.flowers",
+    "name": "はなみすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "misskey.0sakana.xyz",
+    "name": "みっしんぐきー🗝",
+    "type": "misskey"
+  },
+  {
+    "domain": "mattyaski.co",
+    "name": "まっちゃすきー。",
+    "type": "misskey"
+  },
+  {
+    "domain": "ug4v.com",
+    "name": "ug4v",
+    "type": "misskey"
+  },
+  {
+    "domain": "signalskey.signal-st.com",
+    "name": "しぐなるすきー",
+    "type": "misskey"
+  },
+  {
+    "domain": "simkey.net",
+    "name": "simkey.net",
+    "type": "misskey"
+  },
+  {
+    "domain": "omata.club",
+    "name": "おまたくらぶ",
+    "type": "misskey"
   }
 ]
