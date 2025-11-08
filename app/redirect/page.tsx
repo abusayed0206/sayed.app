@@ -70,7 +70,7 @@ export default function RedirectPage() {
 
       // Filter instances that start with the typed domain part
       const filteredInsts = instances.filter((inst) =>
-        inst.domain.toLowerCase().startsWith(domainPartial.toLowerCase())
+        inst.domain.toLowerCase().includes(domainPartial.toLowerCase())
       );
 
       if (filteredInsts.length === 0) {

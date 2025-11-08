@@ -49,7 +49,7 @@ export default function GenerateRedirectPage() {
       }
 
       const filteredInsts = instances.filter((inst) =>
-        inst.domain.toLowerCase().startsWith(domainPartial.toLowerCase())
+        inst.domain.toLowerCase().includes(domainPartial.toLowerCase())
       );
 
       if (filteredInsts.length === 0) {
