@@ -1,0 +1,492 @@
+[
+  {
+    "domain": "mastodon.social",
+    "name": "Mastodon",
+    "type": "mastodon"
+  },
+  {
+    "domain": "pawoo.net",
+    "name": "Pawoo - 創作活動や自由なコミュニケーションを楽しめる場",
+    "type": "mastodon"
+  },
+  {
+    "domain": "bots.fyrfli.social",
+    "name": "the bots over at fyrfli.social",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.cloud",
+    "name": "mastodon.cloud",
+    "type": "mastodon"
+  },
+  {
+    "domain": "thoughtpunks.com",
+    "name": "Thought Punks",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mstdn.social",
+    "name": "Mastodon 🐘",
+    "type": "mastodon"
+  },
+  {
+    "domain": "goblin.technology",
+    "name": "Hold Me Closer Tiny Goblin",
+    "type": "mastodon"
+  },
+  {
+    "domain": "pravda.me",
+    "name": "Социальная сеть - Правда (by mastodon)",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.world",
+    "name": "Mastodon",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mas.to",
+    "name": "mas.to",
+    "type": "mastodon"
+  },
+  {
+    "domain": "techhub.social",
+    "name": "TechHub",
+    "type": "mastodon"
+  },
+  {
+    "domain": "universeodon.com",
+    "name": "Universeodon Social Media",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodonapp.uk",
+    "name": "Mastodon App UK",
+    "type": "mastodon"
+  },
+  {
+    "domain": "infosec.exchange",
+    "name": "Infosec Exchange",
+    "type": "mastodon"
+  },
+  {
+    "domain": "pixelfed.de",
+    "name": "pixelfed.de",
+    "type": "mastodon"
+  },
+  {
+    "domain": "pixelfed.de.",
+    "name": "pixelfed.de",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.uno",
+    "name": "Mastodon Uno Social - Italia",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.sdf.org",
+    "name": "Mastodon @ SDF",
+    "type": "mastodon"
+  },
+  {
+    "domain": "social.vivaldi.net",
+    "name": "Vivaldi Social",
+    "type": "mastodon"
+  },
+  {
+    "domain": "c.im",
+    "name": "C.IM",
+    "type": "mastodon"
+  },
+  {
+    "domain": "loforo.com",
+    "name": "loforo.com",
+    "type": "mastodon"
+  },
+  {
+    "domain": "hachyderm.io",
+    "name": "Hachyderm.io",
+    "type": "mastodon"
+  },
+  {
+    "domain": "gram.social",
+    "name": "Gram",
+    "type": "mastodon"
+  },
+  {
+    "domain": "brighteon.social",
+    "name": "BrighteonSocial",
+    "type": "mastodon"
+  },
+  {
+    "domain": "dev.brighteon.social",
+    "name": "BrighteonSocial",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mstdn.party",
+    "name": "Mastodon Party",
+    "type": "mastodon"
+  },
+  {
+    "domain": "aethy.com",
+    "name": "Aethy",
+    "type": "mastodon"
+  },
+  {
+    "domain": "m.cmx.im",
+    "name": "长毛象中文站",
+    "type": "mastodon"
+  },
+  {
+    "domain": "troet.cafe",
+    "name": "troet.cafe  - Mastodon",
+    "type": "mastodon"
+  },
+  {
+    "domain": "pixelfed.uno",
+    "name": "Pixelfed Uno Italia - Foto nel fediverso",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.nl",
+    "name": "Mastodon.nl door Stichting Activityclub",
+    "type": "mastodon"
+  },
+  {
+    "domain": "piaille.fr",
+    "name": "Piaille",
+    "type": "mastodon"
+  },
+  {
+    "domain": "kolektiva.social",
+    "name": "kolektiva.social",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.art",
+    "name": "Mastodon.ART",
+    "type": "mastodon"
+  },
+  {
+    "domain": "ohai.social",
+    "name": "ohai.social",
+    "type": "mastodon"
+  },
+  {
+    "domain": "sfba.social",
+    "name": "SFBA.social",
+    "type": "mastodon"
+  },
+  {
+    "domain": "pxlmo.com",
+    "name": "pxlmo",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mast.lat",
+    "name": "Mast.Lat",
+    "type": "mastodon"
+  },
+  {
+    "domain": "tkz.one",
+    "name": "TKZ.One",
+    "type": "mastodon"
+  },
+  {
+    "domain": "planet.moe",
+    "name": "플래닛",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mindly.social",
+    "name": "Mindly.Social",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mstdn.ca",
+    "name": "Mastodon Canada",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.gamedev.place",
+    "name": "Gamedev Mastodon",
+    "type": "mastodon"
+  },
+  {
+    "domain": "poa.st",
+    "name": "Poast",
+    "type": "mastodon"
+  },
+  {
+    "domain": "alive.bar",
+    "name": "alive.bar",
+    "type": "mastodon"
+  },
+  {
+    "domain": "toot.community",
+    "name": "toot.community",
+    "type": "mastodon"
+  },
+  {
+    "domain": "paopaoshequ.com",
+    "name": "泡泡社区",
+    "type": "mastodon"
+  },
+  {
+    "domain": "masto.es",
+    "name": "Mastodon en masto.es",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.scot",
+    "name": "mastodon.scot",
+    "type": "mastodon"
+  },
+  {
+    "domain": "gunbark.dev",
+    "name": "gunbark.dev",
+    "type": "mastodon"
+  },
+  {
+    "domain": "qoto.org",
+    "name": "Qoto Mastodon",
+    "type": "mastodon"
+  },
+  {
+    "domain": "ioc.exchange",
+    "name": "IOC.exchange",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.au",
+    "name": "Mastodon Australia",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mstdn.business",
+    "name": "Mastodon For Business",
+    "type": "mastodon"
+  },
+  {
+    "domain": "aus.social",
+    "name": "Aus.Social",
+    "type": "mastodon"
+  },
+  {
+    "domain": "bookwyrm.social",
+    "name": "BookWyrm",
+    "type": "mastodon"
+  },
+  {
+    "domain": "masto.nu",
+    "name": "masto.nu",
+    "type": "mastodon"
+  },
+  {
+    "domain": "det.social",
+    "name": "det.social",
+    "type": "mastodon"
+  },
+  {
+    "domain": "neodb.social",
+    "name": "NeoDB",
+    "type": "mastodon"
+  },
+  {
+    "domain": "wxw.moe",
+    "name": "呜呜 w(> ʌ <)w",
+    "type": "mastodon"
+  },
+  {
+    "domain": "wxw.ooo",
+    "name": "呜呜 w(> ʌ <)w",
+    "type": "mastodon"
+  },
+  {
+    "domain": "spinster.xyz",
+    "name": "Spinster",
+    "type": "mastodon"
+  },
+  {
+    "domain": "social.tchncs.de",
+    "name": "Mastodon",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mathstodon.xyz",
+    "name": "Mathstodon",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastouille.fr",
+    "name": "Mastouille",
+    "type": "mastodon"
+  },
+  {
+    "domain": "thu.closed.social",
+    "name": "[闭社] - 清华站",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.bida.im",
+    "name": "Mastodon Bida.im",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.ie",
+    "name": "mastodon.ie",
+    "type": "mastodon"
+  },
+  {
+    "domain": "pixelfed.tokyo",
+    "name": "Pixelfed.Tokyo",
+    "type": "mastodon"
+  },
+  {
+    "domain": "nrw.social",
+    "name": "NRW.social",
+    "type": "mastodon"
+  },
+  {
+    "domain": "defcon.social",
+    "name": "DEF CON Social",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.nu",
+    "name": "Mastodon.nu",
+    "type": "mastodon"
+  },
+  {
+    "domain": "abdl.link",
+    "name": "ABDL.link",
+    "type": "mastodon"
+  },
+  {
+    "domain": "qlub.social",
+    "name": "Qlub",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodontech.de",
+    "name": "MastodonTech.de",
+    "type": "mastodon"
+  },
+  {
+    "domain": "ieji.de",
+    "name": "ieji.de",
+    "type": "mastodon"
+  },
+  {
+    "domain": "theblower.au",
+    "name": "The Blower",
+    "type": "mastodon"
+  },
+  {
+    "domain": "tech.lgbt",
+    "name": "LGBTQIA+ and Tech",
+    "type": "mastodon"
+  },
+  {
+    "domain": "glasgow.social",
+    "name": "Glasgow.social",
+    "type": "mastodon"
+  },
+  {
+    "domain": "sueden.social",
+    "name": "sueden.social",
+    "type": "mastodon"
+  },
+  {
+    "domain": "norden.social",
+    "name": "norden.social",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mstdn.plus",
+    "name": "MSTDN+",
+    "type": "mastodon"
+  },
+  {
+    "domain": "social.cologne",
+    "name": "Mastodon",
+    "type": "mastodon"
+  },
+  {
+    "domain": "flipboard.social",
+    "name": "Flipboard",
+    "type": "mastodon"
+  },
+  {
+    "domain": "cyberplace.social",
+    "name": "Cyberplace",
+    "type": "mastodon"
+  },
+  {
+    "domain": "indieweb.social",
+    "name": "Indieweb.Social",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mastodon.green",
+    "name": "Mastodon.green",
+    "type": "mastodon"
+  },
+  {
+    "domain": "med-mastodon.com",
+    "name": "Med-Mastodon",
+    "type": "mastodon"
+  },
+  {
+    "domain": "toot.wales",
+    "name": "Tŵt Cymru | Toot Wales",
+    "type": "mastodon"
+  },
+  {
+    "domain": "sigmoid.social",
+    "name": "Sigmoid Social",
+    "type": "mastodon"
+  },
+  {
+    "domain": "pixel.tchncs.de",
+    "name": "Pixelfed",
+    "type": "mastodon"
+  },
+  {
+    "domain": "muenchen.social",
+    "name": "muenchen.social - Die erste Mastodon Instanz für München",
+    "type": "mastodon"
+  },
+  {
+    "domain": "ruhr.social",
+    "name": "ruhr.social",
+    "type": "mastodon"
+  },
+  {
+    "domain": "mstdn.tokyocameraclub.com",
+    "name": "東京カメラ部",
+    "type": "mastodon"
+  },
+  {
+    "domain": "social.anoxinon.de",
+    "name": "social.anoxinon.de - Mastodon",
+    "type": "mastodon"
+  },
+  {
+    "domain": "occm.cc",
+    "name": "자커마스 v3",
+    "type": "mastodon"
+  },
+  {
+    "domain": "hessen.social",
+    "name": "hessen.social",
+    "type": "mastodon"
+  },
+  {
+    "domain": "g0v.social",
+    "name": "g0v.social",
+    "type": "mastodon"
+  }
+]

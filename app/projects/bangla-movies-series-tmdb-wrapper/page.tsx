@@ -35,10 +35,10 @@ export default function ProjectPage() {
 
           <div className="flex justify-center gap-3">
             <a href="https://github.com/abusayed0206/banglamovies" target="_blank" rel="noopener noreferrer" className="px-4 py-2 text-sm border border-neutral-200 dark:border-neutral-800 rounded-md hover:bg-neutral-100 dark:hover:bg-neutral-900 transition-colors">
-              View Code →
+              View Code 
             </a>
             <a href="https://movies.sayed.app/" target="_blank" rel="noopener noreferrer" className="px-4 py-2 text-sm bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-900 rounded-md hover:bg-neutral-800 dark:hover:bg-neutral-200 transition-colors">
-              Live Demo →
+              Live Demo 
             </a>
           </div>
         </div>

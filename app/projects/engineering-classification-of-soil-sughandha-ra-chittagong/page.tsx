@@ -54,7 +54,7 @@ export default function ProjectPage() {
               rel="noopener noreferrer"
               className="px-4 py-2 text-sm bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-900 rounded-md hover:bg-neutral-800 dark:hover:bg-neutral-200 transition-colors"
             >
-              Read Article →
+              Read Article 
             </a>
             <a
               href="https://public.sayed.page/webdav/articles/CE-332%20Project.pdf"
@@ -62,7 +62,7 @@ export default function ProjectPage() {
               rel="noopener noreferrer"
               className="px-4 py-2 text-sm border border-neutral-300 dark:border-neutral-700 text-neutral-900 dark:text-neutral-100 rounded-md hover:bg-neutral-100 dark:hover:bg-neutral-900 transition-colors"
             >
-              View Report →
+              View Report 
             </a>
           </div>
         </div>

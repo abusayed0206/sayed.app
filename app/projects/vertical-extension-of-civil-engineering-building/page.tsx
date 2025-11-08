@@ -51,7 +51,7 @@ export default function ProjectPage() {
               rel="noopener noreferrer"
               className="px-4 py-2 text-sm bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-900 rounded-md hover:bg-neutral-800 dark:hover:bg-neutral-200 transition-colors"
             >
-              Read Article →
+              Read Article 
             </a>
           </div>
         </div>

@@ -35,7 +35,7 @@ export default function ProjectPage() {
 
           <div className="flex justify-center gap-3">
             <a href="https://github.com/abusayed0206/banglafilm" target="_blank" rel="noopener noreferrer" className="px-4 py-2 text-sm border border-neutral-200 dark:border-neutral-800 rounded-md hover:bg-neutral-100 dark:hover:bg-neutral-900 transition-colors">
-              View Code →
+              View Code 
             </a>
           </div>
         </div>
