@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 interface Instance {
   domain: string;
@@ -189,10 +190,19 @@ export default function RedirectPage() {
             ActivityPub Profile Redirect
           </h1>
 
-          <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-8 max-w-xl mx-auto">
+          <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-4 max-w-xl mx-auto">
             Open Fediverse profiles on your home instance. Enter your instance
             and the profile URL you want to view.
           </p>
+
+          <div className="mb-8">
+            <a
+              href="/redirect/generate"
+              className="inline-flex items-center gap-2 px-4 py-2 text-sm bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-900 rounded-md hover:bg-neutral-800 dark:hover:bg-neutral-200 transition-colors"
+            >
+              🔗 Get a Shareable Link
+            </a>
+          </div>
 
           <div className="max-w-2xl mx-auto border border-neutral-200 dark:border-neutral-800 rounded-lg p-6">
             <div className="space-y-4 text-left">
@@ -378,13 +388,7 @@ export default function RedirectPage() {
         </div>
       </div>
 
-      <footer className="border-t border-neutral-200 dark:border-neutral-800 py-6 mt-8">
-        <div className="max-w-5xl mx-auto px-4">
-          <p className="text-center text-xs text-neutral-500 dark:text-neutral-500">
-            © 2025 Abu Sayed
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

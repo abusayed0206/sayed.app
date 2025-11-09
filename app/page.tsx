@@ -2,6 +2,7 @@
 import { useEffect, useState, useMemo } from "react";
 import Image from "next/image";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import { Project } from "@/types/project";
 import { FaGithub, FaMastodon, FaOrcid } from "react-icons/fa";
 import { FaBluesky } from "react-icons/fa6";
@@ -94,7 +95,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="px-3 py-1.5 border border-neutral-300 dark:border-neutral-700 text-neutral-900 dark:text-neutral-100 rounded-md hover:bg-neutral-100 dark:hover:bg-neutral-900 transition-colors"
                 >
-                  Resume
+                  Resume/CV
                 </a>
                 <a
                   href="https://sayed.blog"
@@ -405,14 +406,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer - Compact */}
-      <footer className="py-6 mt-8">
-        <div className="max-w-5xl mx-auto px-4">
-          <p className="text-center text-xs text-neutral-500 dark:text-neutral-500">
-            © 2025 Abu Sayed
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

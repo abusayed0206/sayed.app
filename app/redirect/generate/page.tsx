@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 interface Instance {
   domain: string;
@@ -16,6 +17,9 @@ export default function GenerateRedirectPage() {
   const [instances, setInstances] = useState<Instance[]>([]);
   const [showProfileSuggestions, setShowProfileSuggestions] = useState(false);
   const [filteredProfiles, setFilteredProfiles] = useState<string[]>([]);
+  const [shortUrl, setShortUrl] = useState("");
+  const [isShortening, setIsShortening] = useState(false);
+  const [shortUrlCopied, setShortUrlCopied] = useState(false);
 
   // Load instances on mount
   useEffect(() => {
@@ -73,6 +77,7 @@ export default function GenerateRedirectPage() {
     setError("");
     setGeneratedLink("");
     setCopied(false);
+    setShortUrl(""); // Reset short URL
 
     if (!profileUrl.trim()) {
       setError("Please enter a profile URL");
@@ -115,6 +120,49 @@ export default function GenerateRedirectPage() {
       setGeneratedLink(link);
     } catch {
       setError("Failed to parse profile URL. Please check the format.");
+    }
+  };
+
+  const handleShortenUrl = async () => {
+    if (!generatedLink) return;
+
+    setIsShortening(true);
+    setError("");
+    setShortUrl("");
+
+    try {
+      const response = await fetch("/api/shorten", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ url: generatedLink }),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        setError(data.error || "Failed to shorten URL");
+        return;
+      }
+
+      setShortUrl(data.shortUrl);
+    } catch {
+      setError("Failed to shorten URL. Please try again.");
+    } finally {
+      setIsShortening(false);
+    }
+  };
+
+  const handleCopyShortUrl = async () => {
+    if (!shortUrl) return;
+
+    try {
+      await navigator.clipboard.writeText(shortUrl);
+      setShortUrlCopied(true);
+      setTimeout(() => setShortUrlCopied(false), 2000);
+    } catch {
+      setError("Failed to copy to clipboard");
     }
   };
 
@@ -237,13 +285,72 @@ export default function GenerateRedirectPage() {
                     />
                     <button
                       onClick={handleCopy}
-                      className="px-4 py-2 text-sm bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-900 rounded-md hover:bg-neutral-800 dark:hover:bg-neutral-200 transition-colors font-medium shrink-0"
+                      className="px-4 py-2 text-sm border border-neutral-200 dark:border-neutral-800 rounded-md hover:bg-neutral-100 dark:hover:bg-neutral-900 transition-colors font-medium shrink-0"
                     >
                       {copied ? "✓ Copied!" : "Copy"}
                     </button>
                   </div>
                   <p className="text-xs text-neutral-500 dark:text-neutral-500">
                     Share this link with anyone. They'll be able to open this profile on their own instance.
+                  </p>
+
+                  {/* Shorten Button - Now more prominent */}
+                  {!shortUrl && (
+                    <div className="pt-2">
+                      <button
+                        onClick={handleShortenUrl}
+                        disabled={isShortening}
+                        className="w-full px-4 py-3 text-sm bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-900 rounded-md hover:bg-neutral-800 dark:hover:bg-neutral-200 transition-colors font-semibold disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                      >
+                        {isShortening ? (
+                          <>
+                            <svg className="animate-spin h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                              <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                              <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                            </svg>
+                            Shortening...
+                          </>
+                        ) : (
+                          <>
+                            🔗 Shorten This Link
+                          </>
+                        )}
+                      </button>
+                      <p className="mt-2 text-xs text-center text-neutral-500 dark:text-neutral-500">
+                        Get a shorter, easier-to-share link
+                      </p>
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {/* Short URL Display */}
+              {shortUrl && (
+                <div className="space-y-3 pt-4 border-t-2 border-green-200 dark:border-green-900">
+                  <div className="flex items-center gap-2">
+                    <svg className="w-5 h-5 text-green-600 dark:text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    <label className="block text-sm font-semibold text-green-900 dark:text-green-100">
+                      ✨ Short Link Ready!
+                    </label>
+                  </div>
+                  <div className="flex gap-2">
+                    <input
+                      type="text"
+                      value={shortUrl}
+                      readOnly
+                      className="flex-1 px-4 py-2 text-sm border-2 border-green-200 dark:border-green-900 rounded-md bg-green-50 dark:bg-green-950/50 text-neutral-900 dark:text-neutral-100 font-mono font-semibold"
+                    />
+                    <button
+                      onClick={handleCopyShortUrl}
+                      className="px-4 py-2 text-sm bg-green-600 text-white dark:bg-green-500 dark:text-neutral-900 rounded-md hover:bg-green-700 dark:hover:bg-green-400 transition-colors font-semibold shrink-0"
+                    >
+                      {shortUrlCopied ? "✓ Copied!" : "Copy Short Link"}
+                    </button>
+                  </div>
+                  <p className="text-xs text-green-700 dark:text-green-300 font-medium">
+                    🎉 Perfect! This compact link is much easier to share.
                   </p>
                 </div>
               )}
@@ -269,9 +376,15 @@ export default function GenerateRedirectPage() {
                 </div>
               </li>
               <li className="flex items-start gap-3">
+                <span className="text-lg">✨</span>
+                <div>
+                  <strong className="text-neutral-900 dark:text-neutral-100">Shorten (Optional):</strong> Click "Shorten This Link" to get a compact <code className="px-1 py-0.5 bg-neutral-100 dark:bg-neutral-800 rounded">sayed.app/s/...</code> URL that's perfect for social media.
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
                 <span className="text-lg">📤</span>
                 <div>
-                  <strong className="text-neutral-900 dark:text-neutral-100">Share:</strong> Copy the link and share it on social media, in posts, or anywhere. When people click it, they can choose their instance and follow/view the profile.
+                  <strong className="text-neutral-900 dark:text-neutral-100">Share:</strong> Copy either the full or short link and share it anywhere. When people click it, they can choose their instance and follow/view the profile.
                 </div>
               </li>
               <li className="flex items-start gap-3">
@@ -301,13 +414,7 @@ export default function GenerateRedirectPage() {
         </div>
       </div>
 
-      <footer className="border-t border-neutral-200 dark:border-neutral-800 py-6 mt-8">
-        <div className="max-w-5xl mx-auto px-4">
-          <p className="text-center text-xs text-neutral-500 dark:text-neutral-500">
-            © 2025 Abu Sayed
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

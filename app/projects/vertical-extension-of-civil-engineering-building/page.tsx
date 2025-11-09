@@ -1,5 +1,6 @@
 "use client";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export default function ProjectPage() {
   return (
@@ -161,13 +162,7 @@ export default function ProjectPage() {
         </div>
       </section>
 
-      <footer className="border-t border-neutral-200 dark:border-neutral-800 py-6 mt-8">
-        <div className="max-w-5xl mx-auto px-4">
-          <p className="text-center text-xs text-neutral-500 dark:text-neutral-500">
-            © 2025 Abu Sayed
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

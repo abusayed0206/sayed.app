@@ -1,6 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export default function PersonalFeedPage() {
   useEffect(() => {
@@ -17,37 +18,37 @@ export default function PersonalFeedPage() {
 
       <div className="max-w-5xl mx-auto px-4 py-8">
         {/* Page Header - Centered */}
-        <div className="mb-6 text-center">
-          <h1 className="text-2xl font-bold mb-2 text-neutral-900 dark:text-neutral-100">
+        <div className="mb-8 text-center">
+          <h1 className="text-3xl sm:text-4xl font-bold mb-3 text-neutral-900 dark:text-neutral-100">
             Personal Feed
           </h1>
-          <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-2">
+          <p className="text-base sm:text-lg text-neutral-600 dark:text-neutral-400 mb-3">
             Updates from{" "}
             <a
               href="https://bsky.app/profile/sayed.page"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline hover:text-neutral-900 dark:hover:text-neutral-100"
+              className="font-medium underline decoration-2 underline-offset-2 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
             >
               @sayed.page
             </a>
           </p>
-          <p className="text-xs text-neutral-500 dark:text-neutral-500">
+          <p className="text-sm sm:text-base text-neutral-500 dark:text-neutral-500 leading-relaxed max-w-3xl mx-auto">
             This is my social media feed. Available in web (
             <a
               href="https://feed.sayed.page"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline hover:text-neutral-700 dark:hover:text-neutral-400"
+              className="font-medium underline decoration-2 underline-offset-2 hover:text-neutral-700 dark:hover:text-neutral-400 transition-colors"
             >
               feed.sayed.page
             </a>
             ), ActivityPub (
             <a
-              href="https://mastodon.social/@abusayed"
+              href="https://sayed.app/s/mstdn"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline hover:text-neutral-700 dark:hover:text-neutral-400"
+              className="font-medium underline decoration-2 underline-offset-2 hover:text-neutral-700 dark:hover:text-neutral-400 transition-colors"
             >
               @abusayed@mastodon.social
             </a>
@@ -56,7 +57,7 @@ export default function PersonalFeedPage() {
               href="https://bsky.app/profile/sayed.page"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline hover:text-neutral-700 dark:hover:text-neutral-400"
+              className="font-medium underline decoration-2 underline-offset-2 hover:text-neutral-700 dark:hover:text-neutral-400 transition-colors"
             >
               @sayed.page
             </a>
@@ -76,14 +77,7 @@ export default function PersonalFeedPage() {
         </div>
       </div>
 
-      {/* Footer - Compact */}
-      <footer className="border-t border-neutral-200 dark:border-neutral-800 py-6 mt-8">
-        <div className="max-w-5xl mx-auto px-4">
-          <p className="text-center text-xs text-neutral-500 dark:text-neutral-500">
-            © 2025 Abu Sayed
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
