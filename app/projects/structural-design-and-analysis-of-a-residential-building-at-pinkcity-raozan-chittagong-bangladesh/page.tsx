@@ -40,7 +40,7 @@ export default function ProjectPage() {
 
           <div className="flex justify-center gap-3">
             <a
-              href="https://blog.abusayed.dev/structural-design-and-analysis-of-a-residential-building-at-pinkcity-raozan-chittagong-bangladesh"
+              href="https://sayed.blog/structural-design-and-analysis-of-a-residential-building-at-pinkcity-raozan-chittagong-bangladesh"
               target="_blank"
               rel="noopener noreferrer"
               className="px-4 py-2 text-sm bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-900 rounded-md hover:bg-neutral-800 dark:hover:bg-neutral-200 transition-colors"
