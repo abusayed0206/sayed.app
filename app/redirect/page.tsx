@@ -338,31 +338,31 @@ export default function RedirectPage() {
             </h2>
             <ul className="space-y-3 text-sm text-neutral-600 dark:text-neutral-400">
               <li className="flex items-start gap-3">
-                <span className="text-lg">💡</span>
+                <span className="text-lg shrink-0">💡</span>
                 <div>
                   <strong className="text-neutral-900 dark:text-neutral-100">Quick Start:</strong> The instance field defaults to mastodon.social. Click it to change your home instance.
                 </div>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-lg">⌨️</span>
+                <span className="text-lg shrink-0">⌨️</span>
                 <div>
                   <strong className="text-neutral-900 dark:text-neutral-100">Autocomplete:</strong> Press <kbd className="px-2 py-0.5 bg-neutral-100 dark:bg-neutral-800 rounded text-xs font-mono">Tab</kbd> to autocomplete suggestions in both fields.
                 </div>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-lg">📝</span>
+                <span className="text-lg shrink-0">📝</span>
                 <div>
-                  <strong className="text-neutral-900 dark:text-neutral-100">Flexible Format:</strong> Enter profiles as <code className="px-1 py-0.5 bg-neutral-100 dark:bg-neutral-800 rounded">@user@domain.com</code>, <code className="px-1 py-0.5 bg-neutral-100 dark:bg-neutral-800 rounded">user@domain.com</code>, or <code className="px-1 py-0.5 bg-neutral-100 dark:bg-neutral-800 rounded">https://domain.com/@user</code>
+                  <strong className="text-neutral-900 dark:text-neutral-100">Flexible Format:</strong> Enter profiles as <code className="px-1 py-0.5 bg-neutral-100 dark:bg-neutral-800 rounded text-xs break-all">@user@domain.com</code>, <code className="px-1 py-0.5 bg-neutral-100 dark:bg-neutral-800 rounded text-xs break-all">user@domain.com</code>, or <code className="px-1 py-0.5 bg-neutral-100 dark:bg-neutral-800 rounded text-xs break-all">https://domain.com/@user</code>
                 </div>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-lg">🔗</span>
-                <div>
-                  <strong className="text-neutral-900 dark:text-neutral-100">Share Links:</strong> Use <code className="px-1 py-0.5 bg-neutral-100 dark:bg-neutral-800 rounded">sayed.app/redirect/@user@domain.com</code> to share direct redirect links.
+                <span className="text-lg shrink-0">🔗</span>
+                <div className="wrap-break-word">
+                  <strong className="text-neutral-900 dark:text-neutral-100">Share Links:</strong> Use <code className="px-1 py-0.5 bg-neutral-100 dark:bg-neutral-800 rounded text-xs break-all inline-block">sayed.app/redirect/@user@domain.com</code> to share direct redirect links.
                 </div>
               </li>
               <li className="flex items-start gap-3">
-                <span className="text-lg">🌐</span>
+                <span className="text-lg shrink-0">🌐</span>
                 <div>
                   <strong className="text-neutral-900 dark:text-neutral-100">Works With:</strong> Mastodon, Pixelfed, Lemmy, Kbin, PeerTube, Threads, Bridgy Fed, and all ActivityPub platforms.
                 </div>

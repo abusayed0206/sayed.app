@@ -20,7 +20,6 @@ export function generateOGImageUrl(project: Project): string {
     title: project.name,
     description: project.description,
     keywords: project.keywords.join(','),
-    academic: project.academic.toString(),
   });
 
   return `${baseUrl}/api/og/project?${params.toString()}`;

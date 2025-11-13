@@ -1,11 +1,11 @@
 export interface Project {
   id: number;
-  academic: boolean;
+  pin: boolean;
   name: string;
   description: string;
   keywords: string[];
   slug: string;
-  image: string;
-  sourceCode: string;
-  livePreview: string;
+  image?: string;
+  sourceCode?: string;
+  livePreview?: string;
 }
