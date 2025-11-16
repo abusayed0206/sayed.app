@@ -121,5 +121,14 @@
     "keywords": ["bluesky", "atproto", "aio", "tools", "social-network"],
     "slug": "bsky-tools-aio",
     "livePreview": "https://bsky.sayed.app/"
+  },
+  {
+    "id": 13,
+    "pin": true,
+    "name": "Personal Data Protection Ordinance, 2025 (PDPO) helper",
+    "description": "A web application to make email for sending to data fiduciary to complying with the Personal Data Protection Ordinance, 2025 (PDPO).",
+    "keywords": ["pdpo", "data-protection", "compliance", "web-app"],
+    "slug": "pdpo",
+    "livePreview": "https://pdpo.sayed.app/"
   }
 ]
