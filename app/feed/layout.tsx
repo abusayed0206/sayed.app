@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     siteName: 'Sayed',
     images: [
       {
-        url: '/api/og/project?title=Feed (@sayed.app)',
+        url: '/api/og/project?title=Feed%20(%40sayed.app)',
         width: 1200,
         height: 630,
         alt: 'Feed | Sayed',
@@ -23,6 +23,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Feed | Sayed',
     description: 'Updates from @sayed.app - Automated bot account feed on Bluesky',
-    images: ['/api/og/project?title=Feed (@sayed.app)'],
+    images: ['/api/og/project?title=Feed%20(%40sayed.app)'],
   },
 };
+
+export default function FeedLayout({ children }: { children: React.ReactNode }) {
+  return children;
+}

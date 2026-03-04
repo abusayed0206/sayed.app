@@ -17,37 +17,86 @@ export async function GET(request: NextRequest) {
             flexDirection: "column",
             alignItems: "center",
             justifyContent: "center",
-            background: "#f8fafc",
-            padding: "60px 120px",
+            background: "#FAFAF9",
+            padding: "60px 80px",
+            position: "relative",
           }}
         >
-          {/* Title */}
+          {/* Top border accent */}
           <div
             style={{
-              fontSize: "64px",
-              fontWeight: "700",
-              color: "#334155",
-              lineHeight: "1.1",
-              marginBottom: "24px",
-              textAlign: "center",
-              letterSpacing: "-0.02em",
-              maxWidth: "100%",
-              wordWrap: "break-word",
+              position: "absolute",
+              top: 0,
+              left: 0,
+              right: 0,
+              height: "6px",
+              background: "#1C1917",
+            }}
+          />
+
+          {/* Content */}
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              justifyContent: "center",
+              flex: 1,
+              gap: "20px",
             }}
           >
-            {title}
+            {/* Title */}
+            <div
+              style={{
+                fontSize: title.length > 30 ? "48px" : "60px",
+                fontWeight: "700",
+                color: "#1C1917",
+                lineHeight: "1.15",
+                textAlign: "center",
+                letterSpacing: "-0.03em",
+                maxWidth: "100%",
+                wordWrap: "break-word",
+              }}
+            >
+              {title}
+            </div>
+
+            {/* Divider */}
+            <div
+              style={{
+                width: "60px",
+                height: "3px",
+                background: "#A8A29E",
+                borderRadius: "2px",
+              }}
+            />
+
+            {/* Subtitle */}
+            <div
+              style={{
+                fontSize: "22px",
+                color: "#57534E",
+                fontWeight: "400",
+                textAlign: "center",
+                letterSpacing: "0.02em",
+              }}
+            >
+              sayed.app
+            </div>
           </div>
 
-          {/* Subtitle */}
+          {/* Bottom corner tag */}
           <div
             style={{
-              fontSize: "24px",
-              color: "#64748b",
-              fontWeight: "400",
-              textAlign: "center",
+              position: "absolute",
+              bottom: "30px",
+              right: "40px",
+              fontSize: "14px",
+              color: "#A8A29E",
+              letterSpacing: "0.05em",
             }}
           >
-            A project by sayed.app
+            Project
           </div>
         </div>
       ),

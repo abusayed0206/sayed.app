@@ -1,23 +1,54 @@
 @import "tailwindcss";
 
 @theme {
-  --color-background-light: #fafafa;
-  --color-foreground-light: #262626;
-  --color-background-dark: #171717;
-  --color-foreground-dark: #fafafa;
+  /* Light — warm off-white / ink */
+  --color-bg: #FAFAF9;
+  --color-bg-card: #FFFFFF;
+  --color-bg-muted: #F5F5F4;
+  --color-border: #E7E5E4;
+  --color-text: #1C1917;
+  --color-text-secondary: #57534E;
+  --color-text-muted: #A8A29E;
+
+  /* Dark — deep warm gray */
+  --color-bg-dark: #1C1917;
+  --color-bg-card-dark: #292524;
+  --color-bg-muted-dark: #292524;
+  --color-border-dark: #44403C;
+  --color-text-dark: #FAFAF9;
+  --color-text-secondary-dark: #A8A29E;
+  --color-text-muted-dark: #78716C;
+
+  /* Single accent — warm stone / ink underline */
+  --color-primary: #1C1917;
+  --color-primary-hover: #44403C;
+  --color-primary-light: #F5F5F4;
+  --color-primary-light-dark: rgba(250, 250, 249, 0.08);
+  --color-accent: #1C1917;
+  --color-accent-light: #F5F5F4;
+
+  /* Category — all same tone, just subtle */
+  --color-cat-web: #57534E;
+  --color-cat-web-bg: #F5F5F4;
+  --color-cat-windows: #57534E;
+  --color-cat-windows-bg: #F5F5F4;
+  --color-cat-android: #57534E;
+  --color-cat-android-bg: #F5F5F4;
+  --color-cat-others: #57534E;
+  --color-cat-others-bg: #F5F5F4;
 }
 
 @variant dark (&:where(.dark, .dark *));
 
 body {
-  background-color: var(--color-background-light);
-  color: var(--color-foreground-light);
-  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .dark body {
-  background-color: var(--color-background-dark);
-  color: var(--color-foreground-dark);
+  background-color: var(--color-bg-dark);
+  color: var(--color-text-dark);
 }
 
 body {
@@ -26,12 +57,11 @@ body {
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-/* Custom styles for smooth scrolling */
 html {
   scroll-behavior: smooth;
 }
 
-/* Line clamp utility */
+/* Utility classes */
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -50,4 +80,51 @@ html {
 bsky-embed {
   display: block;
   width: 100%;
+}
+
+/* Card hover */
+.project-card {
+  transition: box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.dark .project-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Category badge */
+.cat-badge {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+}
+
+/* Filter tab */
+.filter-tab {
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 3px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: var(--color-border-dark);
 }

@@ -17,13 +17,13 @@ export default function ProjectPage() {
 
           <div className="flex flex-col items-center gap-4 mb-4">
             <h1 className="text-3xl font-bold text-neutral-900 dark:text-neutral-100">
-              Yearbook
+              YearBook of Sayed
             </h1>
-            <span className="px-3 py-1 text-xs bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded">Personal</span>
+            <span className="px-3 py-1 text-xs bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded">Web</span>
           </div>
 
           <p className="text-base text-neutral-600 dark:text-neutral-400 mb-6">
-            A yearbook website for me . It contains all of my classmates names,ID/roll from schools, college and university.
+            A personal yearbook containing classmates&apos; names and IDs from primary school, high school, college, and university (CUET).
           </p>
 
           <div className="flex flex-wrap justify-center gap-2 mb-6">

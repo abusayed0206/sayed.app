@@ -5,70 +5,48 @@ import Footer from "@/components/Footer";
 
 export default function PersonalFeedPage() {
   useEffect(() => {
-    // Ensure the web component is registered
     if (typeof window !== "undefined") {
-      // @ts-ignore - bsky-embed is a web component without types
+      // @ts-ignore - bsky-embed is a web component
       import("bsky-embed/dist/bsky-embed.es.js");
     }
   }, []);
 
   return (
-    <div className="min-h-screen bg-neutral-50 dark:bg-neutral-950">
+    <div className="min-h-screen bg-[var(--color-bg)] dark:bg-[var(--color-bg-dark)]">
       <Header />
 
-      <div className="max-w-5xl mx-auto px-4 py-8">
-        {/* Page Header - Centered */}
+      <div className="max-w-2xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
+        {/* Page Header */}
         <div className="mb-8 text-center">
-          <h1 className="text-3xl sm:text-4xl font-bold mb-3 text-neutral-900 dark:text-neutral-100">
+          <h1 className="text-2xl font-medium mb-3 text-[var(--color-text)] dark:text-[var(--color-text-dark)]">
             Personal Feed
           </h1>
-          <p className="text-base sm:text-lg text-neutral-600 dark:text-neutral-400 mb-3">
+          <p className="text-sm text-[var(--color-text-secondary)] dark:text-[var(--color-text-secondary-dark)] mb-2">
             Updates from{" "}
             <a
-              href="https://bsky.app/profile/sayed.page"
+              href="https://bsky.app/profile/lrs.bd"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-medium underline decoration-2 underline-offset-2 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
+              className="underline hover:text-[var(--color-text)] dark:hover:text-[var(--color-text-dark)]"
             >
-              @sayed.page
+              @lrs.bd
             </a>
           </p>
-          <p className="text-sm sm:text-base text-neutral-500 dark:text-neutral-500 leading-relaxed max-w-3xl mx-auto">
-            This is my social media feed. Available in web (
-            <a
-              href="https://feed.sayed.page"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-medium underline decoration-2 underline-offset-2 hover:text-neutral-700 dark:hover:text-neutral-400 transition-colors"
-            >
-              feed.sayed.page
-            </a>
+          <p className="text-sm text-[var(--color-text-muted)] dark:text-[var(--color-text-muted-dark)] leading-relaxed max-w-2xl mx-auto">
+            This is my social media feed. Available on the web (
+            <a href="https://feed.lrs.bd" target="_blank" rel="noopener noreferrer" className="underline hover:text-[var(--color-text)] dark:hover:text-[var(--color-text-dark)]">feed.lrs.bd</a>
             ), ActivityPub (
-            <a
-              href="https://sayed.app/s/mstdn"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-medium underline decoration-2 underline-offset-2 hover:text-neutral-700 dark:hover:text-neutral-400 transition-colors"
-            >
-              @abusayed@mastodon.social
-            </a>
+            <a href="https://sayed.app/s/mstdn" target="_blank" rel="noopener noreferrer" className="underline hover:text-[var(--color-text)] dark:hover:text-[var(--color-text-dark)]">@abusayed@mastodon.social</a>
             ) and ATProto/Bsky (
-            <a
-              href="https://bsky.app/profile/sayed.page"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-medium underline decoration-2 underline-offset-2 hover:text-neutral-700 dark:hover:text-neutral-400 transition-colors"
-            >
-              @sayed.page
-            </a>
+            <a href="https://bsky.app/profile/lrs.bd" target="_blank" rel="noopener noreferrer" className="underline hover:text-[var(--color-text)] dark:hover:text-[var(--color-text-dark)]">@lrs.bd</a>
             )
           </p>
         </div>
 
         {/* Bluesky Feed Embed */}
-        <div className="border border-neutral-200 dark:border-neutral-800 rounded-lg overflow-hidden">
+        <div className=" border border-[var(--color-border)] dark:border-[var(--color-border-dark)] bg-[var(--color-bg-card)] dark:bg-[var(--color-bg-card-dark)] overflow-hidden">
           <bsky-embed
-            username="sayed.page"
+            username="lrs.bd"
             limit="20"
             link-target="_blank"
             link-image="false"

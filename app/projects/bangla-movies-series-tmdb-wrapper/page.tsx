@@ -17,21 +17,22 @@ export default function ProjectPage() {
 
           <div className="flex flex-col items-center gap-4 mb-4">
             <h1 className="text-3xl font-bold text-neutral-900 dark:text-neutral-100">
-              Bangla Movies & Series TMDb Wrapper
+              Bangla Movies & Series
             </h1>
-            <span className="px-3 py-1 text-xs bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded">Personal</span>
+            <span className="px-3 py-1 text-xs bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded">Web</span>
           </div>
 
           <p className="text-base text-neutral-600 dark:text-neutral-400 mb-6">
-            A website to browse latest Bangla movies and series. It provides a user-friendly interface to search and access various Bangla movies and series.
+            Browse the latest Bangla movies and TV series powered by TMDB API. Search, discover, and explore Bengali cinema and television.
           </p>
 
           <div className="flex flex-wrap justify-center gap-2 mb-6">
             <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">nextjs</span>
             <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">typescript</span>
             <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">react</span>
-            <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">api</span>
+            <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">tmdb</span>
             <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">movies</span>
+            <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">bangla</span>
           </div>
 
           <div className="flex justify-center gap-3">

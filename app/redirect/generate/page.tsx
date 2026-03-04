@@ -196,25 +196,25 @@ export default function GenerateRedirectPage() {
   };
 
   return (
-    <div className="min-h-screen bg-neutral-50 dark:bg-neutral-950">
+    <div className="min-h-screen bg-[var(--color-bg)] dark:bg-[var(--color-bg-dark)]">
       <Header />
       <div className="max-w-5xl mx-auto px-4 py-12">
         <div className="text-center">
-          <h1 className="text-2xl font-bold mb-3 text-neutral-900 dark:text-neutral-100">
+          <h1 className="text-2xl font-bold mb-3 text-[var(--color-text)] dark:text-[var(--color-text-dark)]">
             Generate Shareable Redirect Link
           </h1>
 
-          <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-8 max-w-xl mx-auto">
+          <p className="text-sm text-[var(--color-text-secondary)] dark:text-[var(--color-text-secondary-dark)] mb-8 max-w-xl mx-auto">
             Create a shareable link that lets anyone open a Fediverse profile on their own instance.
           </p>
 
-          <div className="max-w-2xl mx-auto border border-neutral-200 dark:border-neutral-800 rounded-lg p-6">
+          <div className="max-w-2xl mx-auto border border-[var(--color-border)] dark:border-[var(--color-border-dark)]  p-6">
             <div className="space-y-4 text-left">
               {/* Profile Input */}
               <div className="relative">
                 <label
                   htmlFor="profileUrl"
-                  className="block text-sm font-medium text-neutral-900 dark:text-neutral-100 mb-2"
+                  className="block text-sm font-medium text-[var(--color-text)] dark:text-[var(--color-text-dark)] mb-2"
                 >
                   Profile URL or Handle
                 </label>
@@ -233,31 +233,31 @@ export default function GenerateRedirectPage() {
                   }
                   placeholder="@user@instance.com or user@instance.com"
                   autoComplete="off"
-                  className="w-full px-4 py-2 text-sm border border-neutral-200 dark:border-neutral-800 rounded-md bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 placeholder-neutral-400 dark:placeholder-neutral-600 focus:outline-none focus:ring-2 focus:ring-neutral-900 dark:focus:ring-neutral-100"
+                  className="w-full px-4 py-2 text-sm border border-[var(--color-border)] dark:border-[var(--color-border-dark)]  bg-[var(--color-bg-card)] dark:bg-[var(--color-bg-card-dark)] text-[var(--color-text)] dark:text-[var(--color-text-dark)] placeholder-[var(--color-text-muted)] dark:placeholder-[var(--color-text-muted-dark)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)]/40"
                 />
 
                 {showProfileSuggestions && filteredProfiles.length > 0 && (
-                  <div className="absolute z-10 w-full mt-1 bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-md shadow-lg max-h-48 overflow-y-auto">
+                  <div className="absolute z-10 w-full mt-1 bg-[var(--color-bg-card)] dark:bg-[var(--color-bg-card-dark)] border border-[var(--color-border)] dark:border-[var(--color-border-dark)]  shadow-lg max-h-48 overflow-y-auto">
                     {filteredProfiles.map((profile) => (
                       <button
                         key={profile}
                         type="button"
                         onClick={() => handleProfileSelect(profile)}
-                        className="w-full px-4 py-2 text-left text-sm hover:bg-neutral-100 dark:hover:bg-neutral-800 text-neutral-900 dark:text-neutral-100"
+                        className="w-full px-4 py-2 text-left text-sm hover:bg-[var(--color-bg-muted)] dark:hover:bg-[var(--color-bg-muted-dark)] text-[var(--color-text)] dark:text-[var(--color-text-dark)]"
                       >
                         {profile}
                       </button>
                     ))}
                   </div>
                 )}
-                <p className="mt-1 text-xs text-neutral-500 dark:text-neutral-500">
+                <p className="mt-1 text-xs text-[var(--color-text-muted)] dark:text-[var(--color-text-muted-dark)]">
                   Enter any Fediverse profile — press Tab to autocomplete
                 </p>
               </div>
 
               {/* Error */}
               {error && (
-                <div className="p-3 text-sm bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-900 text-red-900 dark:text-red-100 rounded-md">
+                <div className="p-3 text-sm bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-900 text-red-900 dark:text-red-100 ">
                   {error}
                 </div>
               )}
@@ -265,15 +265,15 @@ export default function GenerateRedirectPage() {
               {/* Generate Button */}
               <button
                 onClick={handleGenerate}
-                className="w-full px-4 py-2 text-sm bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-900 rounded-md hover:bg-neutral-800 dark:hover:bg-neutral-200 transition-colors font-medium"
+                className="w-full px-4 py-2 text-sm bg-[var(--color-primary)] text-white  hover:bg-[var(--color-primary-hover)] transition-colors font-medium"
               >
                 Generate Shareable Link
               </button>
 
               {/* Generated Link */}
               {generatedLink && (
-                <div className="space-y-3 pt-4 border-t border-neutral-200 dark:border-neutral-800">
-                  <label className="block text-sm font-medium text-neutral-900 dark:text-neutral-100">
+                <div className="space-y-3 pt-4 border-t border-[var(--color-border)] dark:border-[var(--color-border-dark)]">
+                  <label className="block text-sm font-medium text-[var(--color-text)] dark:text-[var(--color-text-dark)]">
                     Your Shareable Link
                   </label>
                   <div className="flex gap-2">
@@ -281,16 +281,16 @@ export default function GenerateRedirectPage() {
                       type="text"
                       value={generatedLink}
                       readOnly
-                      className="flex-1 px-4 py-2 text-sm border border-neutral-200 dark:border-neutral-800 rounded-md bg-neutral-50 dark:bg-neutral-900/50 text-neutral-900 dark:text-neutral-100 font-mono"
+                      className="flex-1 px-4 py-2 text-sm border border-[var(--color-border)] dark:border-[var(--color-border-dark)]  bg-[var(--color-bg-muted)] dark:bg-[var(--color-bg-muted-dark)] text-[var(--color-text)] dark:text-[var(--color-text-dark)] font-mono"
                     />
                     <button
                       onClick={handleCopy}
-                      className="px-4 py-2 text-sm border border-neutral-200 dark:border-neutral-800 rounded-md hover:bg-neutral-100 dark:hover:bg-neutral-900 transition-colors font-medium shrink-0"
+                      className="px-4 py-2 text-sm border border-[var(--color-border)] dark:border-[var(--color-border-dark)]  hover:bg-[var(--color-bg-muted)] dark:hover:bg-[var(--color-bg-muted-dark)] transition-colors font-medium shrink-0"
                     >
                       {copied ? "✓ Copied!" : "Copy"}
                     </button>
                   </div>
-                  <p className="text-xs text-neutral-500 dark:text-neutral-500">
+                  <p className="text-xs text-[var(--color-text-muted)] dark:text-[var(--color-text-muted-dark)]">
                     Share this link with anyone. They'll be able to open this profile on their own instance.
                   </p>
 
@@ -300,7 +300,7 @@ export default function GenerateRedirectPage() {
                       <button
                         onClick={handleShortenUrl}
                         disabled={isShortening}
-                        className="w-full px-4 py-3 text-sm bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-900 rounded-md hover:bg-neutral-800 dark:hover:bg-neutral-200 transition-colors font-semibold disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                        className="w-full px-4 py-3 text-sm bg-[var(--color-primary)] text-white  hover:bg-[var(--color-primary-hover)] transition-colors font-semibold disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                       >
                         {isShortening ? (
                           <>
@@ -316,7 +316,7 @@ export default function GenerateRedirectPage() {
                           </>
                         )}
                       </button>
-                      <p className="mt-2 text-xs text-center text-neutral-500 dark:text-neutral-500">
+                      <p className="mt-2 text-xs text-center text-[var(--color-text-muted)] dark:text-[var(--color-text-muted-dark)]">
                         Get a shorter, easier-to-share link
                       </p>
                     </div>
@@ -340,11 +340,11 @@ export default function GenerateRedirectPage() {
                       type="text"
                       value={shortUrl}
                       readOnly
-                      className="flex-1 px-4 py-2 text-sm border-2 border-green-200 dark:border-green-900 rounded-md bg-green-50 dark:bg-green-950/50 text-neutral-900 dark:text-neutral-100 font-mono font-semibold"
+                      className="flex-1 px-4 py-2 text-sm border-2 border-green-200 dark:border-green-900  bg-green-50 dark:bg-green-950/50 text-[var(--color-text)] dark:text-[var(--color-text-dark)] font-mono font-semibold"
                     />
                     <button
                       onClick={handleCopyShortUrl}
-                      className="px-4 py-2 text-sm bg-green-600 text-white dark:bg-green-500 dark:text-neutral-900 rounded-md hover:bg-green-700 dark:hover:bg-green-400 transition-colors font-semibold shrink-0"
+                      className="px-4 py-2 text-sm bg-green-600 text-white dark:bg-green-500  hover:bg-green-700 dark:hover:bg-green-400 transition-colors font-semibold shrink-0"
                     >
                       {shortUrlCopied ? "✓ Copied!" : "Copy Short Link"}
                     </button>
@@ -358,39 +358,39 @@ export default function GenerateRedirectPage() {
           </div>
 
           {/* Instructions */}
-          <div className="max-w-2xl mx-auto mt-8 border border-neutral-200 dark:border-neutral-800 rounded-lg p-6 text-left">
-            <h2 className="text-lg font-semibold mb-4 text-neutral-900 dark:text-neutral-100">
+          <div className="max-w-2xl mx-auto mt-8 border border-[var(--color-border)] dark:border-[var(--color-border-dark)]  p-6 text-left">
+            <h2 className="text-lg font-semibold mb-4 text-[var(--color-text)] dark:text-[var(--color-text-dark)]">
               How It Works
             </h2>
-            <ul className="space-y-3 text-sm text-neutral-600 dark:text-neutral-400">
+            <ul className="space-y-3 text-sm text-[var(--color-text-secondary)] dark:text-[var(--color-text-secondary-dark)]">
               <li className="flex items-start gap-3">
                 <span className="text-lg">📝</span>
                 <div>
-                  <strong className="text-neutral-900 dark:text-neutral-100">Enter Profile:</strong> Type any Fediverse profile handle like <code className="px-1 py-0.5 bg-neutral-100 dark:bg-neutral-800 rounded">@user@mastodon.social</code> or <code className="px-1 py-0.5 bg-neutral-100 dark:bg-neutral-800 rounded">user@mastodon.social</code>
+                  <strong className="text-[var(--color-text)] dark:text-[var(--color-text-dark)]">Enter Profile:</strong> Type any Fediverse profile handle like <code className="px-1 py-0.5 bg-[var(--color-bg-muted)] dark:bg-[var(--color-bg-muted-dark)] rounded">@user@mastodon.social</code> or <code className="px-1 py-0.5 bg-[var(--color-bg-muted)] dark:bg-[var(--color-bg-muted-dark)] rounded">user@mastodon.social</code>
                 </div>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-lg">🔗</span>
                 <div>
-                  <strong className="text-neutral-900 dark:text-neutral-100">Generate Link:</strong> Click the button to create a shareable redirect link that works for everyone.
+                  <strong className="text-[var(--color-text)] dark:text-[var(--color-text-dark)]">Generate Link:</strong> Click the button to create a shareable redirect link that works for everyone.
                 </div>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-lg">✨</span>
                 <div>
-                  <strong className="text-neutral-900 dark:text-neutral-100">Shorten (Optional):</strong> Click "Shorten This Link" to get a compact <code className="px-1 py-0.5 bg-neutral-100 dark:bg-neutral-800 rounded">sayed.app/s/...</code> URL that's perfect for social media.
+                  <strong className="text-[var(--color-text)] dark:text-[var(--color-text-dark)]">Shorten (Optional):</strong> Click "Shorten This Link" to get a compact <code className="px-1 py-0.5 bg-[var(--color-bg-muted)] dark:bg-[var(--color-bg-muted-dark)] rounded">sayed.app/s/...</code> URL that's perfect for social media.
                 </div>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-lg">📤</span>
                 <div>
-                  <strong className="text-neutral-900 dark:text-neutral-100">Share:</strong> Copy either the full or short link and share it anywhere. When people click it, they can choose their instance and follow/view the profile.
+                  <strong className="text-[var(--color-text)] dark:text-[var(--color-text-dark)]">Share:</strong> Copy either the full or short link and share it anywhere. When people click it, they can choose their instance and follow/view the profile.
                 </div>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-lg">⌨️</span>
                 <div>
-                  <strong className="text-neutral-900 dark:text-neutral-100">Autocomplete:</strong> Press <kbd className="px-2 py-0.5 bg-neutral-100 dark:bg-neutral-800 rounded text-xs font-mono">Tab</kbd> while typing to autocomplete from popular instances.
+                  <strong className="text-[var(--color-text)] dark:text-[var(--color-text-dark)]">Autocomplete:</strong> Press <kbd className="px-2 py-0.5 bg-[var(--color-bg-muted)] dark:bg-[var(--color-bg-muted-dark)] rounded text-xs font-mono">Tab</kbd> while typing to autocomplete from popular instances.
                 </div>
               </li>
             </ul>
@@ -400,13 +400,13 @@ export default function GenerateRedirectPage() {
           <div className="mt-8 flex gap-3 justify-center">
             <a
               href="/redirect"
-              className="inline-flex items-center gap-2 px-4 py-2 text-sm border border-neutral-200 dark:border-neutral-800 rounded-md hover:bg-neutral-100 dark:hover:bg-neutral-900 transition-colors"
+              className="inline-flex items-center gap-2 px-4 py-2 text-sm border border-[var(--color-border)] dark:border-[var(--color-border-dark)]  hover:bg-[var(--color-bg-muted)] dark:hover:bg-[var(--color-bg-muted-dark)] transition-colors"
             >
               ← Use Redirect Tool
             </a>
             <a
               href="/"
-              className="inline-flex items-center gap-2 px-4 py-2 text-sm border border-neutral-200 dark:border-neutral-800 rounded-md hover:bg-neutral-100 dark:hover:bg-neutral-900 transition-colors"
+              className="inline-flex items-center gap-2 px-4 py-2 text-sm border border-[var(--color-border)] dark:border-[var(--color-border-dark)]  hover:bg-[var(--color-bg-muted)] dark:hover:bg-[var(--color-bg-muted-dark)] transition-colors"
             >
               Home
             </a>

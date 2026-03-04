@@ -26,3 +26,7 @@ export const metadata: Metadata = {
     images: ['/api/og/project?title=Engineering Classification of Soil'],
   },
 };
+
+export default function Layout({ children }: { children: React.ReactNode }) {
+  return children;
+}

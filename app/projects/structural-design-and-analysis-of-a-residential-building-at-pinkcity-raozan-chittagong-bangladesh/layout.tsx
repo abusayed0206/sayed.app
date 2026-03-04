@@ -26,3 +26,7 @@ export const metadata: Metadata = {
     images: ['/api/og/project?title=Structural Design and Analysis of a Residential Building'],
   },
 };
+
+export default function Layout({ children }: { children: React.ReactNode }) {
+  return children;
+}

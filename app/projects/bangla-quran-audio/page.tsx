@@ -19,11 +19,11 @@ export default function ProjectPage() {
             <h1 className="text-3xl font-bold text-neutral-900 dark:text-neutral-100">
               Bangla Quran Audio
             </h1>
-            <span className="px-3 py-1 text-xs bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded">Personal</span>
+            <span className="px-3 py-1 text-xs bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded">Web</span>
           </div>
 
           <p className="text-base text-neutral-600 dark:text-neutral-400 mb-6">
-            A website to listen to Bangla Quran audio. It provides a user-friendly interface to listen to the Quran in Bangla language.
+            Listen to the complete Holy Quran with all 114 Surahs in a beautiful Bengali interface. Select any Surah and audio plays ayah by ayah.
           </p>
 
           <div className="flex flex-wrap justify-center gap-2 mb-6">
@@ -31,6 +31,8 @@ export default function ProjectPage() {
             <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">nextjs</span>
             <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">react</span>
             <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">audio</span>
+            <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">bangla</span>
+            <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">islamic</span>
           </div>
 
           <div className="flex justify-center gap-3">

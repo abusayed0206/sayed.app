@@ -17,13 +17,13 @@ export default function ProjectPage() {
 
           <div className="flex flex-col items-center gap-4 mb-4">
             <h1 className="text-3xl font-bold text-neutral-900 dark:text-neutral-100">
-              CUET Students Directory
+              CUET Student Directory
             </h1>
-            <span className="px-3 py-1 text-xs bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded">Personal</span>
+            <span className="px-3 py-1 text-xs bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded">Web</span>
           </div>
 
           <p className="text-base text-neutral-600 dark:text-neutral-400 mb-6">
-            Student Information: Access detailed profiles including student ID, name, department, and more. Department Statistics: Get total student counts by batch for each department.
+            Search student information by ID, name, department, or batch from Chittagong University of Engineering and Technology.
           </p>
 
           <div className="flex flex-wrap justify-center gap-2 mb-6">

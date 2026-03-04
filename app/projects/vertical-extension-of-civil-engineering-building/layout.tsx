@@ -26,3 +26,7 @@ export const metadata: Metadata = {
     images: ['/api/og/project?title=Vertical Extension of Civil Engineering Building'],
   },
 };
+
+export default function Layout({ children }: { children: React.ReactNode }) {
+  return children;
+}

@@ -17,13 +17,13 @@ export default function ProjectPage() {
 
           <div className="flex flex-col items-center gap-4 mb-4">
             <h1 className="text-3xl font-bold text-neutral-900 dark:text-neutral-100">
-              Film Page Screenshot from Letterboxd
+              Letterboxd Film Poster
             </h1>
-            <span className="px-3 py-1 text-xs bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded">Personal</span>
+            <span className="px-3 py-1 text-xs bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded">Web</span>
           </div>
 
           <p className="text-base text-neutral-600 dark:text-neutral-400 mb-6">
-            A poster style screenshot of a RSS film page from Letterboxd. Updated with the latest film data daily.
+            Auto-generated poster-style screenshot of the last 50 watched films from Letterboxd RSS feed. Updated daily at 1920x1080.
           </p>
 
           <div className="flex flex-wrap justify-center gap-2 mb-6">
@@ -31,13 +31,14 @@ export default function ProjectPage() {
             <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">letterboxd</span>
             <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">rss</span>
             <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">screenshot</span>
+            <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">automation</span>
           </div>
 
           <div className="flex justify-center gap-3">
-            <a href="https://github.com/abusayed0206/film-page-screenshot?tab=readme-ov-file" target="_blank" rel="noopener noreferrer" className="px-4 py-2 text-sm border border-neutral-200 dark:border-neutral-800 rounded-md hover:bg-neutral-100 dark:hover:bg-neutral-900 transition-colors">
+            <a href="https://github.com/abusayed0206/film-page-screenshot" target="_blank" rel="noopener noreferrer" className="px-4 py-2 text-sm border border-neutral-200 dark:border-neutral-800 rounded-md hover:bg-neutral-100 dark:hover:bg-neutral-900 transition-colors">
               View Code 
             </a>
-            <a href="https://letterboxd.sayed.app/film.jpg" target="_blank" rel="noopener noreferrer" className="px-4 py-2 text-sm bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-900 rounded-md hover:bg-neutral-800 dark:hover:bg-neutral-200 transition-colors">
+            <a href="https://letterboxd.sayed.app/" target="_blank" rel="noopener noreferrer" className="px-4 py-2 text-sm bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-900 rounded-md hover:bg-neutral-800 dark:hover:bg-neutral-200 transition-colors">
               Live Demo 
             </a>
           </div>

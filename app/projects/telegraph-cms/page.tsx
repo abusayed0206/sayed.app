@@ -19,11 +19,11 @@ export default function ProjectPage() {
             <h1 className="text-3xl font-bold text-neutral-900 dark:text-neutral-100">
               Telegraph CMS
             </h1>
-            <span className="px-3 py-1 text-xs bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded">Personal</span>
+            <span className="px-3 py-1 text-xs bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded">Web</span>
           </div>
 
           <p className="text-base text-neutral-600 dark:text-neutral-400 mb-6">
-            Use Telegram's Telegraph platform as a CMS/blogging tool for your site! 🚀
+            Use Telegram's Telegraph platform as a headless CMS and blogging tool for your website. Currently hosting 500k+ posts.
           </p>
 
           <div className="flex flex-wrap justify-center gap-2 mb-6">
@@ -31,7 +31,7 @@ export default function ProjectPage() {
             <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">typescript</span>
             <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">react</span>
             <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">cms</span>
-            <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">api</span>
+            <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">telegraph</span>
           </div>
 
           <div className="flex justify-center gap-3">

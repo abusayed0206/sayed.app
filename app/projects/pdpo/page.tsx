@@ -17,23 +17,27 @@ export default function ProjectPage() {
 
           <div className="flex flex-col items-center gap-4 mb-4">
             <h1 className="text-3xl font-bold text-neutral-900 dark:text-neutral-100">
-              Personal Data Protection Ordinance, 2025 (PDPO) helper
+              PDPO Helper
             </h1>
-            <span className="px-3 py-1 text-xs bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded">Personal</span>
+            <span className="px-3 py-1 text-xs bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded">Web</span>
           </div>
 
           <p className="text-base text-neutral-600 dark:text-neutral-400 mb-6">
-            A web application to make email for sending to data fiduciary to complying with the Personal Data Protection Ordinance, 2025 (PDPO).
+            Exercise your rights under Bangladesh&apos;s Personal Data Protection Ordinance, 2025. Generate legally compliant emails for data access, correction, deletion, and portability requests.
           </p>
 
           <div className="flex flex-wrap justify-center gap-2 mb-6">
             <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">pdpo</span>
             <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">data-protection</span>
+            <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">privacy</span>
             <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">compliance</span>
-            <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">web-app</span>
+            <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">bangladesh</span>
           </div>
 
           <div className="flex justify-center gap-3">
+            <a href="https://github.com/opensourcebangladesh/pdpo" target="_blank" rel="noopener noreferrer" className="px-4 py-2 text-sm border border-neutral-200 dark:border-neutral-800 rounded-md hover:bg-neutral-100 dark:hover:bg-neutral-900 transition-colors">
+              View Code 
+            </a>
             <a href="https://pdpo.sayed.app/" target="_blank" rel="noopener noreferrer" className="px-4 py-2 text-sm bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-900 rounded-md hover:bg-neutral-800 dark:hover:bg-neutral-200 transition-colors">
               Live Demo 
             </a>

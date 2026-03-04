@@ -19,19 +19,19 @@ export default function ProjectPage() {
             <h1 className="text-3xl font-bold text-neutral-900 dark:text-neutral-100">
               Bsky Tools AIO
             </h1>
-            <span className="px-3 py-1 text-xs bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded">Personal</span>
+            <span className="px-3 py-1 text-xs bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded">Web</span>
           </div>
 
           <p className="text-base text-neutral-600 dark:text-neutral-400 mb-6">
-            An all-in-one toolkit for Bluesky social network users, featuring profile download profile, did to handle, handle to did, and more.
+            All-in-one Bluesky toolkit: Handle-to-DID converter, account age calculator, domain verification, post screenshot tool, and profile downloader.
           </p>
 
           <div className="flex flex-wrap justify-center gap-2 mb-6">
             <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">bluesky</span>
             <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">atproto</span>
-            <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">aio</span>
             <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">tools</span>
             <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">social-network</span>
+            <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">did</span>
           </div>
 
           <div className="flex justify-center gap-3">

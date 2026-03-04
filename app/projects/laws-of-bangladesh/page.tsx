@@ -19,18 +19,19 @@ export default function ProjectPage() {
             <h1 className="text-3xl font-bold text-neutral-900 dark:text-neutral-100">
               Laws of Bangladesh
             </h1>
-            <span className="px-3 py-1 text-xs bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded">Personal</span>
+            <span className="px-3 py-1 text-xs bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded">Web</span>
           </div>
 
           <p className="text-base text-neutral-600 dark:text-neutral-400 mb-6">
-            A website to browse the laws of Bangladesh. It provides a user-friendly interface to search and access various legal documents and acts.
+            Browse all Bangladeshi laws organized by volume, year, or chronological list. Covers legislation from 1799 to present with a user-friendly interface.
           </p>
 
           <div className="flex flex-wrap justify-center gap-2 mb-6">
             <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">scraping</span>
+            <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">mintlify</span>
             <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">documentation</span>
-            <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">web-app</span>
             <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">laws</span>
+            <span className="px-3 py-1 text-sm bg-neutral-100 dark:bg-neutral-900 text-neutral-600 dark:text-neutral-400 rounded">bangladesh</span>
           </div>
 
           <div className="flex justify-center gap-3">

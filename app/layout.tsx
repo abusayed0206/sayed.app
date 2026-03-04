@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
-import { Hind_Siliguri } from "next/font/google";
+import { Inter, Hind_Siliguri } from "next/font/google";
 import "./globals.css";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
 
 const hindSiliguri = Hind_Siliguri({
   weight: ["300", "400", "500", "600", "700"],
@@ -27,7 +32,7 @@ export const metadata: Metadata = {
     siteName: "Sayed",
     images: [
       {
-        url: "/imgs/OG.png",
+        url: "/api/og/project?title=Sayed | Projects",
         width: 1200,
         height: 630,
         alt: "Sayed | Projects",
@@ -40,7 +45,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sayed | Projects",
     description: "To showcase my projects and research work",
-    images: ["/imgs/OG.png"],
+    images: ["/api/og/project?title=Sayed | Projects"],
   },
 };
 
@@ -51,7 +56,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${hindSiliguri.className} antialiased`}>
+      <body className={`${inter.className} ${hindSiliguri.variable} antialiased`}>
         {children}
       </body>
     </html>

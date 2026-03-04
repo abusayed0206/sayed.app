@@ -1,3 +1,5 @@
+export type ProjectCategory = "Web" | "Windows" | "Android" | "Others";
+
 export interface Project {
   id: number;
   pin: boolean;
@@ -5,7 +7,9 @@ export interface Project {
   description: string;
   keywords: string[];
   slug: string;
+  category: ProjectCategory;
   image?: string;
+  gallery?: string[];
   sourceCode?: string;
   livePreview?: string;
 }

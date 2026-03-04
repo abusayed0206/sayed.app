@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@vercel/og": "^0.8.5",
+    "@vercel/og": "^1.0.0",
     "bsky-embed": "^0.2.7",
     "next": "16.0.10",
     "react": "^19.2.0",
@@ -22,7 +22,7 @@
     "@types/node": "^24.10.1",
     "@types/react": "^19.2.4",
     "@types/react-dom": "^19.2.3",
-    "eslint": "^9.39.1",
+    "eslint": "^10.0.2",
     "eslint-config-next": "16.0.1",
     "tailwindcss": "^4.1.17",
     "typescript": "^5.9.3"

@@ -182,15 +182,15 @@ export default function RedirectPage() {
   };
 
   return (
-    <div className="min-h-screen bg-neutral-50 dark:bg-neutral-950">
+    <div className="min-h-screen bg-[var(--color-bg)] dark:bg-[var(--color-bg-dark)]">
       <Header />
       <div className="max-w-5xl mx-auto px-4 py-12">
         <div className="text-center">
-          <h1 className="text-2xl font-bold mb-3 text-neutral-900 dark:text-neutral-100">
+          <h1 className="text-2xl font-bold mb-3 text-[var(--color-text)] dark:text-[var(--color-text-dark)]">
             ActivityPub Profile Redirect
           </h1>
 
-          <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-4 max-w-xl mx-auto">
+          <p className="text-sm text-[var(--color-text-secondary)] dark:text-[var(--color-text-secondary-dark)] mb-4 max-w-xl mx-auto">
             Open Fediverse profiles on your home instance. Enter your instance
             and the profile URL you want to view.
           </p>
@@ -198,19 +198,19 @@ export default function RedirectPage() {
           <div className="mb-8">
             <a
               href="/redirect/generate"
-              className="inline-flex items-center gap-2 px-4 py-2 text-sm bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-900 rounded-md hover:bg-neutral-800 dark:hover:bg-neutral-200 transition-colors"
+              className="inline-flex items-center gap-2 px-4 py-2 text-sm bg-[var(--color-primary)] text-white  hover:bg-[var(--color-primary-hover)] transition-colors"
             >
               🔗 Get a Shareable Link
             </a>
           </div>
 
-          <div className="max-w-2xl mx-auto border border-neutral-200 dark:border-neutral-800 rounded-lg p-6">
+          <div className="max-w-2xl mx-auto border border-[var(--color-border)] dark:border-[var(--color-border-dark)]  p-6">
             <div className="space-y-4 text-left">
               {/* Instance Input */}
               <div className="relative">
                 <label
                   htmlFor="instance"
-                  className="block text-sm font-medium text-neutral-900 dark:text-neutral-100 mb-2"
+                  className="block text-sm font-medium text-[var(--color-text)] dark:text-[var(--color-text-dark)] mb-2"
                 >
                   Your Instance
                 </label>
@@ -236,34 +236,34 @@ export default function RedirectPage() {
                   }
                   placeholder="mastodon.social"
                   autoComplete="off"
-                  className="w-full px-4 py-2 text-sm border border-neutral-200 dark:border-neutral-800 rounded-md bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 placeholder-neutral-400 dark:placeholder-neutral-600 focus:outline-none focus:ring-2 focus:ring-neutral-900 dark:focus:ring-neutral-100"
+                  className="w-full px-4 py-2 text-sm border border-[var(--color-border)] dark:border-[var(--color-border-dark)]  bg-[var(--color-bg-card)] dark:bg-[var(--color-bg-card-dark)] text-[var(--color-text)] dark:text-[var(--color-text-dark)] placeholder-[var(--color-text-muted)] dark:placeholder-[var(--color-text-muted-dark)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)]/40"
                 />
 
                 {showInstanceSuggestions && filteredInstances.length > 0 && (
-                  <div className="absolute z-10 w-full mt-1 bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-md shadow-lg max-h-48 overflow-y-auto">
+                  <div className="absolute z-10 w-full mt-1 bg-[var(--color-bg-card)] dark:bg-[var(--color-bg-card-dark)] border border-[var(--color-border)] dark:border-[var(--color-border-dark)]  shadow-lg max-h-48 overflow-y-auto">
                     {filteredInstances.map((inst) => (
                       <button
                         key={inst.domain}
                         type="button"
                         onClick={() => handleInstanceSelect(inst.domain)}
-                        className="w-full px-4 py-2 text-left text-sm hover:bg-neutral-100 dark:hover:bg-neutral-800 flex items-center justify-between"
+                        className="w-full px-4 py-2 text-left text-sm hover:bg-[var(--color-bg-muted)] dark:hover:bg-[var(--color-bg-muted-dark)] flex items-center justify-between"
                       >
                         <div>
-                          <div className="text-neutral-900 dark:text-neutral-100">
+                          <div className="text-[var(--color-text)] dark:text-[var(--color-text-dark)]">
                             {inst.domain}
                           </div>
-                          <div className="text-xs text-neutral-500 dark:text-neutral-500">
+                          <div className="text-xs text-[var(--color-text-muted)] dark:text-[var(--color-text-muted-dark)]">
                             {inst.name}
                           </div>
                         </div>
-                        <span className="text-xs px-2 py-0.5 bg-neutral-100 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400 rounded">
+                        <span className="text-xs px-2 py-0.5 bg-[var(--color-bg-muted)] dark:bg-[var(--color-bg-muted-dark)] text-[var(--color-text-secondary)] dark:text-[var(--color-text-secondary-dark)] rounded">
                           {inst.type}
                         </span>
                       </button>
                     ))}
                   </div>
                 )}
-                <p className="mt-1 text-xs text-neutral-500 dark:text-neutral-500">
+                <p className="mt-1 text-xs text-[var(--color-text-muted)] dark:text-[var(--color-text-muted-dark)]">
                   Defaults to mastodon.social, click to change
                 </p>
               </div>
@@ -272,7 +272,7 @@ export default function RedirectPage() {
               <div className="relative">
                 <label
                   htmlFor="profileUrl"
-                  className="block text-sm font-medium text-neutral-900 dark:text-neutral-100 mb-2"
+                  className="block text-sm font-medium text-[var(--color-text)] dark:text-[var(--color-text-dark)] mb-2"
                 >
                   Profile URL or Handle
                 </label>
@@ -292,31 +292,31 @@ export default function RedirectPage() {
                   }
                   placeholder="user@instance.com"
                   autoComplete="off"
-                  className="w-full px-4 py-2 text-sm border border-neutral-200 dark:border-neutral-800 rounded-md bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 placeholder-neutral-400 dark:placeholder-neutral-600 focus:outline-none focus:ring-2 focus:ring-neutral-900 dark:focus:ring-neutral-100"
+                  className="w-full px-4 py-2 text-sm border border-[var(--color-border)] dark:border-[var(--color-border-dark)]  bg-[var(--color-bg-card)] dark:bg-[var(--color-bg-card-dark)] text-[var(--color-text)] dark:text-[var(--color-text-dark)] placeholder-[var(--color-text-muted)] dark:placeholder-[var(--color-text-muted-dark)] focus:outline-none focus:ring-2 focus:ring-[var(--color-primary)]/40"
                 />
 
                 {showProfileSuggestions && filteredProfiles.length > 0 && (
-                  <div className="absolute z-10 w-full mt-1 bg-white dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 rounded-md shadow-lg max-h-48 overflow-y-auto">
+                  <div className="absolute z-10 w-full mt-1 bg-[var(--color-bg-card)] dark:bg-[var(--color-bg-card-dark)] border border-[var(--color-border)] dark:border-[var(--color-border-dark)]  shadow-lg max-h-48 overflow-y-auto">
                     {filteredProfiles.map((profile) => (
                       <button
                         key={profile}
                         type="button"
                         onClick={() => handleProfileSelect(profile)}
-                        className="w-full px-4 py-2 text-left text-sm hover:bg-neutral-100 dark:hover:bg-neutral-800 text-neutral-900 dark:text-neutral-100"
+                        className="w-full px-4 py-2 text-left text-sm hover:bg-[var(--color-bg-muted)] dark:hover:bg-[var(--color-bg-muted-dark)] text-[var(--color-text)] dark:text-[var(--color-text-dark)]"
                       >
                         {profile}
                       </button>
                     ))}
                   </div>
                 )}
-                <p className="mt-1 text-xs text-neutral-500 dark:text-neutral-500">
+                <p className="mt-1 text-xs text-[var(--color-text-muted)] dark:text-[var(--color-text-muted-dark)]">
                   Works with or without @ symbol — press Tab to autocomplete
                 </p>
               </div>
 
               {/* Error */}
               {error && (
-                <div className="p-3 text-sm bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-900 text-red-900 dark:text-red-100 rounded-md">
+                <div className="p-3 text-sm bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-900 text-red-900 dark:text-red-100 ">
                   {error}
                 </div>
               )}
@@ -324,7 +324,7 @@ export default function RedirectPage() {
               {/* Redirect */}
               <button
                 onClick={handleRedirect}
-                className="w-full px-4 py-2 text-sm bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-900 rounded-md hover:bg-neutral-800 dark:hover:bg-neutral-200 transition-colors font-medium"
+                className="w-full px-4 py-2 text-sm bg-[var(--color-primary)] text-white  hover:bg-[var(--color-primary-hover)] transition-colors font-medium"
               >
                 Open Profile on My Instance 
               </button>
@@ -332,39 +332,39 @@ export default function RedirectPage() {
           </div>
 
           {/* Instructions */}
-          <div className="max-w-2xl mx-auto mt-8 border border-neutral-200 dark:border-neutral-800 rounded-lg p-6 text-left">
-            <h2 className="text-lg font-semibold mb-4 text-neutral-900 dark:text-neutral-100">
+          <div className="max-w-2xl mx-auto mt-8 border border-[var(--color-border)] dark:border-[var(--color-border-dark)]  p-6 text-left">
+            <h2 className="text-lg font-semibold mb-4 text-[var(--color-text)] dark:text-[var(--color-text-dark)]">
               How to Use
             </h2>
-            <ul className="space-y-3 text-sm text-neutral-600 dark:text-neutral-400">
+            <ul className="space-y-3 text-sm text-[var(--color-text-secondary)] dark:text-[var(--color-text-secondary-dark)]">
               <li className="flex items-start gap-3">
                 <span className="text-lg shrink-0">💡</span>
                 <div>
-                  <strong className="text-neutral-900 dark:text-neutral-100">Quick Start:</strong> The instance field defaults to mastodon.social. Click it to change your home instance.
+                  <strong className="text-[var(--color-text)] dark:text-[var(--color-text-dark)]">Quick Start:</strong> The instance field defaults to mastodon.social. Click it to change your home instance.
                 </div>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-lg shrink-0">⌨️</span>
                 <div>
-                  <strong className="text-neutral-900 dark:text-neutral-100">Autocomplete:</strong> Press <kbd className="px-2 py-0.5 bg-neutral-100 dark:bg-neutral-800 rounded text-xs font-mono">Tab</kbd> to autocomplete suggestions in both fields.
+                  <strong className="text-[var(--color-text)] dark:text-[var(--color-text-dark)]">Autocomplete:</strong> Press <kbd className="px-2 py-0.5 bg-[var(--color-bg-muted)] dark:bg-[var(--color-bg-muted-dark)] rounded text-xs font-mono">Tab</kbd> to autocomplete suggestions in both fields.
                 </div>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-lg shrink-0">📝</span>
                 <div>
-                  <strong className="text-neutral-900 dark:text-neutral-100">Flexible Format:</strong> Enter profiles as <code className="px-1 py-0.5 bg-neutral-100 dark:bg-neutral-800 rounded text-xs break-all">@user@domain.com</code>, <code className="px-1 py-0.5 bg-neutral-100 dark:bg-neutral-800 rounded text-xs break-all">user@domain.com</code>, or <code className="px-1 py-0.5 bg-neutral-100 dark:bg-neutral-800 rounded text-xs break-all">https://domain.com/@user</code>
+                  <strong className="text-[var(--color-text)] dark:text-[var(--color-text-dark)]">Flexible Format:</strong> Enter profiles as <code className="px-1 py-0.5 bg-[var(--color-bg-muted)] dark:bg-[var(--color-bg-muted-dark)] rounded text-xs break-all">@user@domain.com</code>, <code className="px-1 py-0.5 bg-[var(--color-bg-muted)] dark:bg-[var(--color-bg-muted-dark)] rounded text-xs break-all">user@domain.com</code>, or <code className="px-1 py-0.5 bg-[var(--color-bg-muted)] dark:bg-[var(--color-bg-muted-dark)] rounded text-xs break-all">https://domain.com/@user</code>
                 </div>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-lg shrink-0">🔗</span>
                 <div className="wrap-break-word">
-                  <strong className="text-neutral-900 dark:text-neutral-100">Share Links:</strong> Use <code className="px-1 py-0.5 bg-neutral-100 dark:bg-neutral-800 rounded text-xs break-all inline-block">sayed.app/redirect/@user@domain.com</code> to share direct redirect links.
+                  <strong className="text-[var(--color-text)] dark:text-[var(--color-text-dark)]">Share Links:</strong> Use <code className="px-1 py-0.5 bg-[var(--color-bg-muted)] dark:bg-[var(--color-bg-muted-dark)] rounded text-xs break-all inline-block">sayed.app/redirect/@user@domain.com</code> to share direct redirect links.
                 </div>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-lg shrink-0">🌐</span>
                 <div>
-                  <strong className="text-neutral-900 dark:text-neutral-100">Works With:</strong> Mastodon, Pixelfed, Lemmy, Kbin, PeerTube, Threads, Bridgy Fed, and all ActivityPub platforms.
+                  <strong className="text-[var(--color-text)] dark:text-[var(--color-text-dark)]">Works With:</strong> Mastodon, Pixelfed, Lemmy, Kbin, PeerTube, Threads, Bridgy Fed, and all ActivityPub platforms.
                 </div>
               </li>
             </ul>
@@ -374,13 +374,13 @@ export default function RedirectPage() {
           <div className="mt-8 flex gap-3 justify-center">
             <a
               href="/redirect/generate"
-              className="inline-flex items-center gap-2 px-4 py-2 text-sm bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-900 rounded-md hover:bg-neutral-800 dark:hover:bg-neutral-200 transition-colors"
+              className="inline-flex items-center gap-2 px-4 py-2 text-sm bg-[var(--color-primary)] text-white  hover:bg-[var(--color-primary-hover)] transition-colors"
             >
               Generate Shareable Link 
             </a>
             <a
               href="/"
-              className="inline-flex items-center gap-2 px-4 py-2 text-sm border border-neutral-200 dark:border-neutral-800 rounded-md hover:bg-neutral-100 dark:hover:bg-neutral-900 transition-colors"
+              className="inline-flex items-center gap-2 px-4 py-2 text-sm border border-[var(--color-border)] dark:border-[var(--color-border-dark)]  hover:bg-[var(--color-bg-muted)] dark:hover:bg-[var(--color-bg-muted-dark)] transition-colors"
             >
               ← Back to Home
             </a>
