@@ -192,5 +192,18 @@
     "gallery": ["/imgs/tracker-bd.png"],
     "sourceCode": "",
     "livePreview": "https://tracker.bd/"
+  },
+  {
+    "id": 16,
+    "pin": true,
+    "name": "kriti.app",
+    "description": "Bangla font catalog and CDN. Explore and use a curated collection of Bangla fonts for web and design projects. Free to use with easy CDN integration.",
+    "keywords": ["bangla", "fonts", "cdn", "web-design", "design"],
+    "slug": "kriti",
+    "category": "Web",
+    "image": "/imgs/kriti.png",
+    "gallery": ["/imgs/kriti.png"],
+    "sourceCode": "",
+    "livePreview": "https://kriti.app/"
   }
 ]
