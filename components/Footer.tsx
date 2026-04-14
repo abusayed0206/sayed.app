@@ -8,7 +8,7 @@ export default function Footer() {
     { href: "https://github.com/abusayed0206", icon: <FaGithub className="w-4 h-4" />, label: "GitHub" },
     { href: "https://linkedin.com/in/abusayed0206", icon: <SiLinkedin className="w-4 h-4" />, label: "LinkedIn" },
     { href: "https://orcid.org/0009-0007-8994-5252", icon: <FaOrcid className="w-4 h-4" />, label: "ORCiD" },
-    { href: "https://bsky.app/profile/lrs.bd", icon: <FaBluesky className="w-4 h-4" />, label: "Bluesky" },
+    { href: "https://bsky.app/profile/sayed.page", icon: <FaBluesky className="w-4 h-4" />, label: "Bluesky" },
     { href: "https://mastodon.social/@abusayed", icon: <FaMastodon className="w-4 h-4" />, label: "Mastodon" },
   ];
 

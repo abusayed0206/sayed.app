@@ -24,7 +24,7 @@ export default function PersonalFeedPage() {
           <p className="text-sm text-[var(--color-text-secondary)] dark:text-[var(--color-text-secondary-dark)] mb-2">
             Updates from{" "}
             <a
-              href="https://bsky.app/profile/lrs.bd"
+              href="https://bsky.app/profile/sayed.page"
               target="_blank"
               rel="noopener noreferrer"
               className="underline hover:text-[var(--color-text)] dark:hover:text-[var(--color-text-dark)]"
@@ -38,7 +38,7 @@ export default function PersonalFeedPage() {
             ), ActivityPub (
             <a href="https://sayed.app/s/mstdn" target="_blank" rel="noopener noreferrer" className="underline hover:text-[var(--color-text)] dark:hover:text-[var(--color-text-dark)]">@abusayed@mastodon.social</a>
             ) and ATProto/Bsky (
-            <a href="https://bsky.app/profile/lrs.bd" target="_blank" rel="noopener noreferrer" className="underline hover:text-[var(--color-text)] dark:hover:text-[var(--color-text-dark)]">@lrs.bd</a>
+            <a href="https://bsky.app/profile/sayed.page" target="_blank" rel="noopener noreferrer" className="underline hover:text-[var(--color-text)] dark:hover:text-[var(--color-text-dark)]">@lrs.bd</a>
             )
           </p>
         </div>
