@@ -29,16 +29,16 @@ export default function PersonalFeedPage() {
               rel="noopener noreferrer"
               className="underline hover:text-[var(--color-text)] dark:hover:text-[var(--color-text-dark)]"
             >
-              @lrs.bd
+              @sayed.page
             </a>
           </p>
           <p className="text-sm text-[var(--color-text-muted)] dark:text-[var(--color-text-muted-dark)] leading-relaxed max-w-2xl mx-auto">
             This is my social media feed. Available on the web (
-            <a href="https://feed.lrs.bd" target="_blank" rel="noopener noreferrer" className="underline hover:text-[var(--color-text)] dark:hover:text-[var(--color-text-dark)]">feed.lrs.bd</a>
+            <a href="https://feed.sayed.app" target="_blank" rel="noopener noreferrer" className="underline hover:text-[var(--color-text)] dark:hover:text-[var(--color-text-dark)]">feed.sayed.app</a>
             ), ActivityPub (
             <a href="https://sayed.app/s/mstdn" target="_blank" rel="noopener noreferrer" className="underline hover:text-[var(--color-text)] dark:hover:text-[var(--color-text-dark)]">@abusayed@mastodon.social</a>
             ) and ATProto/Bsky (
-            <a href="https://bsky.app/profile/sayed.page" target="_blank" rel="noopener noreferrer" className="underline hover:text-[var(--color-text)] dark:hover:text-[var(--color-text-dark)]">@lrs.bd</a>
+            <a href="https://bsky.app/profile/sayed.page" target="_blank" rel="noopener noreferrer" className="underline hover:text-[var(--color-text)] dark:hover:text-[var(--color-text-dark)]">@sayed.page</a>
             )
           </p>
         </div>
@@ -46,7 +46,7 @@ export default function PersonalFeedPage() {
         {/* Bluesky Feed Embed */}
         <div className=" border border-[var(--color-border)] dark:border-[var(--color-border-dark)] bg-[var(--color-bg-card)] dark:bg-[var(--color-bg-card-dark)] overflow-hidden">
           <bsky-embed
-            username="lrs.bd"
+            username="sayed.page"
             limit="20"
             link-target="_blank"
             link-image="false"

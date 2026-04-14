@@ -2,15 +2,15 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Personal Feed | Sayed',
-  description: 'Updates from @lrs.bd - Personal social media feed on Bluesky',
+  description: 'Updates from @sayed.page - Personal social media feed on Bluesky',
   openGraph: {
     title: 'Personal Feed | Sayed',
-    description: 'Updates from @lrs.bd - Personal social media feed on Bluesky',
+    description: 'Updates from @sayed.page - Personal social media feed on Bluesky',
     url: 'https://sayed.app/personal-feed',
     siteName: 'Sayed',
     images: [
       {
-        url: '/api/og/project?title=Personal%20Feed%20(%40lrs.bd)',
+        url: '/api/og/project?title=Personal%20Feed%20(%40sayed.page)',
         width: 1200,
         height: 630,
         alt: 'Personal Feed | Sayed',
@@ -22,8 +22,8 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Personal Feed | Sayed',
-    description: 'Updates from @lrs.bd - Personal social media feed on Bluesky',
-    images: ['/api/og/project?title=Personal%20Feed%20(%40lrs.bd)'],
+    description: 'Updates from @sayed.page - Personal social media feed on Bluesky',
+    images: ['/api/og/project?title=Personal%20Feed%20(%40sayed.page)'],
   },
 };
 
