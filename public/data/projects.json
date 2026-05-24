@@ -205,5 +205,18 @@
     "gallery": ["/imgs/kriti.png"],
     "sourceCode": "",
     "livePreview": "https://kriti.app/"
+  },
+  {
+    "id": 17,
+    "pin": false,
+    "name": "Kriti Bangla Fonts",
+    "description": "WordPress plugin to add high-quality Bangla fonts with live preview, searchable catalog, and flexible delivery via Kriti CDN or locally hosted .woff2 files.",
+    "keywords": ["wordpress", "plugin", "bangla", "fonts", "typography", "cdn", "woff2"],
+    "slug": "kriti-bangla-fonts",
+    "category": "Web",
+    "image": "/imgs/kriti-font-plugin.png",
+    "gallery": ["/imgs/kriti-font-plugin.png"],
+    "sourceCode": "https://github.com/abusayed0206/kriti-wp",
+    "livePreview": "https://wordpress.org/plugins/kriti-bangla-fonts/"
   }
 ]
