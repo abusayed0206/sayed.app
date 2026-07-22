@@ -1,18 +1,22 @@
 "use client";
-import { useEffect, useState } from "react";
+
+import { useEffect, useState, useMemo } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { Project } from "@/types/project";
+import ProjectCard from "@/components/ProjectCard";
+import CategoryFilter from "@/components/CategoryFilter";
+import { Project, ProjectCategory } from "@/types/project";
 
 export default function ProjectsPage() {
   const [projects, setProjects] = useState<Project[]>([]);
+  const [activeCategory, setActiveCategory] = useState<ProjectCategory | "All">("All");
+  const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
     const fetchProjects = async () => {
       try {
         const response = await fetch("/data/projects.json");
         const data: Project[] = await response.json();
-        // Sort: pinned projects first, then by id
         const sorted = data.sort((a, b) => {
           if (a.pin && !b.pin) return -1;
           if (!a.pin && b.pin) return 1;
@@ -27,114 +31,109 @@ export default function ProjectsPage() {
     fetchProjects();
   }, []);
 
+  const filteredProjects = useMemo(() => {
+    return projects.filter((p) => {
+      const matchesCategory = activeCategory === "All" || p.category === activeCategory;
+      const query = searchQuery.toLowerCase().trim();
+      const matchesSearch =
+        !query ||
+        p.name.toLowerCase().includes(query) ||
+        p.description.toLowerCase().includes(query) ||
+        p.keywords.some((k) => k.toLowerCase().includes(query));
+
+      return matchesCategory && matchesSearch;
+    });
+  }, [projects, activeCategory, searchQuery]);
+
+  const categoryCounts = useMemo(() => {
+    const counts: Record<string, number> = { All: projects.length };
+    projects.forEach((p) => {
+      counts[p.category] = (counts[p.category] || 0) + 1;
+    });
+    return counts;
+  }, [projects]);
+
   return (
-    <div className="min-h-screen bg-white dark:bg-black">
+    <div className="min-h-screen bg-white dark:bg-black text-neutral-900 dark:text-neutral-100">
       <Header />
 
       {/* Page Header */}
-      <section className="py-8">
-        <div className="max-w-3xl mx-auto px-6">
-          <h1 className="text-2xl font-bold mb-2 text-black dark:text-white">
-            Projects
+      <section className="py-10 border-b border-neutral-200 dark:border-neutral-800 bg-neutral-50/50 dark:bg-neutral-950/50">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center space-y-3">
+          <h1 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
+            All Projects &amp; Software
           </h1>
-          <p className="text-black dark:text-white">
-            All my projects in one place
+          <p className="text-sm sm:text-base text-neutral-600 dark:text-neutral-400 max-w-xl mx-auto">
+            Browse the complete catalog of Windows applications, web platforms, browser extensions, APIs, and open-source packages.
           </p>
         </div>
       </section>
 
       {/* Projects Section */}
-      <section className="py-8">
-        <div className="max-w-3xl mx-auto px-6">
-          {/* Projects List */}
-          <ul className="space-y-0">
-            {projects.map((project, index) => (
-              <li
-                key={project.id}
-                className={`py-4 ${
-                  index !== projects.length - 1
-                    ? "border-b border-black dark:border-white"
-                    : ""
-                }`}
-              >
-                <article>
-                  <header className="mb-2">
-                    <h3 className="text-lg font-bold text-black dark:text-white">
-                      <a
-                        href={`/projects/${project.slug}`}
-                        className="underline hover:no-underline"
-                      >
-                        {project.name}
-                      </a>
-                      {project.pin && (
-                        <span className="ml-2 text-sm" aria-label="Pinned">
-                          📌
-                        </span>
-                      )}
-                    </h3>
-                  </header>
+      <main className="max-w-4xl mx-auto px-4 sm:px-6 py-10 space-y-8">
+        {/* Centered Controls Bar */}
+        <div className="space-y-4 text-center">
+          {/* Centered Search Input */}
+          <div className="relative max-w-md mx-auto">
+            <input
+              type="text"
+              placeholder="Search catalog..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full pl-9 pr-4 py-2 text-xs rounded-lg border border-neutral-300 dark:border-neutral-700 bg-white dark:bg-neutral-900 text-neutral-900 dark:text-neutral-100 focus:outline-hidden focus:ring-2 focus:ring-neutral-400 dark:focus:ring-neutral-600 shadow-2xs"
+            />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="14"
+              height="14"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="absolute left-3 top-1/2 -translate-y-1/2 text-neutral-400"
+            >
+              <circle cx="11" cy="11" r="8" />
+              <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            </svg>
+          </div>
 
-                  <p className="text-black dark:text-white mb-3 leading-relaxed">
-                    {project.description}
-                  </p>
-
-                  <div className="flex flex-wrap items-center gap-2 text-sm">
-                    {/* Keywords */}
-                    <div className="flex flex-wrap gap-2">
-                      {project.keywords.map((keyword, index) => (
-                        <span
-                          key={index}
-                          className="text-black dark:text-white"
-                        >
-                          #{keyword}
-                        </span>
-                      ))}
-                    </div>
-
-                    {/* Links */}
-                    {(project.sourceCode || project.livePreview) && (
-                      <>
-                        <span className="text-black dark:text-white">•</span>
-                        <div className="flex gap-2">
-                          {project.sourceCode && (
-                            <a
-                              href={project.sourceCode}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-black dark:text-white underline hover:no-underline"
-                            >
-                              [code]
-                            </a>
-                          )}
-                          {project.livePreview && (
-                            <a
-                              href={project.livePreview}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-black dark:text-white underline hover:no-underline"
-                            >
-                              [demo]
-                            </a>
-                          )}
-                        </div>
-                      </>
-                    )}
-                  </div>
-                </article>
-              </li>
-            ))}
-          </ul>
-
-          {/* Empty State */}
-          {projects.length === 0 && (
-            <div className="text-center py-12">
-              <p className="text-black dark:text-white">
-                No projects found.
-              </p>
-            </div>
-          )}
+          {/* Centered Compact Category Filter */}
+          <div className="flex justify-center">
+            <CategoryFilter
+              active={activeCategory}
+              counts={categoryCounts}
+              onChange={setActiveCategory}
+            />
+          </div>
         </div>
-      </section>
+
+        {/* Project Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          {filteredProjects.map((project) => (
+            <ProjectCard key={project.id} project={project} />
+          ))}
+        </div>
+
+        {/* Empty State */}
+        {filteredProjects.length === 0 && projects.length > 0 && (
+          <div className="text-center py-16 rounded-lg border border-dashed border-neutral-300 dark:border-neutral-800 bg-neutral-50/50 dark:bg-neutral-900/50 p-6 space-y-3">
+            <p className="text-sm text-neutral-600 dark:text-neutral-400">
+              No projects found matching your search.
+            </p>
+            <button
+              onClick={() => {
+                setActiveCategory("All");
+                setSearchQuery("");
+              }}
+              className="px-3 py-1.5 text-xs font-semibold rounded-md bg-neutral-900 text-white dark:bg-neutral-100 dark:text-neutral-900 hover:opacity-80"
+            >
+              Reset Filters
+            </button>
+          </div>
+        )}
+      </main>
 
       <Footer />
     </div>

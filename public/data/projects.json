@@ -4,11 +4,19 @@
     "pin": false,
     "name": "CUET Student Directory",
     "description": "Search student information by ID, name, department, or batch from Chittagong University of Engineering and Technology.",
-    "keywords": ["nextjs", "typescript", "react", "supabase", "web-app"],
+    "keywords": [
+      "nextjs",
+      "typescript",
+      "react",
+      "supabase",
+      "web-app"
+    ],
     "slug": "cuet-students-directory",
     "category": "Web",
     "image": "/imgs/cuet.png",
-    "gallery": ["/imgs/cuet.png"],
+    "gallery": [
+      "/imgs/cuet.png"
+    ],
     "sourceCode": "https://github.com/abusayed0206/cuet",
     "livePreview": "https://cuet.sayed.app/"
   },
@@ -17,11 +25,20 @@
     "pin": false,
     "name": "Bangla Movies & Series",
     "description": "Browse the latest Bangla movies and TV series powered by TMDB API. Search, discover, and explore Bengali cinema and television.",
-    "keywords": ["nextjs", "typescript", "react", "tmdb", "movies", "bangla"],
+    "keywords": [
+      "nextjs",
+      "typescript",
+      "react",
+      "tmdb",
+      "movies",
+      "bangla"
+    ],
     "slug": "bangla-movies-series-tmdb-wrapper",
     "category": "Web",
     "image": "/imgs/banglamovies.png",
-    "gallery": ["/imgs/banglamovies.png"],
+    "gallery": [
+      "/imgs/banglamovies.png"
+    ],
     "sourceCode": "https://github.com/abusayed0206/banglamovies",
     "livePreview": "https://movies.sayed.app/"
   },
@@ -30,24 +47,42 @@
     "pin": true,
     "name": "Laws of Bangladesh",
     "description": "Browse all Bangladeshi laws organized by volume, year, or chronological list. Covers legislation from 1799 to present with a user-friendly interface.",
-    "keywords": ["scraping", "mintlify", "documentation", "laws", "bangladesh"],
+    "keywords": [
+      "scraping",
+      "mintlify",
+      "documentation",
+      "laws",
+      "bangladesh"
+    ],
     "slug": "laws-of-bangladesh",
-    "category": "Web",
-    "image": "/imgs/laws.png",
-    "gallery": ["/imgs/laws.png"],
+    "category": "Windows",
+    "image": "/imgs/laws-of-bangladesh-app.png",
+    "gallery": [
+      "/imgs/laws-of-bangladesh-app.png",
+      "/imgs/laws-of-bangladesh-app-ss1.png",
+      "/imgs/laws-of-bangladesh-app-ss2.png"
+    ],
     "sourceCode": "https://github.com/lawsofbangladesh/laws",
-    "livePreview": "https://laws.sayed.app/"
+    "livePreview": "https://apps.microsoft.com/detail/9pn0c9gtffck?hl=en-US&gl=BD"
   },
   {
     "id": 4,
     "pin": false,
     "name": "Telegraph CMS",
     "description": "Use Telegram's Telegraph platform as a headless CMS and blogging tool for your website. Currently hosting 500k+ posts.",
-    "keywords": ["nextjs", "typescript", "react", "cms", "telegraph"],
+    "keywords": [
+      "nextjs",
+      "typescript",
+      "react",
+      "cms",
+      "telegraph"
+    ],
     "slug": "telegraph-cms",
     "category": "Web",
-    "image": "/imgs/telegraph-cms.jpg",
-    "gallery": ["/imgs/telegraph-cms.jpg"],
+    "image": "/imgs/telegraph-cms.svg",
+    "gallery": [
+      "/imgs/telegraph-cms.jpg"
+    ],
     "sourceCode": "https://github.com/abusayed0206/telegraphcms",
     "livePreview": "https://telegraphcms.sayed.app/"
   },
@@ -56,11 +91,20 @@
     "pin": false,
     "name": "Digitalized Bangla Films",
     "description": "A data project to add and update old Bangla films on IMDb and TMDB, preserving Bengali cinema history digitally.",
-    "keywords": ["csv", "imdb", "tmdb", "bangla-films", "data", "preservation"],
+    "keywords": [
+      "csv",
+      "imdb",
+      "tmdb",
+      "bangla-films",
+      "data",
+      "preservation"
+    ],
     "slug": "digitalized-bangla-films-updating-on-imdb-and-tmdb",
     "category": "Others",
-    "image": "/imgs/sayed.png",
-    "gallery": [],
+    "image": "/imgs/digitalized-bangla-films-updating-on-imdb-and-tmdb.svg",
+    "gallery": [
+      "/imgs/digitalized-bangla-films-updating-on-imdb-and-tmdb.svg"
+    ],
     "sourceCode": "https://github.com/abusayed0206/banglafilm"
   },
   {
@@ -68,11 +112,20 @@
     "pin": true,
     "name": "Bangla Quran Audio",
     "description": "Listen to the complete Holy Quran with all 114 Surahs in a beautiful Bengali interface. Select any Surah and audio plays ayah by ayah.",
-    "keywords": ["quran", "nextjs", "react", "audio", "bangla", "islamic"],
+    "keywords": [
+      "quran",
+      "nextjs",
+      "react",
+      "audio",
+      "bangla",
+      "islamic"
+    ],
     "slug": "bangla-quran-audio",
     "category": "Web",
-    "image": "",
-    "gallery": [],
+    "image": "/imgs/bangla-quran-audio.svg",
+    "gallery": [
+      "/imgs/bangla-quran-audio.svg"
+    ],
     "sourceCode": "https://github.com/abusayed0206/banglaquran",
     "livePreview": "https://quran.sayed.app"
   },
@@ -81,11 +134,19 @@
     "pin": false,
     "name": "Letterboxd Film Poster",
     "description": "Auto-generated poster-style screenshot of the last 50 watched films from Letterboxd RSS feed. Updated daily at 1920x1080.",
-    "keywords": ["film", "letterboxd", "rss", "screenshot", "automation"],
+    "keywords": [
+      "film",
+      "letterboxd",
+      "rss",
+      "screenshot",
+      "automation"
+    ],
     "slug": "film-page-screenshot-from-letterboxd",
     "category": "Web",
     "image": "/imgs/film_ss.jpeg",
-    "gallery": ["/imgs/film_ss.jpeg"],
+    "gallery": [
+      "/imgs/film_ss.jpeg"
+    ],
     "sourceCode": "https://github.com/abusayed0206/film-page-screenshot",
     "livePreview": "https://letterboxd.sayed.app/"
   },
@@ -94,11 +155,20 @@
     "pin": false,
     "name": "RDAP Lookup",
     "description": "Comprehensive RDAP lookups for domains, IP addresses, and ASNs using data directly from IANA RDAP registry servers.",
-    "keywords": ["rdap", "api", "domain", "ip", "asn", "whois"],
+    "keywords": [
+      "rdap",
+      "api",
+      "domain",
+      "ip",
+      "asn",
+      "whois"
+    ],
     "slug": "rdapclient",
     "category": "Web",
-    "image": "",
-    "gallery": [],
+    "image": "/imgs/rdapclient.svg",
+    "gallery": [
+      "/imgs/rdapclient.svg"
+    ],
     "sourceCode": "https://github.com/abusayed0206/rdapclient",
     "livePreview": "https://rdap.sayed.app/"
   },
@@ -107,11 +177,19 @@
     "pin": false,
     "name": "YearBook of Sayed",
     "description": "A personal yearbook containing classmates' names and IDs from primary school, high school, college, and university (CUET).",
-    "keywords": ["yearbook", "classmates", "school", "college", "university"],
+    "keywords": [
+      "yearbook",
+      "classmates",
+      "school",
+      "college",
+      "university"
+    ],
     "slug": "yearbook",
     "category": "Web",
     "image": "/imgs/yb.png",
-    "gallery": ["/imgs/yb.png"],
+    "gallery": [
+      "/imgs/yb.png"
+    ],
     "sourceCode": "",
     "livePreview": "https://yearbook.sayed.app/"
   },
@@ -120,11 +198,21 @@
     "pin": true,
     "name": "Watch Dashboard",
     "description": "A personal Trakt.tv dashboard showing recently watched movies and shows, watchlist, comments, custom lists, and library search — 800+ movies and 130+ shows tracked.",
-    "keywords": ["trakt", "dashboard", "nextjs", "movies", "tv-shows", "letterboxd"],
+    "keywords": [
+      "trakt",
+      "dashboard",
+      "nextjs",
+      "movies",
+      "tv-shows",
+      "letterboxd"
+    ],
     "slug": "trakt-web-dashboard",
     "category": "Web",
     "image": "/imgs/trakt.png",
-    "gallery": ["/imgs/trakt.png", "/imgs/tr.png"],
+    "gallery": [
+      "/imgs/trakt.png",
+      "/imgs/tr.png"
+    ],
     "sourceCode": "https://github.com/abusayed0206/watch",
     "livePreview": "https://trakt.sayed.app/"
   },
@@ -132,21 +220,37 @@
     "id": 11,
     "pin": false,
     "name": "Bangla Quran Windows App",
-    "description": "Flutter-based Windows app for listening to the complete Quran in Bangla. 114 Surahs, auto-play, offline support, and no ads.",
-    "keywords": ["bangla", "quran", "flutter", "windows", "audio"],
+    "description": "Listen to the complete Holy Quran with all 114 Surahs in Arabic, Bengali, and English. High performance Windows app built with Rust and Tauri, auto-play, dark/light themes, and offline listening with no ads.",
+    "keywords": [
+      "bangla",
+      "quran",
+      "flutter",
+      "windows",
+      "audio"
+    ],
     "slug": "bangla-quran-windows-app",
     "category": "Windows",
-    "image": "",
-    "gallery": [],
+    "image": "/imgs/bangla-quran-app.png",
+    "gallery": [
+      "/imgs/bangla-quran-app.png",
+      "/imgs/bangla-quran-app-ss1.png",
+      "/imgs/bangla-quran-app-ss2.png"
+    ],
     "sourceCode": "",
-    "livePreview": "https://apps.microsoft.com/detail/9n3gsz7v18zp?hl=en-US&gl=US"
+    "livePreview": "https://apps.microsoft.com/detail/9n3gsz7v18zp?hl=en-US&gl=BD"
   },
   {
     "id": 12,
     "pin": false,
     "name": "Bsky Tools AIO",
     "description": "All-in-one Bluesky toolkit: Handle-to-DID converter, account age calculator, domain verification, post screenshot tool, and profile downloader.",
-    "keywords": ["bluesky", "atproto", "tools", "social-network", "did"],
+    "keywords": [
+      "bluesky",
+      "atproto",
+      "tools",
+      "social-network",
+      "did"
+    ],
     "slug": "bsky-tools-aio",
     "category": "Web",
     "image": "/imgs/bsky.png",
@@ -159,11 +263,20 @@
     "pin": false,
     "name": "PDPO Helper",
     "description": "Exercise your rights under Bangladesh's Personal Data Protection Ordinance, 2025. Generate legally compliant emails for data access, correction, deletion, and portability requests.",
-    "keywords": ["pdpo", "data-protection", "privacy", "compliance", "bangladesh"],
+    "keywords": [
+      "pdpo",
+      "data-protection",
+      "privacy",
+      "compliance",
+      "bangladesh"
+    ],
     "slug": "pdpo",
     "category": "Web",
     "image": "/imgs/pdpo.png",
-    "gallery": ["/imgs/pdpo.png", "/imgs/pdpo2.png"],
+    "gallery": [
+      "/imgs/pdpo.png",
+      "/imgs/pdpo2.png"
+    ],
     "sourceCode": "https://github.com/opensourcebangladesh/pdpo",
     "livePreview": "https://pdpo.sayed.app/"
   },
@@ -172,24 +285,45 @@
     "pin": true,
     "name": "BanglaSaver",
     "description": "Free screensaver manager for Windows 10 and 11. One-click Bangla screensaver setup, preview before applying, clean removal — under 3 MB, no admin rights needed.",
-    "keywords": ["bangla", "screensaver", "windows", "app", "open-source"],
+    "keywords": [
+      "bangla",
+      "screensaver",
+      "windows",
+      "app",
+      "open-source"
+    ],
     "slug": "bangla-saver",
     "category": "Windows",
-    "image": "/imgs/bsaver (1).png",
-    "gallery": ["/imgs/bsaver (1).png", "/imgs/bsaver (2).png"],
+    "image": "/imgs/bangla-saver.png",
+    "gallery": [
+      "/imgs/bangla-saver.png",
+      "/imgs/bangla-saver-ss1.png",
+      "/imgs/bangla-saver-ss2.png"
+    ],
     "sourceCode": "https://github.com/abusayed0206/bsaver",
-    "livePreview": "https://apps.microsoft.com/detail/9p9fb1wn7pcv?hl=en-US&gl=US"
+    "livePreview": "https://apps.microsoft.com/detail/9p9fb1wn7pcv?hl=en-US&gl=BD"
   },
   {
     "id": 15,
     "pin": true,
     "name": "tracker.bd",
     "description": "Bangladesh's all-in-one tracking platform. Track parcels from 7+ couriers, check gold/silver/USD prices, verify phone numbers, look up domains via RDAP/WHOIS/DNS, and track flights.",
-    "keywords": ["tracking", "bangladesh", "courier", "gold-price", "usd-rate", "whois", "dns", "flight-tracker"],
+    "keywords": [
+      "tracking",
+      "bangladesh",
+      "courier",
+      "gold-price",
+      "usd-rate",
+      "whois",
+      "dns",
+      "flight-tracker"
+    ],
     "slug": "tracker-bd",
     "category": "Web",
-    "image": "/imgs/tracker-bd.png",
-    "gallery": ["/imgs/tracker-bd.png"],
+    "image": "/imgs/tracker-bd.svg",
+    "gallery": [
+      "/imgs/tracker-bd.png"
+    ],
     "sourceCode": "",
     "livePreview": "https://tracker.bd/"
   },
@@ -197,26 +331,279 @@
     "id": 16,
     "pin": true,
     "name": "kriti.app",
-    "description": "Bangla font catalog and CDN. Explore and use a curated collection of Bangla fonts for web and design projects. Free to use with easy CDN integration.",
-    "keywords": ["bangla", "fonts", "cdn", "web-design", "design"],
+    "description": "Bangladesh's largest free Bangla font catalog and CDN service. Browse 315+ fonts, test with live previews, and integrate via WOFF2 CDN, REST API, or PowerShell & Bash automatic installers.",
+    "keywords": [
+      "bangla",
+      "fonts",
+      "cdn",
+      "web-design",
+      "design"
+    ],
     "slug": "kriti",
     "category": "Web",
     "image": "/imgs/kriti.png",
-    "gallery": ["/imgs/kriti.png"],
+    "gallery": [
+      "/imgs/kriti.png"
+    ],
     "sourceCode": "",
     "livePreview": "https://kriti.app/"
   },
   {
     "id": 17,
     "pin": false,
-    "name": "Kriti Bangla Fonts",
+    "name": "Kriti Bangla Fonts (WordPress Plugin)",
     "description": "WordPress plugin to add high-quality Bangla fonts with live preview, searchable catalog, and flexible delivery via Kriti CDN or locally hosted .woff2 files.",
-    "keywords": ["wordpress", "plugin", "bangla", "fonts", "typography", "cdn", "woff2"],
+    "keywords": [
+      "wordpress",
+      "plugin",
+      "bangla",
+      "fonts",
+      "typography",
+      "cdn",
+      "woff2"
+    ],
     "slug": "kriti-bangla-fonts",
     "category": "Web",
     "image": "/imgs/kriti-font-plugin.png",
-    "gallery": ["/imgs/kriti-font-plugin.png"],
+    "gallery": [
+      "/imgs/kriti-font-plugin.png"
+    ],
     "sourceCode": "https://github.com/abusayed0206/kriti-wp",
     "livePreview": "https://wordpress.org/plugins/kriti-bangla-fonts/"
+  },
+  {
+    "id": 18,
+    "pin": false,
+    "name": "Bangla Library",
+    "description": "Fast, beautifully designed desktop application for Windows providing direct offline access to public-domain Bengali books from Wikisource with a customizable EPUB reader.",
+    "keywords": [
+      "bangla",
+      "books",
+      "library",
+      "wikisource",
+      "windows",
+      "epub",
+      "offline"
+    ],
+    "slug": "bangla-library",
+    "category": "Windows",
+    "image": "/imgs/bangla-library.png",
+    "gallery": [
+      "/imgs/bangla-library.png",
+      "/imgs/bangla-library-ss1.png",
+      "/imgs/bangla-library-ss2.png"
+    ],
+    "sourceCode": "",
+    "livePreview": "https://apps.microsoft.com/detail/9nj4lpwfw5rr?hl=en-US&gl=BD"
+  },
+  {
+    "id": 19,
+    "pin": false,
+    "name": "Bangla Dictionary : Multi Lexicon",
+    "description": "Offline companion for Bengali and English translations featuring clean modern interface, rapid search across multiple lexicons, phonetic typing engine, and zero internet reliance.",
+    "keywords": [
+      "bangla",
+      "dictionary",
+      "lexicon",
+      "translation",
+      "windows",
+      "offline",
+      "phonetic"
+    ],
+    "slug": "bangla-dictionary",
+    "category": "Windows",
+    "image": "/imgs/bangla-dictionary.png",
+    "gallery": [
+      "/imgs/bangla-dictionary.png",
+      "/imgs/bangla-dictionary-ss1.png",
+      "/imgs/bangla-dictionary-ss2.png"
+    ],
+    "sourceCode": "",
+    "livePreview": "https://apps.microsoft.com/detail/9nhd77r7f8g5?hl=en-US&gl=BD"
+  },
+  {
+    "id": 20,
+    "pin": false,
+    "name": "Kriti: Bangla Font Manager",
+    "description": "Simple font manager for Windows that helps you discover and install open-license Bangla fonts with a single click without requiring administrator privileges.",
+    "keywords": [
+      "bangla",
+      "fonts",
+      "font-manager",
+      "windows",
+      "typography",
+      "ofl"
+    ],
+    "slug": "kriti-font-manager",
+    "category": "Windows",
+    "image": "/imgs/kriti-font-manager.png",
+    "gallery": [
+      "/imgs/kriti-font-manager.png",
+      "/imgs/kriti-font-manager-ss1.png",
+      "/imgs/kriti-font-manager-ss2.png"
+    ],
+    "sourceCode": "",
+    "livePreview": "https://apps.microsoft.com/detail/9mwd4rvnvxtr?hl=en-US&gl=BD"
+  },
+  {
+    "id": 21,
+    "pin": false,
+    "name": "Bangla Calendar",
+    "description": "Lightweight desktop widget for Windows that displays the current Bangla date alongside Hijri dates, sunrise and sunset times, and Bangladeshi festival information.",
+    "keywords": [
+      "bangla",
+      "calendar",
+      "date",
+      "widget",
+      "windows",
+      "hijri",
+      "utility"
+    ],
+    "slug": "bangla-calendar",
+    "category": "Windows",
+    "image": "/imgs/bangla-calendar.png",
+    "gallery": [
+      "/imgs/bangla-calendar.png",
+      "/imgs/bangla-calendar-ss1.png",
+      "/imgs/bangla-calendar-ss2.png"
+    ],
+    "sourceCode": "",
+    "livePreview": "https://apps.microsoft.com/detail/9pcmxnfhvb6f?hl=en-US&gl=BD"
+  },
+  {
+    "id": 22,
+    "pin": false,
+    "name": "Hadith Bangla",
+    "description": "Offline-first Bangla hadith reader app for Windows. Browse and search authentic hadith collections with Arabic text, Bangla translations, explanations, and bookmarking.",
+    "keywords": [
+      "hadith",
+      "bangla",
+      "islamic",
+      "windows",
+      "offline",
+      "arabic"
+    ],
+    "slug": "hadith-bangla",
+    "category": "Windows",
+    "image": "/imgs/hadith-bangla.png",
+    "gallery": [
+      "/imgs/hadith-bangla.png",
+      "/imgs/hadith-bangla-ss1.png",
+      "/imgs/hadith-bangla-ss2.png"
+    ],
+    "sourceCode": "",
+    "livePreview": "https://apps.microsoft.com/detail/9p7l7bvszjq3?hl=en-US&gl=BD"
+  },
+  {
+    "id": 23,
+    "pin": false,
+    "name": "Shobdo Jaal",
+    "description": "Beautifully designed Bengali word search puzzle game for Windows with a minimalist glass-morphic interface, customizable Bangla fonts, and relaxing offline gameplay.",
+    "keywords": [
+      "bangla",
+      "puzzle",
+      "word-search",
+      "game",
+      "windows",
+      "offline"
+    ],
+    "slug": "shobdo-jaal",
+    "category": "Windows",
+    "image": "/imgs/shobdo-jaal.png",
+    "gallery": [
+      "/imgs/shobdo-jaal.png",
+      "/imgs/shobdo-jaal-ss1.png",
+      "/imgs/shobdo-jaal-ss2.png"
+    ],
+    "sourceCode": "",
+    "livePreview": "https://apps.microsoft.com/detail/9p55x6t33k66?hl=en-US&gl=BD"
+  },
+  {
+    "id": 24,
+    "pin": false,
+    "name": "Bangla Library Web App",
+    "description": "Web application for browsing, searching, and reading 618+ public-domain Bengali books across 253 authors and 552 categories from Wikisource.",
+    "keywords": [
+      "bangla",
+      "books",
+      "wikisource",
+      "library",
+      "astro",
+      "web-app"
+    ],
+    "slug": "bangla-library-web",
+    "category": "Web",
+    "image": "/imgs/bangla-library-web.png",
+    "gallery": [
+      "/imgs/bangla-library-web.png"
+    ],
+    "sourceCode": "https://github.com/abusayed0206/bangla-library",
+    "livePreview": "https://bangla-library.sayed.app/"
+  },
+  {
+    "id": 25,
+    "pin": false,
+    "name": "Quran REST API",
+    "description": "Lightning-fast, highly available RESTful API delivering Quranic resources including Ayah-by-Ayah JSON data, high-quality audio MP3s, and text images across Bengali, English, and Arabic via Cloudflare Edge.",
+    "keywords": [
+      "quran",
+      "api",
+      "rest-api",
+      "cloudflare-edge",
+      "audio",
+      "islamic"
+    ],
+    "slug": "quran-api",
+    "category": "Web",
+    "image": "/imgs/quran-api.png",
+    "gallery": [
+      "/imgs/quran-api.png"
+    ],
+    "sourceCode": "",
+    "livePreview": "https://quran.sayed.app/docs/"
+  },
+  {
+    "id": 26,
+    "pin": false,
+    "name": "Kriti: Bangla Font Manager (Firefox Addon)",
+    "description": "Firefox browser extension to apply custom Bengali typography to any website instantly. Browse 300+ Bangla fonts from the Kriti CDN.",
+    "keywords": [
+      "firefox",
+      "addon",
+      "extension",
+      "bangla",
+      "fonts",
+      "typography"
+    ],
+    "slug": "kriti-firefox-addon",
+    "category": "Web",
+    "image": "/imgs/kriti.png",
+    "gallery": [
+      "/imgs/kriti.png"
+    ],
+    "sourceCode": "",
+    "livePreview": "https://addons.mozilla.org/en-US/firefox/addon/kriti-bangla-font-manager/"
+  },
+  {
+    "id": 27,
+    "pin": false,
+    "name": "Bangla Rust Crate",
+    "description": "A Rust crate for Bangla date formatting, calendar calculations, number conversion, currency formatting, and Bangladeshi address utilities.",
+    "keywords": [
+      "rust",
+      "crate",
+      "bangla",
+      "bengali",
+      "calendar",
+      "i18n"
+    ],
+    "slug": "bangla-rust-crate",
+    "category": "Others",
+    "image": "/imgs/bangla-rust-crate.svg",
+    "gallery": [
+      "/imgs/bangla-rust-crate.svg"
+    ],
+    "sourceCode": "https://github.com/abusayed0206/bangla",
+    "livePreview": "https://crates.io/crates/bangla"
   }
 ]

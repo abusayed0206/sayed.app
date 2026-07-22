@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import MicrosoftStoreBadge from "@/components/MicrosoftStoreBadge";
 
 export default function ProjectPage() {
-  const gallery = ["/imgs/bangla-quran-app.png","/imgs/bangla-quran-app-ss1.png","/imgs/bangla-quran-app-ss2.png"];
+  const gallery = ["/imgs/shobdo-jaal.png","/imgs/shobdo-jaal-ss1.png","/imgs/shobdo-jaal-ss2.png"];
   const [activeImgIndex, setActiveImgIndex] = useState(0);
 
   return (
@@ -29,40 +29,30 @@ export default function ProjectPage() {
               Windows App
             </span>
             <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight">
-              Bangla Quran Audio
+              Shobdo Jaal
             </h1>
             <p className="text-sm sm:text-base text-neutral-600 dark:text-neutral-400 max-w-2xl">
-              Listen to and read the complete Quran with multi-language audio & Bangla translation.
+              Bengali word search puzzle game with glass-morphic design for Windows.
             </p>
           </div>
 
           <p className="text-sm text-neutral-600 dark:text-neutral-400 max-w-3xl mx-auto mb-6 leading-relaxed">
-            High-performance native Windows app built with Rust and Tauri. Includes all 114 Surahs, multi-language support (Arabic, Bengali, English), offline playback, auto-play, and zero ads.
+            Beautifully designed Bengali word search puzzle game for Windows with a minimalist glass-morphic interface, customizable Bangla fonts, and relaxing offline gameplay.
           </p>
 
           <div className="flex flex-wrap justify-center gap-1.5 mb-8">
-            <span className="px-2.5 py-0.5 text-xs bg-neutral-200/60 dark:bg-neutral-800/60 text-neutral-700 dark:text-neutral-300 rounded-md">#quran</span>
             <span className="px-2.5 py-0.5 text-xs bg-neutral-200/60 dark:bg-neutral-800/60 text-neutral-700 dark:text-neutral-300 rounded-md">#bangla</span>
-            <span className="px-2.5 py-0.5 text-xs bg-neutral-200/60 dark:bg-neutral-800/60 text-neutral-700 dark:text-neutral-300 rounded-md">#tauri</span>
-            <span className="px-2.5 py-0.5 text-xs bg-neutral-200/60 dark:bg-neutral-800/60 text-neutral-700 dark:text-neutral-300 rounded-md">#rust</span>
+            <span className="px-2.5 py-0.5 text-xs bg-neutral-200/60 dark:bg-neutral-800/60 text-neutral-700 dark:text-neutral-300 rounded-md">#puzzle</span>
+            <span className="px-2.5 py-0.5 text-xs bg-neutral-200/60 dark:bg-neutral-800/60 text-neutral-700 dark:text-neutral-300 rounded-md">#word-search</span>
+            <span className="px-2.5 py-0.5 text-xs bg-neutral-200/60 dark:bg-neutral-800/60 text-neutral-700 dark:text-neutral-300 rounded-md">#game</span>
             <span className="px-2.5 py-0.5 text-xs bg-neutral-200/60 dark:bg-neutral-800/60 text-neutral-700 dark:text-neutral-300 rounded-md">#windows</span>
-            <span className="px-2.5 py-0.5 text-xs bg-neutral-200/60 dark:bg-neutral-800/60 text-neutral-700 dark:text-neutral-300 rounded-md">#audio</span>
-            <span className="px-2.5 py-0.5 text-xs bg-neutral-200/60 dark:bg-neutral-800/60 text-neutral-700 dark:text-neutral-300 rounded-md">#islamic</span>
             <span className="px-2.5 py-0.5 text-xs bg-neutral-200/60 dark:bg-neutral-800/60 text-neutral-700 dark:text-neutral-300 rounded-md">#offline</span>
           </div>
 
           {/* Action buttons */}
           <div className="flex flex-wrap items-center justify-center gap-4">
-            <MicrosoftStoreBadge href="https://apps.microsoft.com/detail/9n3gsz7v18zp?hl=en-US&gl=BD" />
-            <a
-              href="https://github.com/abusayed0206/banglaquran"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-medium border border-neutral-300 dark:border-neutral-700 rounded-lg hover:bg-neutral-100 dark:hover:bg-neutral-900 transition-colors"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
-              View Source Code
-            </a>
+            <MicrosoftStoreBadge href="https://apps.microsoft.com/detail/9p55x6t33k66?hl=en-US&gl=BD" />
+            
           </div>
         </div>
       </section>
@@ -79,7 +69,7 @@ export default function ProjectPage() {
               <div className="relative aspect-[16/9] w-full rounded-xl overflow-hidden border border-neutral-200 dark:border-neutral-800 bg-neutral-100 dark:bg-neutral-900 shadow-md">
                 <img
                   src={gallery[activeImgIndex]}
-                  alt="Bangla Quran Audio screenshot"
+                  alt="Shobdo Jaal screenshot"
                   className="w-full h-full object-cover transition-opacity duration-300"
                 />
               </div>
@@ -110,8 +100,8 @@ export default function ProjectPage() {
               Overview
             </h2>
             <div className="bg-neutral-50 dark:bg-neutral-900/50 rounded-xl p-6 border border-neutral-200/80 dark:border-neutral-800/80 space-y-4 text-neutral-700 dark:text-neutral-300 leading-relaxed text-sm sm:text-base">
-              <p>Listen to the complete Holy Quran with all 114 Surahs in a beautifully designed interface. Originally designed for Bengali-speaking Muslims, this app has been expanded to support multiple languages for a wider audience seeking to listen to and read the Quran.</p>
-              <p>Completely rewritten from the ground up using modern technology (Rust and Tauri) for a lightning-fast, highly responsive Windows experience with full offline support and no advertisements.</p>
+              <p>Shobdo Jaal is a beautifully designed Bengali word search puzzle game for Windows. Designed for Bengali speakers and language learners to find hidden words inside letter grids.</p>
+              <p>Features a sleek minimalist glass-morphic interface, multiple font customization options, and unlimited puzzle generation completely offline.</p>
             </div>
           </div>
 
@@ -123,23 +113,23 @@ export default function ProjectPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               
               <div className="p-4 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 shadow-sm space-y-1.5">
-                <h3 className="font-semibold text-neutral-900 dark:text-neutral-100 text-sm sm:text-base">Multi-Language Audio & Text</h3>
-                <p className="text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed">Read text and listen to high-quality recitations in Arabic, Bengali, and English.</p>
+                <h3 className="font-semibold text-neutral-900 dark:text-neutral-100 text-sm sm:text-base">Glass-Morphic Design</h3>
+                <p className="text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed">Modern aesthetic with smooth dark and light themes.</p>
               </div>
 
               <div className="p-4 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 shadow-sm space-y-1.5">
-                <h3 className="font-semibold text-neutral-900 dark:text-neutral-100 text-sm sm:text-base">Offline Surah Downloading</h3>
-                <p className="text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed">Download your favorite Surahs directly to your device for uninterrupted offline listening.</p>
+                <h3 className="font-semibold text-neutral-900 dark:text-neutral-100 text-sm sm:text-base">Custom Typography</h3>
+                <p className="text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed">Select from multiple elegant Bangla fonts for grid rendering.</p>
               </div>
 
               <div className="p-4 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 shadow-sm space-y-1.5">
-                <h3 className="font-semibold text-neutral-900 dark:text-neutral-100 text-sm sm:text-base">Rust & Tauri Performance</h3>
-                <p className="text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed">Engineered with Rust and Tauri for ultra-fast startup and minimal resource usage.</p>
+                <h3 className="font-semibold text-neutral-900 dark:text-neutral-100 text-sm sm:text-base">Endless Offline Puzzles</h3>
+                <p className="text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed">Generates endless word search puzzles without internet reliance.</p>
               </div>
 
               <div className="p-4 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 shadow-sm space-y-1.5">
-                <h3 className="font-semibold text-neutral-900 dark:text-neutral-100 text-sm sm:text-base">Dark & Light Themes</h3>
-                <p className="text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed">Customizable visual themes for comfortable reading in low or bright light.</p>
+                <h3 className="font-semibold text-neutral-900 dark:text-neutral-100 text-sm sm:text-base">Relaxing Gameplay</h3>
+                <p className="text-xs sm:text-sm text-neutral-600 dark:text-neutral-400 leading-relaxed">Improves Bengali vocabulary in a calm, distraction-free environment.</p>
               </div>
             </div>
           </div>
@@ -168,29 +158,29 @@ export default function ProjectPage() {
 
               <div className="p-4 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50/50 dark:bg-neutral-900/50">
                 <span className="block text-xs text-neutral-500 dark:text-neutral-400 font-medium">Category</span>
-                <span className="block text-sm font-semibold text-neutral-900 dark:text-neutral-100 mt-1">Education</span>
+                <span className="block text-sm font-semibold text-neutral-900 dark:text-neutral-100 mt-1">Educational Game</span>
               </div>
 
               <div className="p-4 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50/50 dark:bg-neutral-900/50">
                 <span className="block text-xs text-neutral-500 dark:text-neutral-400 font-medium">Price</span>
-                <span className="block text-sm font-semibold text-neutral-900 dark:text-neutral-100 mt-1">Free (Ad-Free)</span>
+                <span className="block text-sm font-semibold text-neutral-900 dark:text-neutral-100 mt-1">Free</span>
               </div>
 
               <div className="p-4 rounded-xl border border-neutral-200 dark:border-neutral-800 bg-neutral-50/50 dark:bg-neutral-900/50">
-                <span className="block text-xs text-neutral-500 dark:text-neutral-400 font-medium">Offline Support</span>
-                <span className="block text-sm font-semibold text-neutral-900 dark:text-neutral-100 mt-1">100% Offline Capable</span>
+                <span className="block text-xs text-neutral-500 dark:text-neutral-400 font-medium">Game Mode</span>
+                <span className="block text-sm font-semibold text-neutral-900 dark:text-neutral-100 mt-1">Single Player Offline</span>
               </div>
             </div>
           </div>
 
           {/* CTA Banner */}
           <div className="p-6 sm:p-8 rounded-2xl bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 text-center space-y-4">
-            <h3 className="text-xl font-bold">Get Bangla Quran Audio from Microsoft Store</h3>
+            <h3 className="text-xl font-bold">Get Shobdo Jaal from Microsoft Store</h3>
             <p className="text-xs sm:text-sm text-neutral-300 dark:text-neutral-700 max-w-md mx-auto">
               Download and install directly on your Windows PC with safe, automatic updates from the Microsoft Store.
             </p>
             <div className="pt-2 flex justify-center">
-              <MicrosoftStoreBadge href="https://apps.microsoft.com/detail/9n3gsz7v18zp?hl=en-US&gl=BD" />
+              <MicrosoftStoreBadge href="https://apps.microsoft.com/detail/9p55x6t33k66?hl=en-US&gl=BD" />
             </div>
           </div>
         </div>

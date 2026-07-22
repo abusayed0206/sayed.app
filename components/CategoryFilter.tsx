@@ -3,11 +3,11 @@
 import { ProjectCategory } from "@/types/project";
 
 const categories: Array<{ value: ProjectCategory | "All"; label: string }> = [
-  { value: "All", label: "All" },
-  { value: "Web", label: "Web" },
-  { value: "Windows", label: "Windows" },
-  { value: "Android", label: "Android" },
-  { value: "Others", label: "Others" },
+  { value: "All", label: "All Projects" },
+  { value: "Windows", label: "Windows Apps" },
+  { value: "Web", label: "Web Applications" },
+  { value: "Android", label: "Android Apps" },
+  { value: "Others", label: "Libraries & Tools" },
 ];
 
 interface CategoryFilterProps {
@@ -16,9 +16,13 @@ interface CategoryFilterProps {
   onChange: (category: ProjectCategory | "All") => void;
 }
 
-export default function CategoryFilter({ active, counts, onChange }: CategoryFilterProps) {
+export default function CategoryFilter({
+  active,
+  counts,
+  onChange,
+}: CategoryFilterProps) {
   return (
-    <div className="flex flex-wrap gap-1.5">
+    <div className="flex flex-wrap items-center justify-center gap-1 p-1 rounded-lg border border-neutral-200 dark:border-neutral-800 bg-neutral-100/80 dark:bg-neutral-900/80 max-w-max mx-auto">
       {categories.map((cat) => {
         const count = cat.value === "All" ? counts["All"] || 0 : counts[cat.value] || 0;
         const isActive = active === cat.value;
@@ -27,14 +31,20 @@ export default function CategoryFilter({ active, counts, onChange }: CategoryFil
           <button
             key={cat.value}
             onClick={() => onChange(cat.value)}
-            className={`filter-tab inline-flex items-center gap-1 px-2.5 py-1 text-xs font-medium transition-colors border ${
+            className={`inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded-md ${
               isActive
-                ? "border-[var(--color-text)] dark:border-[var(--color-text-dark)] bg-[var(--color-text)] dark:bg-[var(--color-text-dark)] text-[var(--color-bg)] dark:text-[var(--color-bg-dark)]"
-                : "border-[var(--color-border)] dark:border-[var(--color-border-dark)] text-[var(--color-text-muted)] dark:text-[var(--color-text-muted-dark)] hover:text-[var(--color-text)] dark:hover:text-[var(--color-text-dark)] hover:border-[var(--color-text-muted)] dark:hover:border-[var(--color-text-muted-dark)]"
+                ? "bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900"
+                : "text-neutral-600 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 hover:bg-neutral-200/60 dark:hover:bg-neutral-800/60"
             }`}
           >
-            {cat.label}
-            <span className={`text-[10px] ${isActive ? "opacity-70" : "opacity-50"}`}>
+            <span>{cat.label}</span>
+            <span
+              className={`px-1.5 py-0.2 rounded-md text-[10px] font-bold ${
+                isActive
+                  ? "bg-white/20 dark:bg-neutral-900/20 text-white dark:text-neutral-900"
+                  : "bg-neutral-200 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400"
+              }`}
+            >
               {count}
             </span>
           </button>
