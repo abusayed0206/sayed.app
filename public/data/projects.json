@@ -1,134 +1,1793 @@
 [
   {
-    "id": 1,
-    "pin": false,
-    "name": "CUET Students Directory",
-    "description": "Student Information: Access detailed profiles including student ID, name, department, and more. Department Statistics: Get total student counts by batch for each department.",
-    "keywords": ["nextjs", "typescript", "react", "supabase", "web-app"],
-    "slug": "cuet-students-directory",
-    "image": "/imgs/cuet.png",
-    "sourceCode": "https://github.com/abusayed0206/cuet",
-    "livePreview": "https://cuet.sayed.app/"
+    "slug": "kriti",
+    "name": "kriti.app",
+    "tagline": "The largest free Bangla font catalog, with a CDN and an API.",
+    "summary": "Browse 315+ open-license Bangla fonts, test them with live previews, and use them anywhere via a WOFF2 CDN, a REST API, or one-line PowerShell & Bash installers.",
+    "category": "web",
+    "featured": true,
+    "platforms": [
+      "Web",
+      "CDN",
+      "API"
+    ],
+    "stack": [
+      "Cloudflare",
+      "WOFF2"
+    ],
+    "year": 2026,
+    "status": "Live",
+    "metrics": [
+      {
+        "value": "315+",
+        "label": "fonts"
+      }
+    ],
+    "overview": [
+      "Finding Bangla fonts you are actually allowed to use has always meant digging through forums and mirror sites. kriti.app collects fonts released under OFL, Creative Commons and GPL licenses in one catalog, credits each font's original author, and lets you try every one with your own text before downloading.",
+      "Kriti is also infrastructure: every font is served from a WOFF2 CDN, so a website can load Bangla typography with a single stylesheet link, and the catalog is exposed through a REST API. The same catalog powers the Kriti Windows app, the WordPress plugin, and the Firefox add-on."
+    ],
+    "features": [
+      {
+        "title": "Live previews",
+        "text": "Type your own Bangla text and see it rendered in every font."
+      },
+      {
+        "title": "WOFF2 CDN",
+        "text": "Drop-in stylesheet links for using any font on the web."
+      },
+      {
+        "title": "REST API",
+        "text": "Query the catalog programmatically for your own tools."
+      },
+      {
+        "title": "Automatic installers",
+        "text": "PowerShell and Bash one-liners that install fonts locally."
+      },
+      {
+        "title": "Open licenses only",
+        "text": "Every font is OFL, Creative Commons or GPL, with its author credited."
+      }
+    ],
+    "tags": [
+      "fonts",
+      "typography",
+      "cdn",
+      "api",
+      "bangla"
+    ],
+    "links": [
+      {
+        "label": "Open kriti.app",
+        "url": "https://kriti.app/"
+      }
+    ]
   },
   {
-    "id": 2,
-    "pin": false,
-    "name": "Bangla movies/series TMDB Wrapper",
-    "description": "A website to browse latest Bangla movies and series. It provides a user-friendly interface to search and access various Bangla movies and series.",
-    "keywords": ["nextjs", "typescript", "react", "api", "movies"],
-    "slug": "bangla-movies-series-tmdb-wrapper",
-    "image": "/imgs/banglamovies.png",
-    "sourceCode": "https://github.com/abusayed0206/banglamovies",
-    "livePreview": "https://movies.sayed.app/"
+    "slug": "filmie",
+    "name": "Filmie",
+    "tagline": "A fast Windows app for browsing films and shows, synced with Trakt.",
+    "summary": "Browse movies and TV shows, keep your Trakt history up to date, see your watching stats, and play from servers you add yourself. Free, open source, no telemetry.",
+    "category": "windows",
+    "featured": true,
+    "image": "/imgs/filmie.webp",
+    "platforms": [
+      "Windows"
+    ],
+    "stack": [
+      "Rust",
+      "Tauri",
+      "SQLite",
+      "TMDB API",
+      "Trakt API"
+    ],
+    "year": 2026,
+    "status": "Live",
+    "overview": [
+      "Filmie is a lightweight Windows app for exploring movies and TV shows with data from TMDB, and for keeping your Trakt history in order. Trending charts, new releases, cast pages, seasons and episodes are all a click or a Ctrl+K away.",
+      "Sign in with Trakt and it becomes your watching hub: continue watching, calendar, watchlist, lists, ratings and recommendations, plus personal stats worked out on your PC with no Trakt VIP needed. Nothing is marked as watched until you ask.",
+      "Filmie doesn't host or serve any video. Its built-in player only opens servers you add yourself, and TMDB and Trakt responses are cached in a local SQLite database so it stays fast and works offline."
+    ],
+    "features": [
+      {
+        "title": "Browse everything",
+        "text": "Trending, releases, anticipated and popular charts with filters for genre, decade, runtime and rating."
+      },
+      {
+        "title": "Ctrl+K palette",
+        "text": "Jump to any page, or search movies, shows, people and lists."
+      },
+      {
+        "title": "Trakt sync",
+        "text": "Continue watching, calendar, watchlist, history, lists, ratings and recommendations."
+      },
+      {
+        "title": "Your stats",
+        "text": "Totals, top genres, ratings, activity and a watching streak, computed locally and available offline."
+      },
+      {
+        "title": "You stay in control",
+        "text": "No automatic check-ins or scrobbling; nothing is marked watched until you say so."
+      },
+      {
+        "title": "Bring your own servers",
+        "text": "Add as many video servers as you like and switch between them while watching."
+      }
+    ],
+    "tags": [
+      "trakt",
+      "tmdb",
+      "movies",
+      "tauri",
+      "windows"
+    ],
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://filmie.sayed.app/"
+      },
+      {
+        "label": "Download for Windows",
+        "url": "https://github.com/abusayed0206/filmie/releases/latest/download/Filmie-Setup-x64.exe"
+      },
+      {
+        "label": "Source",
+        "url": "https://github.com/abusayed0206/filmie"
+      }
+    ]
   },
   {
-    "id": 3,
-    "pin": true,
-    "name": "Laws of Bangladesh",
-    "description": "A website to browse the laws of Bangladesh. It provides a user-friendly interface to search and access various legal documents and acts.",
-    "keywords": ["scraping", "documentation", "web-app", "laws"],
+    "slug": "tracker-bd",
+    "name": "tracker.bd",
+    "tagline": "Bangladesh's all-in-one tracker: parcels, prices, numbers, domains, flights.",
+    "summary": "Track parcels from 7+ couriers, check gold, silver and USD prices, verify phone numbers, look up domains via RDAP/WHOIS/DNS, and follow flights, all in one place.",
+    "category": "web",
+    "featured": true,
+    "platforms": [
+      "Web"
+    ],
+    "stack": [
+      "TypeScript",
+      "Cloudflare Workers"
+    ],
+    "year": 2026,
+    "status": "Live",
+    "overview": [
+      "Every Bangladeshi courier has its own tracking page, and most of them are slow. tracker.bd puts Sundarban, Pathao, RedX, Paperfly, Steadfast, Karibi and more behind a single search box, so one tracking number is all you need.",
+      "Around parcel tracking it bundles the other lookups people in Bangladesh do every week: today's gold, silver and USD rates, phone number checks, domain lookups over RDAP, WHOIS and DNS, and flight status."
+    ],
+    "features": [
+      {
+        "title": "7+ couriers",
+        "text": "Sundarban, Pathao, RedX, Paperfly, Steadfast, Karibi and others from one search."
+      },
+      {
+        "title": "Market prices",
+        "text": "Gold, silver and USD exchange rates."
+      },
+      {
+        "title": "Number checks",
+        "text": "Verify Bangladeshi phone numbers."
+      },
+      {
+        "title": "Domain lookups",
+        "text": "RDAP, WHOIS and DNS queries for any domain."
+      },
+      {
+        "title": "Flight tracking",
+        "text": "Follow flights in and out of Bangladesh."
+      }
+    ],
+    "tags": [
+      "tracking",
+      "couriers",
+      "rdap",
+      "bangladesh"
+    ],
+    "links": [
+      {
+        "label": "Open tracker.bd",
+        "url": "https://tracker.bd/"
+      }
+    ]
+  },
+  {
     "slug": "laws-of-bangladesh",
+    "name": "Laws of Bangladesh",
+    "tagline": "Every Bangladeshi law since 1799, on the web and offline on Windows.",
+    "summary": "Browse all Bangladeshi legislation by volume, year, or chronologically. The Windows app adds offline full-text search across 1,600+ acts, bilingual reading, and one-click hand-off to your AI assistant.",
+    "category": "web",
+    "featured": true,
     "image": "/imgs/laws.png",
-    "sourceCode": "https://github.com/lawsofbangladesh/laws",
-    "livePreview": "https://laws.sayed.app/"
+    "platforms": [
+      "Web",
+      "Windows"
+    ],
+    "stack": [
+      "Mintlify",
+      "TypeScript"
+    ],
+    "year": 2025,
+    "status": "Live",
+    "metrics": [
+      {
+        "value": "1,600+",
+        "label": "acts"
+      },
+      {
+        "value": "1799",
+        "label": "earliest law"
+      }
+    ],
+    "overview": [
+      "Bangladesh's laws are public, but reading them usually means scanned PDFs and government sites that are hard to search. Laws of Bangladesh organises every act, ordinance and regulation by volume, covering legislation from 1799 to today, in a clean reading interface.",
+      "The Windows app takes the same corpus offline: lightning-fast full-text search over 1,600+ acts, English and Bengali side by side, and an AI button that opens ChatGPT, Claude or Gemini pre-loaded with the law you are reading."
+    ],
+    "features": [
+      {
+        "title": "Complete corpus",
+        "text": "Legislation from 1799 to present, organised by volume, year, or chronology."
+      },
+      {
+        "title": "Offline full-text search",
+        "text": "Search 1,600+ acts instantly in the Windows app, no connection needed."
+      },
+      {
+        "title": "Bilingual",
+        "text": "Read in English and Bengali."
+      },
+      {
+        "title": "AI hand-off",
+        "text": "Open your preferred AI chat with the current law already loaded."
+      }
+    ],
+    "tags": [
+      "law",
+      "legal",
+      "open-data",
+      "windows",
+      "bangladesh"
+    ],
+    "links": [
+      {
+        "label": "Open website",
+        "url": "https://laws.sayed.app/"
+      },
+      {
+        "label": "Microsoft Store",
+        "url": "https://apps.microsoft.com/detail/9pn0c9gtffck?hl=en-US&gl=BD"
+      },
+      {
+        "label": "Source",
+        "url": "https://github.com/lawsofbangladesh/laws"
+      }
+    ]
   },
   {
-    "id": 4,
-    "pin": false,
-    "name": "Telegraph CMS",
-    "description": "Use Telegram's Telegraph platform as a CMS/blogging tool for your site! 🚀",
-    "keywords": ["nextjs", "typescript", "react", "cms", "api"],
-    "slug": "telegraph-cms",
-    "image": "/imgs/telegraph-cms.jpg",
-    "sourceCode": "https://github.com/abusayed0206/telegraphcms",
-    "livePreview": "https://telegraphcms.sayed.app/"
-  },
-  {
-    "id": 5,
-    "pin": false,
-    "name": "Digitalized Bangla Films updating on IMDB and TMDB",
-    "description": "A project to update/add old Bangla films on IMDB and TMDB.",
-    "keywords": ["csv", "imdb", "tmdb", "bangla-films", "data"],
-    "slug": "digitalized-bangla-films-updating-on-imdb-and-tmdb",
-    "image": "/imgs/sayed.png",
-    "sourceCode": "https://github.com/abusayed0206/banglafilm"
-  },
-  {
-    "id": 6,
-    "pin": false,
-    "name": "Bangla Quran Audio",
-    "description": "A website to listen to Bangla Quran audio. It provides a user-friendly interface to listen to the Quran in Bangla language.",
-    "keywords": ["quran", "nextjs", "react", "audio", "quran"],
-    "slug": "bangla-quran-audio",
-    "sourceCode": "https://github.com/abusayed0206/banglaquran",
-    "livePreview": "https://quran.sayed.app"
-  },
-  {
-    "id": 7,
-    "pin": false,
-    "name": "Film Page screenshot from Letterboxd",
-    "description": "A poster style screenshot of a RSS film page from Letterboxd. Updated with the latest film data daily.",
-    "keywords": ["film", "letterboxd", "rss", "screenshot"],
-    "slug": "film-page-screenshot-from-letterboxd",
-    "sourceCode": "https://github.com/abusayed0206/film-page-screenshot?tab=readme-ov-file",
-    "livePreview": "https://letterboxd.sayed.app/film.jpg"
-  },
-  {
-    "id": 8,
-    "pin": false,
-    "name": "RDAPclient",
-    "description": "A client for the RDAP (Registration Data Access Protocol) API and webapp",
-    "keywords": ["rdap", "api", "client"],
-    "slug": "rdapclient",
-    "sourceCode": "https://github.com/abusayed0206/rdapclient",
-    "livePreview": "https://rdap.sayed.app/"
-  },
-  {
-    "id": 9,
-    "pin": false,
-    "name": "Yearbook",
-    "description": "A yearbook website for me . It contains all of my classmates names,ID/roll from schools, college and university.",
-    "keywords": ["yearbook", "classmates", "school", "college", "university"],
-    "slug": "yearbook",
-    "image": "/imgs/yb.png",
-    "livePreview": "https://yearbook.sayed.app/"
-  },
-  {
-    "id": 10,
-    "pin": true,
-    "name": "Trakt Web Dashboard",
-    "description": "A web dashboard for Trakt, a platform for showcasing TV shows and movies.",
-    "keywords": ["trakt", "dashboard", "web-app", "movies", "tv-shows"],
-    "slug": "trakt-web-dashboard",
-    "image": "/imgs/trakt.png",
-    "sourceCode": "https://github.com/abusayed0206/trakt",
-    "livePreview": "https://trakt.sayed.app/"
-  },
-  {
-    "id": 11,
-    "pin": false,
-    "name": "Bangla Quran Windows App",
-    "description": "Flutter based windows app for listening quran in Bangla. Nothing else!",
-    "keywords": ["bangla", "quran"],
     "slug": "bangla-quran-windows-app",
-    "livePreview": "https://apps.microsoft.com/detail/9n3gsz7v18zp?hl=en-US&gl=GD"
+    "name": "Bangla Quran Audio for Windows",
+    "tagline": "All 114 Surahs in Arabic, Bengali and English. Fast, offline, ad-free.",
+    "summary": "A native Windows app for listening to and reading the Quran, rewritten from scratch in Rust and Tauri, with downloads for offline listening and ayah-by-ayah auto-play.",
+    "category": "windows",
+    "featured": true,
+    "platforms": [
+      "Windows"
+    ],
+    "stack": [
+      "Rust",
+      "Tauri"
+    ],
+    "status": "Live",
+    "overview": [
+      "Bangla Quran Audio started as an app for Bengali-speaking Muslims and now supports Arabic, Bengali and English text and audio. It was completely rewritten in Rust and Tauri for a fast, responsive desktop experience.",
+      "Download your favourite Surahs once and listen anywhere, with ayahs advancing automatically for hands-free listening. There are no ads and no accounts."
+    ],
+    "features": [
+      {
+        "title": "Three languages",
+        "text": "Read and listen in Arabic, Bengali and English."
+      },
+      {
+        "title": "Offline downloads",
+        "text": "Save Surahs to your device for uninterrupted listening."
+      },
+      {
+        "title": "Auto-play",
+        "text": "Seamless ayah-by-ayah progression."
+      },
+      {
+        "title": "Dark & light themes",
+        "text": "Comfortable reading in any lighting, with elegant Bengali typography."
+      },
+      {
+        "title": "Ad-free",
+        "text": "Completely free, with no advertisements."
+      }
+    ],
+    "tags": [
+      "quran",
+      "audio",
+      "rust",
+      "tauri"
+    ],
+    "links": [
+      {
+        "label": "Microsoft Store",
+        "url": "https://apps.microsoft.com/detail/9n3gsz7v18zp?hl=en-US&gl=BD"
+      }
+    ]
   },
   {
-    "id": 12,
-    "pin": true,
-    "name": "Bsky Tools AIO",
-    "description": "An all-in-one toolkit for Bluesky social network users, featuring profile download profile, did to handle, handle to did, and more.",
-    "keywords": ["bluesky", "atproto", "aio", "tools", "social-network"],
-    "slug": "bsky-tools-aio",
-    "livePreview": "https://bsky.sayed.app/"
+    "slug": "telegraph-cms",
+    "name": "Telegraph CMS",
+    "tagline": "Use Telegram's Telegraph as a headless CMS for your blog.",
+    "summary": "Write on Telegraph, publish on your own site. A Next.js front end that turns Telegraph pages into a blog, currently serving 500k+ posts.",
+    "category": "web",
+    "featured": true,
+    "platforms": [
+      "Web"
+    ],
+    "stack": [
+      "Next.js",
+      "Telegraph API",
+      "Cloudflare Pages"
+    ],
+    "year": 2024,
+    "status": "Live",
+    "metrics": [
+      {
+        "value": "500k+",
+        "label": "posts hosted"
+      }
+    ],
+    "overview": [
+      "Telegraph is Telegram's minimalist publishing tool: no sign-up, a clean editor, and an open API. Telegraph CMS uses it as the back end for a website, so you write in Telegraph and your posts appear on your own domain.",
+      "It removes the need for a database or admin panel entirely, which makes it a cheap, fast way to run a blog. The deployment now serves more than 500,000 posts."
+    ],
+    "features": [
+      {
+        "title": "No database",
+        "text": "Telegraph stores the content; the site just renders it."
+      },
+      {
+        "title": "Distraction-free writing",
+        "text": "Use Telegraph's editor as your writing tool."
+      },
+      {
+        "title": "Fast publishing",
+        "text": "Posts appear on your site as soon as they're published."
+      }
+    ],
+    "tags": [
+      "cms",
+      "telegram",
+      "nextjs",
+      "blogging"
+    ],
+    "links": [
+      {
+        "label": "Open demo",
+        "url": "https://telegraphcms.sayed.app/"
+      }
+    ]
   },
   {
-    "id": 13,
-    "pin": true,
-    "name": "Personal Data Protection Ordinance, 2025 (PDPO) helper",
-    "description": "A web application to make email for sending to data fiduciary to complying with the Personal Data Protection Ordinance, 2025 (PDPO).",
-    "keywords": ["pdpo", "data-protection", "compliance", "web-app"],
+    "slug": "trakt-web-dashboard",
+    "name": "Watch Dashboard",
+    "tagline": "My Trakt.tv history as a personal film and TV dashboard.",
+    "summary": "Recently watched movies and shows, watchlist, comments, custom lists and library search, with 800+ movies and 130+ shows tracked.",
+    "category": "web",
+    "featured": false,
+    "image": "/imgs/trakt.png",
+    "platforms": [
+      "Web"
+    ],
+    "stack": [
+      "TypeScript",
+      "Trakt API",
+      "TMDB API",
+      "Vercel"
+    ],
+    "year": 2025,
+    "status": "Live",
+    "metrics": [
+      {
+        "value": "800+",
+        "label": "movies"
+      },
+      {
+        "value": "130+",
+        "label": "shows"
+      }
+    ],
+    "overview": [
+      "Trakt keeps a record of everything I watch, but its own pages aren't built for showing that off. Watch Dashboard pulls my history from the Trakt API and artwork from TMDB into a single public page.",
+      "It shows what I've watched recently, what's on my watchlist, the comments and custom lists I've made, and a searchable library of everything tracked so far."
+    ],
+    "features": [
+      {
+        "title": "Recently watched",
+        "text": "Latest movies and episodes with posters."
+      },
+      {
+        "title": "Watchlist & lists",
+        "text": "Everything queued up, plus custom curated lists."
+      },
+      {
+        "title": "Comments",
+        "text": "My reviews and comments from Trakt."
+      },
+      {
+        "title": "Library search",
+        "text": "Search across 800+ movies and 130+ shows."
+      }
+    ],
+    "tags": [
+      "trakt",
+      "tmdb",
+      "movies",
+      "dashboard"
+    ],
+    "links": [
+      {
+        "label": "Open dashboard",
+        "url": "https://trakt.sayed.app/"
+      },
+      {
+        "label": "Source",
+        "url": "https://github.com/abusayed0206/trakt"
+      }
+    ]
+  },
+  {
+    "slug": "kriti-font-manager",
+    "name": "Kriti: Bangla Font Manager",
+    "tagline": "Install open-license Bangla fonts in one click, no admin rights.",
+    "summary": "A Windows font manager that installs Bangla fonts for your user account only, so it works even on locked-down PCs.",
+    "category": "windows",
+    "platforms": [
+      "Windows"
+    ],
+    "year": 2026,
+    "status": "Live",
+    "overview": [
+      "Installing fonts on Windows normally needs administrator rights, which rules out lab, office and university machines. Kriti installs fonts per-user instead, so anyone can add Bangla fonts to their own account.",
+      "The catalog is the same curated set as kriti.app: only fonts released under OFL, Creative Commons and GPL licenses, each credited to its original author."
+    ],
+    "features": [
+      {
+        "title": "No admin needed",
+        "text": "Fonts install to your Windows user account."
+      },
+      {
+        "title": "Curated catalog",
+        "text": "Only openly licensed Bangla fonts."
+      },
+      {
+        "title": "Preview first",
+        "text": "See a font before installing it."
+      }
+    ],
+    "tags": [
+      "fonts",
+      "windows",
+      "bangla"
+    ],
+    "links": [
+      {
+        "label": "Microsoft Store",
+        "url": "https://apps.microsoft.com/detail/9mwd4rvnvxtr?hl=en-US&gl=BD"
+      }
+    ]
+  },
+  {
+    "slug": "banglasaver",
+    "name": "BanglaSaver",
+    "tagline": "A Bangla screensaver for Windows 10 and 11, set up in one click.",
+    "summary": "A free, under-3 MB screensaver manager: preview, apply and cleanly remove a Bangla screensaver without admin rights.",
+    "category": "windows",
+    "platforms": [
+      "Windows"
+    ],
+    "year": 2026,
+    "status": "Live",
+    "overview": [
+      "BanglaSaver installs a Bangla screensaver on Windows 10 and 11 without touching system folders or asking for administrator rights.",
+      "You can preview it before applying, jump straight to Windows' screensaver settings, and remove it completely with one click. The whole thing is under 3 MB."
+    ],
+    "features": [
+      {
+        "title": "One-click setup",
+        "text": "No admin rights required."
+      },
+      {
+        "title": "Preview",
+        "text": "See the screensaver before setting it."
+      },
+      {
+        "title": "Clean removal",
+        "text": "Fully reversible with one click."
+      },
+      {
+        "title": "Tiny",
+        "text": "Under 3 MB in total."
+      }
+    ],
+    "tags": [
+      "screensaver",
+      "windows",
+      "bangla"
+    ],
+    "links": [
+      {
+        "label": "Microsoft Store",
+        "url": "https://apps.microsoft.com/detail/9p9fb1wn7pcv?hl=en-US&gl=BD"
+      },
+      {
+        "label": "Download installer",
+        "url": "/storeapps/BanglaSaverSetup-1.0.0.exe"
+      }
+    ]
+  },
+  {
+    "slug": "bangla-library-windows",
+    "name": "Bangla Library",
+    "tagline": "Public-domain Bengali books from Wikisource, read offline on Windows.",
+    "summary": "An offline-first desktop library and EPUB reader for Bengali books digitised by Wikisource volunteers.",
+    "category": "windows",
+    "platforms": [
+      "Windows"
+    ],
+    "year": 2026,
+    "status": "Live",
+    "overview": [
+      "Wikisource volunteers have digitised hundreds of public-domain Bengali books. Bangla Library gives them a proper home on the desktop: download a book once and it opens instantly from then on, with no internet needed.",
+      "The built-in EPUB reader supports multiple themes and fonts, bookmarks, and remembers your reading progress across the whole library."
+    ],
+    "features": [
+      {
+        "title": "Offline-first",
+        "text": "Downloaded books open instantly without a connection."
+      },
+      {
+        "title": "Custom reader",
+        "text": "Themes, font choices and bookmarks."
+      },
+      {
+        "title": "Progress tracking",
+        "text": "Pick up where you left off in every book."
+      }
+    ],
+    "tags": [
+      "books",
+      "wikisource",
+      "epub",
+      "windows"
+    ],
+    "links": [
+      {
+        "label": "Microsoft Store",
+        "url": "https://apps.microsoft.com/detail/9nj4lpwfw5rr?hl=en-US&gl=BD"
+      },
+      {
+        "label": "Web version",
+        "url": "https://bangla-library.sayed.app/"
+      }
+    ]
+  },
+  {
+    "slug": "bangla-dictionary",
+    "name": "Bangla Dictionary: Multi Lexicon",
+    "tagline": "An offline Bengali–English dictionary with phonetic typing.",
+    "summary": "Search multiple lexicons for meanings, synonyms and examples without an internet connection, and type Bengali on an English keyboard.",
+    "category": "windows",
+    "platforms": [
+      "Windows"
+    ],
+    "year": 2026,
+    "status": "Live",
+    "overview": [
+      "Bangla Dictionary bundles several Bengali and English lexicons into one fast, fully offline search, with meanings, synonyms and example usage.",
+      "Its built-in phonetic typing engine lets you search in Bengali using a standard English keyboard, so you don't need to install a separate Bangla keyboard."
+    ],
+    "features": [
+      {
+        "title": "Multi-lexicon search",
+        "text": "One query across several dictionaries."
+      },
+      {
+        "title": "Phonetic typing",
+        "text": "Type Bengali with an English keyboard."
+      },
+      {
+        "title": "Fully offline",
+        "text": "No internet connection ever required."
+      }
+    ],
+    "tags": [
+      "dictionary",
+      "offline",
+      "windows"
+    ],
+    "links": [
+      {
+        "label": "Microsoft Store",
+        "url": "https://apps.microsoft.com/detail/9nhd77r7f8g5?hl=en-US&gl=BD"
+      }
+    ]
+  },
+  {
+    "slug": "bangla-calendar",
+    "name": "Bangla Calendar",
+    "tagline": "Today's Bangla date as a lightweight desktop widget.",
+    "summary": "A tiny Rust widget that keeps the Bangla date, Hijri date, sunrise and sunset times, and Bangladeshi festivals visible on your desktop.",
+    "category": "windows",
+    "platforms": [
+      "Windows"
+    ],
+    "stack": [
+      "Rust",
+      "windows-rs"
+    ],
+    "year": 2025,
+    "status": "Live",
+    "overview": [
+      "Bangla Calendar sits on the desktop like a widget, showing today's Bangla date at a glance alongside the Hijri date, sunrise and sunset times, and upcoming Bangladeshi festivals.",
+      "It's written in Rust on windows-rs, so it uses very little memory or CPU while running in the background."
+    ],
+    "features": [
+      {
+        "title": "Desktop widget",
+        "text": "Always-visible Bangla date."
+      },
+      {
+        "title": "Hijri & sun times",
+        "text": "Hijri date plus sunrise and sunset."
+      },
+      {
+        "title": "Festivals",
+        "text": "Bangladeshi festival information."
+      },
+      {
+        "title": "Lightweight",
+        "text": "Native Rust with minimal resource use."
+      }
+    ],
+    "tags": [
+      "calendar",
+      "rust",
+      "widget",
+      "windows"
+    ],
+    "links": [
+      {
+        "label": "Microsoft Store",
+        "url": "https://apps.microsoft.com/detail/9pcmxnfhvb6f?hl=en-US&gl=BD"
+      },
+      {
+        "label": "Source",
+        "url": "https://github.com/abusayed0206/bangla-calendar"
+      }
+    ]
+  },
+  {
+    "slug": "hadith-bangla",
+    "name": "Hadith Bangla",
+    "tagline": "Authentic hadith collections in Bangla, offline on Windows.",
+    "summary": "Browse and search hadith collections with Arabic text, Bangla translations and explanations, all stored locally.",
+    "category": "windows",
+    "platforms": [
+      "Windows"
+    ],
+    "year": 2026,
+    "status": "Live",
+    "overview": [
+      "Hadith Bangla ships a complete local database of hadiths with Bangla translations, organised by book and chapter, so it works with no internet connection at all.",
+      "Read the Arabic text with Bangla explanations, search the entire collection, and bookmark favourites. Everything stays on your device."
+    ],
+    "features": [
+      {
+        "title": "Offline database",
+        "text": "Every hadith stored locally for fast, private access."
+      },
+      {
+        "title": "Full-collection search",
+        "text": "Search across all books at once."
+      },
+      {
+        "title": "Bookmarks",
+        "text": "Save hadiths to come back to."
+      }
+    ],
+    "tags": [
+      "hadith",
+      "offline",
+      "windows"
+    ],
+    "links": [
+      {
+        "label": "Microsoft Store",
+        "url": "https://apps.microsoft.com/detail/9p7l7bvszjq3?hl=en-US&gl=BD"
+      }
+    ]
+  },
+  {
+    "slug": "shobdo-jaal",
+    "name": "Shobdo Jaal",
+    "tagline": "A calm Bengali word-search puzzle game.",
+    "summary": "Find hidden Bengali words horizontally, vertically and diagonally in a minimalist glass interface with your choice of Bangla fonts.",
+    "category": "windows",
+    "platforms": [
+      "Windows"
+    ],
+    "year": 2026,
+    "status": "Live",
+    "overview": [
+      "Shobdo Jaal (শব্দজাল, \"word net\") is a word-search game made for Bengali speakers and learners. Words hide horizontally, vertically or diagonally, and sometimes overlap.",
+      "A minimalist glass-style interface and several Bangla font options keep it relaxing, and it plays completely offline."
+    ],
+    "features": [
+      {
+        "title": "Endless puzzles",
+        "text": "New grids every game."
+      },
+      {
+        "title": "Font choice",
+        "text": "Play in your favourite Bangla typeface."
+      },
+      {
+        "title": "Offline",
+        "text": "No connection needed."
+      }
+    ],
+    "tags": [
+      "game",
+      "puzzle",
+      "windows"
+    ],
+    "links": [
+      {
+        "label": "Microsoft Store",
+        "url": "https://apps.microsoft.com/detail/9p55x6t33k66?hl=en-US&gl=BD"
+      }
+    ]
+  },
+  {
+    "slug": "wallboxd",
+    "name": "Wallboxd",
+    "tagline": "Your Letterboxd diary as a poster-wall wallpaper.",
+    "summary": "Builds a desktop (and lock-screen) wallpaper from your recently logged films, sized to your screen and refreshed on a schedule, entirely on-device.",
+    "category": "windows",
+    "platforms": [
+      "Windows"
+    ],
+    "stack": [
+      "Rust"
+    ],
+    "year": 2026,
+    "status": "Live",
+    "overview": [
+      "Enter a Letterboxd username and Wallboxd tiles the posters of your recently logged films into a wallpaper sized exactly to your screen. Posters keep their true aspect ratio, with no cropping or stretching.",
+      "Everything happens locally: the app fetches your public diary from Letterboxd, composites the image itself, and applies it on a schedule you choose. No server, no sign-up."
+    ],
+    "features": [
+      {
+        "title": "Exact fit",
+        "text": "Generated at your screen's resolution, edge to edge."
+      },
+      {
+        "title": "Lock screen too",
+        "text": "Optionally applies to the Windows lock screen."
+      },
+      {
+        "title": "Auto-refresh",
+        "text": "Updates on your chosen schedule."
+      },
+      {
+        "title": "Private",
+        "text": "Composited on-device, nothing sent anywhere but Letterboxd."
+      }
+    ],
+    "tags": [
+      "letterboxd",
+      "wallpaper",
+      "rust",
+      "windows"
+    ],
+    "links": [
+      {
+        "label": "Microsoft Store",
+        "url": "https://apps.microsoft.com/detail/9n8jqgg8r5mq?hl=en-US&gl=BD"
+      },
+      {
+        "label": "Source",
+        "url": "https://github.com/abusayed0206/wallboxd"
+      }
+    ]
+  },
+  {
+    "slug": "kriti-wordpress",
+    "name": "Kriti Bangla Fonts for WordPress",
+    "tagline": "Bangla fonts for any WordPress site, from the Kriti CDN or self-hosted.",
+    "summary": "A WordPress plugin with a searchable font catalog, live preview, and a choice between the Kriti CDN and locally hosted .woff2 files.",
+    "category": "web",
+    "platforms": [
+      "WordPress"
+    ],
+    "stack": [
+      "PHP"
+    ],
+    "year": 2026,
+    "status": "Live",
+    "overview": [
+      "Kriti Bangla Fonts brings the kriti.app catalog into the WordPress dashboard. Search for a font, preview it live, and apply it to your site.",
+      "Fonts can be delivered from the Kriti CDN or downloaded and served as local .woff2 files from your own server."
+    ],
+    "features": [
+      {
+        "title": "Searchable catalog",
+        "text": "The full Kriti collection inside wp-admin."
+      },
+      {
+        "title": "Live preview",
+        "text": "See fonts on your text before applying."
+      },
+      {
+        "title": "CDN or local",
+        "text": "Choose how the font files are delivered."
+      }
+    ],
+    "tags": [
+      "wordpress",
+      "plugin",
+      "fonts"
+    ],
+    "links": [
+      {
+        "label": "WordPress.org",
+        "url": "https://wordpress.org/plugins/kriti-bangla-fonts/"
+      }
+    ]
+  },
+  {
+    "slug": "kriti-firefox",
+    "name": "Kriti for Firefox",
+    "tagline": "Apply any Bangla font to any website, instantly.",
+    "summary": "A Firefox extension that restyles Bengali text on the web with fonts from the 300+ font Kriti CDN.",
+    "category": "web",
+    "platforms": [
+      "Firefox"
+    ],
+    "year": 2026,
+    "status": "Live",
+    "overview": [
+      "Many websites render Bangla in whatever fallback font the system has. Kriti for Firefox lets you choose the typeface instead, applying fonts from the Kriti CDN to Bengali text on any page."
+    ],
+    "features": [
+      {
+        "title": "300+ fonts",
+        "text": "The full Kriti CDN catalog."
+      },
+      {
+        "title": "Any website",
+        "text": "Works on every page you visit."
+      }
+    ],
+    "tags": [
+      "firefox",
+      "extension",
+      "fonts"
+    ],
+    "links": [
+      {
+        "label": "Firefox Add-ons",
+        "url": "https://addons.mozilla.org/en-US/firefox/addon/kriti-bangla-font-manager/"
+      }
+    ]
+  },
+  {
+    "slug": "cuet-students-directory",
+    "name": "CUET Students Directory",
+    "tagline": "Find any CUET student or alum by name or ID.",
+    "summary": "Search Chittagong University of Engineering & Technology students by name, ID, department or batch, and browse every batch and department.",
+    "category": "web",
+    "image": "/imgs/cuet.png",
+    "platforms": [
+      "Web"
+    ],
+    "stack": [
+      "Astro",
+      "Supabase",
+      "Cloudflare Workers"
+    ],
+    "year": 2024,
+    "status": "Live",
+    "overview": [
+      "The CUET Students Directory makes it easy to find peers and alumni of Chittagong University of Engineering & Technology. Search by name or student ID, or browse by batch and department.",
+      "Each department page shows student counts per batch. The site started on Next.js and has since moved to Astro on Cloudflare."
+    ],
+    "features": [
+      {
+        "title": "Fast search",
+        "text": "By name, student ID, department, or batch."
+      },
+      {
+        "title": "Browse everything",
+        "text": "Every batch and department, with counts."
+      },
+      {
+        "title": "Mobile-friendly",
+        "text": "Works well on any device."
+      }
+    ],
+    "tags": [
+      "cuet",
+      "directory",
+      "astro",
+      "supabase"
+    ],
+    "links": [
+      {
+        "label": "Open directory",
+        "url": "https://cuet.sayed.app/"
+      },
+      {
+        "label": "Source",
+        "url": "https://github.com/abusayed0206/cuet"
+      }
+    ]
+  },
+  {
+    "slug": "bangla-movies-series-tmdb-wrapper",
+    "name": "Bangla Movies & Series",
+    "tagline": "Discover Bengali cinema and television, powered by TMDB.",
+    "summary": "Browse and search the latest Bangla movies and TV series with details, ratings and artwork from The Movie Database.",
+    "category": "web",
+    "image": "/imgs/banglamovies.png",
+    "platforms": [
+      "Web"
+    ],
+    "stack": [
+      "TypeScript",
+      "TMDB API",
+      "Cloudflare Pages"
+    ],
+    "year": 2024,
+    "status": "Live",
+    "overview": [
+      "Mainstream streaming catalogs barely surface Bangla films. This site filters The Movie Database down to Bengali-language movies and series, so you can browse what's new and search for older titles.",
+      "Each title shows TMDB's details, ratings and artwork."
+    ],
+    "features": [
+      {
+        "title": "Latest releases",
+        "text": "New Bangla movies and series first."
+      },
+      {
+        "title": "Search",
+        "text": "Find any Bengali title on TMDB."
+      },
+      {
+        "title": "Rich details",
+        "text": "Ratings, cast and artwork from TMDB."
+      }
+    ],
+    "tags": [
+      "tmdb",
+      "movies",
+      "bangla-cinema"
+    ],
+    "links": [
+      {
+        "label": "Open website",
+        "url": "https://movies.sayed.app/"
+      },
+      {
+        "label": "Source",
+        "url": "https://github.com/abusayed0206/banglamovies"
+      }
+    ]
+  },
+  {
+    "slug": "bangla-quran-audio",
+    "name": "Quran.sayed.app",
+    "tagline": "The Quran with Bangla pronunciation, translation and recitation.",
+    "summary": "All 114 Surahs with Bangla transliteration, translation and audio. A modern take on Quran.gov.bd, playing ayah by ayah.",
+    "category": "web",
+    "platforms": [
+      "Web"
+    ],
+    "stack": [
+      "TypeScript",
+      "Cloudflare"
+    ],
+    "year": 2024,
+    "status": "Live",
+    "overview": [
+      "Quran.sayed.app is a modern edition of Quran.gov.bd: every Surah with Bangla pronunciation, Bangla translation and recitation. Pick a Surah and audio plays ayah by ayah while the text follows along.",
+      "Its data is also available through the public Quran REST API."
+    ],
+    "features": [
+      {
+        "title": "All 114 Surahs",
+        "text": "Arabic with Bangla pronunciation and translation."
+      },
+      {
+        "title": "Ayah-by-ayah audio",
+        "text": "Recitation that advances verse by verse."
+      },
+      {
+        "title": "Easy navigation",
+        "text": "Jump to any Surah quickly."
+      }
+    ],
+    "tags": [
+      "quran",
+      "audio",
+      "bangla"
+    ],
+    "links": [
+      {
+        "label": "Open website",
+        "url": "https://quran.sayed.app"
+      },
+      {
+        "label": "Source",
+        "url": "https://github.com/abusayed0206/banglaquran"
+      }
+    ]
+  },
+  {
+    "slug": "quran-api",
+    "name": "Quran REST API",
+    "tagline": "Ayah-level Quran data, audio and images from the edge.",
+    "summary": "A fast, highly available REST API serving ayah-by-ayah JSON, MP3 audio and text images in Bengali, English and Arabic via Cloudflare.",
+    "category": "web",
+    "platforms": [
+      "API"
+    ],
+    "stack": [
+      "Cloudflare Workers",
+      "Cloudflare Pages"
+    ],
+    "year": 2026,
+    "status": "Live",
+    "overview": [
+      "The Quran REST API is the data layer behind Quran.sayed.app and the Windows app, opened up for anyone to build on. It serves ayah-by-ayah JSON, high-quality audio and rendered text images in Bengali, English and Arabic.",
+      "Everything is served from Cloudflare's edge network for low latency worldwide."
+    ],
+    "features": [
+      {
+        "title": "Ayah-level JSON",
+        "text": "Text and translation for every verse."
+      },
+      {
+        "title": "Audio",
+        "text": "High-quality MP3 recitation."
+      },
+      {
+        "title": "Text images",
+        "text": "Rendered ayah images for sharing."
+      },
+      {
+        "title": "Three languages",
+        "text": "Bengali, English and Arabic."
+      }
+    ],
+    "tags": [
+      "api",
+      "quran",
+      "cloudflare"
+    ],
+    "links": [
+      {
+        "label": "API docs",
+        "url": "https://quran.sayed.app/docs/"
+      }
+    ]
+  },
+  {
+    "slug": "bangla-library-web",
+    "name": "Bangla Library (web)",
+    "tagline": "618+ public-domain Bengali books, readable in the browser.",
+    "summary": "Browse, search and read public-domain Bengali books from Wikisource: 618+ books by 253 authors across 552 categories.",
+    "category": "web",
+    "platforms": [
+      "Web"
+    ],
+    "stack": [
+      "Astro",
+      "Cloudflare Workers"
+    ],
+    "year": 2026,
+    "status": "Live",
+    "metrics": [
+      {
+        "value": "618+",
+        "label": "books"
+      },
+      {
+        "value": "253",
+        "label": "authors"
+      }
+    ],
+    "overview": [
+      "The web edition of Bangla Library turns Bengali Wikisource into a browsable library: 618+ public-domain and openly licensed books by 253 authors, organised into 552 categories.",
+      "Search by title or author and read directly in the browser, or use the Windows app for offline reading."
+    ],
+    "features": [
+      {
+        "title": "Large collection",
+        "text": "618+ books, 253 authors, 552 categories."
+      },
+      {
+        "title": "Search",
+        "text": "By title, author or category."
+      },
+      {
+        "title": "Read online",
+        "text": "No download required."
+      }
+    ],
+    "tags": [
+      "books",
+      "wikisource",
+      "astro"
+    ],
+    "links": [
+      {
+        "label": "Open library",
+        "url": "https://bangla-library.sayed.app/"
+      }
+    ]
+  },
+  {
     "slug": "pdpo",
-    "livePreview": "https://pdpo.sayed.app/"
+    "name": "PDPO Helper",
+    "tagline": "Exercise your data rights under Bangladesh's PDPO 2025.",
+    "summary": "Generate legally grounded emails to organisations for data access, correction, deletion and portability requests under the Personal Data Protection Ordinance, 2025.",
+    "category": "web",
+    "platforms": [
+      "Web"
+    ],
+    "stack": [
+      "Cloudflare Workers"
+    ],
+    "year": 2025,
+    "status": "Live",
+    "overview": [
+      "The Personal Data Protection Ordinance, 2025 gives people in Bangladesh real rights over their personal data, but using them means writing a formal request to the organisation (the \"data fiduciary\") holding it.",
+      "PDPO Helper explains each right in Bangla and generates a properly worded email you can send, for access, correction, deletion or portability."
+    ],
+    "features": [
+      {
+        "title": "Request generator",
+        "text": "Ready-to-send emails for each request type."
+      },
+      {
+        "title": "Four rights",
+        "text": "Access, correction, deletion and portability."
+      },
+      {
+        "title": "Explained in Bangla",
+        "text": "Plain-language guidance on what each right means."
+      }
+    ],
+    "tags": [
+      "privacy",
+      "pdpo",
+      "law",
+      "bangladesh"
+    ],
+    "links": [
+      {
+        "label": "Open PDPO Helper",
+        "url": "https://pdpo.sayed.app/"
+      }
+    ]
+  },
+  {
+    "slug": "bsky-tools-aio",
+    "name": "Bsky Tools AIO",
+    "tagline": "A pocket knife for Bluesky and the AT Protocol.",
+    "summary": "Handle↔DID conversion, account age, domain verification, post screenshots and profile downloads in one toolkit.",
+    "category": "web",
+    "platforms": [
+      "Web"
+    ],
+    "stack": [
+      "TypeScript",
+      "AT Protocol",
+      "Cloudflare Workers"
+    ],
+    "year": 2025,
+    "status": "Live",
+    "overview": [
+      "Bsky Tools AIO collects small AT Protocol utilities for Bluesky users in one place.",
+      "It talks to the AT Protocol directly, so the tools work for any Bluesky account."
+    ],
+    "features": [
+      {
+        "title": "Handle ↔ DID",
+        "text": "Convert between handles and DIDs."
+      },
+      {
+        "title": "Account age",
+        "text": "See when any account was created."
+      },
+      {
+        "title": "Domain verification",
+        "text": "Check custom-domain handle setup."
+      },
+      {
+        "title": "Post screenshots",
+        "text": "Turn a post into a shareable image."
+      },
+      {
+        "title": "Profile download",
+        "text": "Export a profile's data."
+      }
+    ],
+    "tags": [
+      "bluesky",
+      "atproto",
+      "tools"
+    ],
+    "links": [
+      {
+        "label": "Open tools",
+        "url": "https://bsky.sayed.app/"
+      }
+    ]
+  },
+  {
+    "slug": "rdapclient",
+    "name": "RDAP Lookup",
+    "tagline": "The modern WHOIS: domains, IPs and ASNs straight from the registries.",
+    "summary": "Query registration data for domains, IP addresses and ASNs over RDAP, using IANA's registry servers.",
+    "category": "web",
+    "platforms": [
+      "Web"
+    ],
+    "stack": [
+      "TypeScript",
+      "RDAP",
+      "Vercel"
+    ],
+    "year": 2025,
+    "status": "Live",
+    "overview": [
+      "RDAP (Registration Data Access Protocol) is the structured, standardised successor to WHOIS. RDAP Lookup finds the right registry server through IANA's bootstrap data and queries it directly.",
+      "It handles domain names, IP addresses and autonomous system numbers in one clean interface."
+    ],
+    "features": [
+      {
+        "title": "Domains, IPs, ASNs",
+        "text": "All three query types."
+      },
+      {
+        "title": "Straight from the source",
+        "text": "Uses IANA's RDAP bootstrap registry."
+      },
+      {
+        "title": "Readable output",
+        "text": "Structured results instead of raw WHOIS text."
+      }
+    ],
+    "tags": [
+      "rdap",
+      "whois",
+      "dns"
+    ],
+    "links": [
+      {
+        "label": "Open lookup",
+        "url": "https://rdap.sayed.app/"
+      },
+      {
+        "label": "Source",
+        "url": "https://github.com/abusayed0206/rdapclient"
+      }
+    ]
+  },
+  {
+    "slug": "film-page-screenshot-from-letterboxd",
+    "name": "Letterboxd Film Poster",
+    "tagline": "My last 50 films as a daily 1920×1080 poster.",
+    "summary": "A scheduled job reads my Letterboxd RSS feed and renders the last 50 films as a poster-style image every day.",
+    "category": "web",
+    "image": "/imgs/film_ss.jpeg",
+    "platforms": [
+      "Web"
+    ],
+    "stack": [
+      "HTML",
+      "Cloudflare Pages"
+    ],
+    "year": 2024,
+    "status": "Live",
+    "overview": [
+      "Every day, this project reads my Letterboxd diary's RSS feed, lays out the posters of the last 50 films I watched, and captures the page as a 1920×1080 image.",
+      "The result is a constantly updated snapshot of my film diary that can be used as a wallpaper or embedded elsewhere. The Wallboxd Windows app does the same thing on-device."
+    ],
+    "features": [
+      {
+        "title": "Daily updates",
+        "text": "Regenerated automatically every day."
+      },
+      {
+        "title": "Last 50 films",
+        "text": "Pulled from the Letterboxd RSS feed."
+      },
+      {
+        "title": "Wallpaper-ready",
+        "text": "Rendered at 1920×1080."
+      }
+    ],
+    "tags": [
+      "letterboxd",
+      "rss",
+      "automation"
+    ],
+    "links": [
+      {
+        "label": "See today's poster",
+        "url": "https://letterboxd.sayed.app/"
+      },
+      {
+        "label": "Source",
+        "url": "https://github.com/abusayed0206/film-page-screenshot"
+      }
+    ]
+  },
+  {
+    "slug": "yearbook",
+    "name": "Yearbook of Sayed",
+    "tagline": "Every classmate, from primary school to university.",
+    "summary": "A personal yearbook of classmates' names and IDs from primary school, high school, college and CUET.",
+    "category": "web",
+    "image": "/imgs/yb.png",
+    "platforms": [
+      "Web"
+    ],
+    "stack": [
+      "TypeScript",
+      "Vercel"
+    ],
+    "year": 2025,
+    "status": "Live",
+    "overview": [
+      "A nostalgic collection of old friends: the names and roll numbers of my classmates from primary school, high school, college and university (CUET), in one place."
+    ],
+    "features": [
+      {
+        "title": "Four schools",
+        "text": "Primary, high school, college and CUET."
+      },
+      {
+        "title": "Names & IDs",
+        "text": "As they appeared on the class rolls."
+      }
+    ],
+    "tags": [
+      "yearbook",
+      "personal"
+    ],
+    "links": [
+      {
+        "label": "Open yearbook",
+        "url": "https://yearbook.sayed.app/"
+      }
+    ]
+  },
+  {
+    "slug": "digitalized-bangla-films-updating-on-imdb-and-tmdb",
+    "name": "Digitalized Bangla Films",
+    "tagline": "Getting old Bangla films onto IMDb and TMDB.",
+    "summary": "A data project adding and correcting old Bangla films on IMDb and TMDB, so Bengali cinema history is properly documented.",
+    "category": "other",
+    "platforms": [
+      "Data"
+    ],
+    "stack": [
+      "CSV"
+    ],
+    "year": 2025,
+    "status": "Ongoing",
+    "overview": [
+      "Many classic Bangla films are missing from IMDb and TMDB, or listed with wrong details. This project collects film data and submits additions and corrections to both databases.",
+      "Better entries there mean better discoverability everywhere those databases are used, including my own Bangla Movies site."
+    ],
+    "features": [
+      {
+        "title": "Data collection",
+        "text": "Structured film records in CSV."
+      },
+      {
+        "title": "Database updates",
+        "text": "Additions and corrections on IMDb and TMDB."
+      },
+      {
+        "title": "Preservation",
+        "text": "Documenting Bangladesh's film heritage."
+      }
+    ],
+    "tags": [
+      "imdb",
+      "tmdb",
+      "open-data",
+      "cinema"
+    ],
+    "links": [
+      {
+        "label": "Repository",
+        "url": "https://github.com/abusayed0206/banglafilm"
+      }
+    ]
+  },
+  {
+    "slug": "bangla-rust-crate",
+    "name": "bangla (Rust crate)",
+    "tagline": "Bangla dates, numbers, currency and addresses for Rust.",
+    "summary": "A Rust library for Bangla date formatting, calendar calculations, number and currency conversion, and Bangladeshi address utilities.",
+    "category": "other",
+    "platforms": [
+      "Rust"
+    ],
+    "stack": [
+      "Rust"
+    ],
+    "year": 2026,
+    "status": "Published",
+    "overview": [
+      "The Bangla-specific logic from my Rust desktop apps, extracted into a reusable crate: Bangla calendar dates, Bengali numerals, Taka currency formatting, and Bangladeshi administrative address data."
+    ],
+    "features": [
+      {
+        "title": "Bangla calendar",
+        "text": "Date formatting and calendar calculations."
+      },
+      {
+        "title": "Numbers & currency",
+        "text": "Bengali numerals and Taka formatting."
+      },
+      {
+        "title": "Addresses",
+        "text": "Bangladeshi address utilities."
+      }
+    ],
+    "tags": [
+      "rust",
+      "library",
+      "i18n"
+    ],
+    "links": [
+      {
+        "label": "crates.io",
+        "url": "https://crates.io/crates/bangla"
+      }
+    ]
+  },
+  {
+    "slug": "codes-regulations-mcp",
+    "name": "Codes & Regulations MCP",
+    "tagline": "Bangladesh building codes, searchable by AI agents.",
+    "summary": "A Model Context Protocol server giving AI agents search and retrieval over Bangladesh's building codes and regulations.",
+    "category": "other",
+    "platforms": [
+      "MCP"
+    ],
+    "year": 2026,
+    "status": "Live",
+    "overview": [
+      "Where civil engineering meets the software side: this MCP server exposes Bangladesh's building codes and regulations (such as BNBC) as tools an AI agent can search and quote from, instead of guessing."
+    ],
+    "features": [
+      {
+        "title": "Search",
+        "text": "Find relevant clauses across codes and regulations."
+      },
+      {
+        "title": "Retrieval",
+        "text": "Return exact text for agents to cite."
+      }
+    ],
+    "tags": [
+      "mcp",
+      "ai",
+      "bnbc",
+      "civil-engineering"
+    ],
+    "links": [
+      {
+        "label": "Docs",
+        "url": "https://docs.sayed.app/mcp"
+      }
+    ]
+  },
+  {
+    "slug": "vertical-extension-of-civil-engineering-building",
+    "name": "Vertical Extension of a Civil Engineering Building",
+    "tagline": "B.Sc. thesis: a 7-storey steel extension over a 1968 RCC building, without touching it.",
+    "summary": "Design of a structurally independent composite steel extension that turns a working 3-storey RCC building into a 10-storey one, per BNBC 2020 (LRFD).",
+    "category": "academic",
+    "featured": false,
+    "image": "/imgs/verctical_project.png",
+    "platforms": [
+      "Thesis"
+    ],
+    "stack": [
+      "ETABS 2018",
+      "IDEA StatiCa",
+      "AutoCAD"
+    ],
+    "year": 2025,
+    "status": "Completed",
+    "facts": [
+      {
+        "label": "Supervisor",
+        "value": "Dr. Muhammad Abdur Rahman Bhuiyan, CUET"
+      },
+      {
+        "label": "Code",
+        "value": "BNBC 2020 (LRFD)"
+      },
+      {
+        "label": "Existing building",
+        "value": "3-storey RCC, built 1968"
+      }
+    ],
+    "overview": [
+      "The Civil Engineering building at CUET is a three-storey RCC structure from 1968 that is in constant use. The brief: add seven storeys without retrofitting, loading, or interrupting the original building.",
+      "The solution is a structurally independent composite steel frame. New columns rise through open interior spaces and along the perimeter, bypassing the old structure entirely and carrying all vertical and lateral loads down to a new mat foundation.",
+      "The design follows LRFD per BNBC 2020, with dead, live, wind and seismic combinations analysed in ETABS 2018, connections checked in IDEA StatiCa, and drawings in AutoCAD. A seismic evaluation of the combined ten-storey building used the BSPP Seismic Evaluation Manual (PWD, Bangladesh) and confirmed it meets current standards."
+    ],
+    "features": [
+      {
+        "title": "Independent load path",
+        "text": "New steel columns bypass the RCC frame to a dedicated mat foundation."
+      },
+      {
+        "title": "Composite steel",
+        "text": "Chosen for strength-to-weight ratio and fast construction."
+      },
+      {
+        "title": "Seismic evaluation",
+        "text": "Full assessment of the 10-storey assembly per the BSPP manual."
+      },
+      {
+        "title": "Verified connections",
+        "text": "Steel connection design checked in IDEA StatiCa."
+      }
+    ],
+    "tags": [
+      "structural",
+      "steel",
+      "seismic",
+      "thesis"
+    ],
+    "links": [
+      {
+        "label": "Read article",
+        "url": "https://sayed.blog/vertical-extension-of-civil-engineering-building"
+      },
+      {
+        "label": "Report (PDF)",
+        "url": "https://public.sayed.page/webdav/articles/final_project_report.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "structural-design-and-analysis-of-a-residential-building-at-pinkcity-raozan-chittagong-bangladesh",
+    "name": "G+4 Residential Building, PinkCity, Raozan",
+    "tagline": "Complete structural design and analysis of a residential building to BNBC 2020.",
+    "summary": "Load analysis, structural calculations and detailed design of a G+4 residential building in Raozan, Chittagong.",
+    "category": "academic",
+    "platforms": [
+      "Coursework"
+    ],
+    "status": "Completed",
+    "facts": [
+      {
+        "label": "Location",
+        "value": "PinkCity, Raozan, Chittagong"
+      },
+      {
+        "label": "Code",
+        "value": "BNBC 2020"
+      }
+    ],
+    "overview": [
+      "A complete structural design exercise for a G+4 residential building at PinkCity, Raozan, following the Bangladesh National Building Code 2020 from load calculation through member design."
+    ],
+    "features": [
+      {
+        "title": "BNBC 2020",
+        "text": "Design checked against the national code throughout."
+      },
+      {
+        "title": "Load analysis",
+        "text": "Gravity and lateral load calculations."
+      },
+      {
+        "title": "Member design",
+        "text": "Detailed design of structural elements."
+      }
+    ],
+    "tags": [
+      "structural",
+      "rcc",
+      "bnbc"
+    ],
+    "links": [
+      {
+        "label": "Read article",
+        "url": "https://sayed.blog/structural-design-and-analysis-of-a-residential-building-at-pinkcity-raozan-chittagong-bangladesh"
+      },
+      {
+        "label": "Report (PDF)",
+        "url": "https://public.sayed.page/webdav/articles/A2_G2.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "engineering-classification-of-soil-sughandha-ra-chittagong",
+    "name": "Engineering Classification of Soil, Sughandha R/A",
+    "tagline": "Field sampling and lab testing to classify soil per ASTM D2487-11.",
+    "summary": "A CE 332 geotechnical project: soil samples from Sughandha Residential Area, Chittagong, tested and classified for foundation design.",
+    "category": "academic",
+    "platforms": [
+      "Coursework"
+    ],
+    "status": "Completed",
+    "facts": [
+      {
+        "label": "Course",
+        "value": "CE 332, Geotechnical Engineering"
+      },
+      {
+        "label": "Standard",
+        "value": "ASTM D2487-11"
+      }
+    ],
+    "overview": [
+      "For CUET's geotechnical engineering course (CE 332), our group collected soil samples from Sughandha Residential Area in Chittagong and classified them in the lab.",
+      "Grain-size analysis, Atterberg limits and related tests fed into a classification per ASTM D2487-11, with notes on suitability for foundations."
+    ],
+    "features": [
+      {
+        "title": "Fieldwork",
+        "text": "Sampling at a real residential site."
+      },
+      {
+        "title": "Lab testing",
+        "text": "Grain-size analysis and Atterberg limits."
+      },
+      {
+        "title": "Classification",
+        "text": "Soil types determined per ASTM D2487-11."
+      }
+    ],
+    "tags": [
+      "geotechnical",
+      "soil",
+      "astm"
+    ],
+    "links": [
+      {
+        "label": "Read article",
+        "url": "https://sayed.blog/engineering-classification-of-soil-goribullah-shah-housing-society"
+      },
+      {
+        "label": "Report (PDF)",
+        "url": "https://public.sayed.page/webdav/articles/CE-332%20Project.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "water-quality-karnafuli",
+    "name": "Water Quality of the Karnafuli River",
+    "tagline": "Eleven physicochemical parameters near Shah Amanat Bridge, against ECR 1997 and WHO limits.",
+    "summary": "Surface water quality assessment of the Karnafuli River in Chittagong.",
+    "category": "academic",
+    "platforms": [
+      "Coursework"
+    ],
+    "status": "Completed",
+    "overview": [
+      "Water samples from the Karnafuli River near Shah Amanat Bridge were tested for eleven physicochemical parameters and compared with Bangladesh's Environment Conservation Rules 1997 and WHO guidelines."
+    ],
+    "features": [
+      {
+        "title": "Eleven parameters",
+        "text": "Physicochemical tests on river samples."
+      },
+      {
+        "title": "Two standards",
+        "text": "Compared with ECR 1997 and WHO guidelines."
+      }
+    ],
+    "tags": [
+      "environmental",
+      "water-quality"
+    ],
+    "links": [
+      {
+        "label": "Read article",
+        "url": "https://sayed.blog/water-quality-test-of-a-specified-location-in-chittagong-karnafuli-river-near-shah-amanat-bridge"
+      },
+      {
+        "label": "Report (PDF)",
+        "url": "https://public.sayed.page/webdav/articles/Water_Quality_Test_Report.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "ganges-hydrologic-alteration",
+    "name": "Hydrologic Alteration of the Ganges in Bangladesh",
+    "tagline": "Book chapter: the Ganges before and after the Farakka Barrage and Treaty.",
+    "summary": "Co-authored chapter in Sustainable Water Management and Environmental Resilience, Springer Water Series (2025).",
+    "category": "academic",
+    "platforms": [
+      "Publication"
+    ],
+    "year": 2025,
+    "status": "Published",
+    "facts": [
+      {
+        "label": "Authors",
+        "value": "M. R. A. Mullick, S. Acharya, M. H. Ali, M. A. Sayed, S. Zaheen"
+      },
+      {
+        "label": "Published in",
+        "value": "Springer Water Series, 2025"
+      }
+    ],
+    "overview": [
+      "An assessment of how the Ganges River's flow regime in Bangladesh changed across pre- and post-Farakka Barrage and Treaty scenarios, published as a chapter in Sustainable Water Management and Environmental Resilience."
+    ],
+    "features": [],
+    "tags": [
+      "hydrology",
+      "publication",
+      "ganges"
+    ],
+    "links": [
+      {
+        "label": "DOI",
+        "url": "https://doi.org/10.1007/978-3-031-93350-9_1"
+      }
+    ]
+  },
+  {
+    "slug": "rooppur-risk-assessment",
+    "name": "Rooppur Nuclear Power Plant & the Padma River",
+    "tagline": "Poster: risk assessment, water security and environmental impact.",
+    "summary": "Research poster presented at the CUET Research Fair 2023.",
+    "category": "academic",
+    "platforms": [
+      "Poster"
+    ],
+    "year": 2023,
+    "status": "Presented",
+    "overview": [
+      "A risk assessment of the Rooppur Nuclear Power Plant with a focus on water security and environmental impact on the Padma River, presented at the CUET Research Fair 2023."
+    ],
+    "features": [],
+    "tags": [
+      "poster",
+      "water-security",
+      "nuclear"
+    ],
+    "links": [
+      {
+        "label": "View poster",
+        "url": "https://public.sayed.page/webdav/posters/Poster%20ID_022.pdf"
+      },
+      {
+        "label": "Read article",
+        "url": "https://sayed.blog/comprehensive-risk-assessment-of-rooppur-nuclear-power-plant-water-security-and-environmental-impact-analysis-on-the-padma-river"
+      }
+    ]
   }
 ]

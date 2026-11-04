@@ -1,75 +1,53 @@
+import Link from "next/link";
+import { elsewhere } from "@/lib/site";
+import { categories } from "@/lib/projects";
+
+const social = [
+  { href: "https://github.com/abusayed0206", label: "GitHub" },
+  { href: "https://bsky.app/profile/sayed.page", label: "Bluesky" },
+  { href: "https://mastodon.social/@abusayed", label: "Mastodon" },
+  { href: "https://linkedin.com/in/abusayed0206", label: "LinkedIn" },
+];
+
 export default function Footer() {
   return (
-    <footer className=" py-8 mt-12">
-      <div className="max-w-3xl mx-auto px-6">
-        <div className="flex flex-col gap-4 text-sm text-center md:text-left">
-          {/* Links */}
-          <div className="flex flex-wrap justify-center md:justify-start gap-3 text-black dark:text-white">
-            <a
-              href="https://abusayed.dev"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline hover:no-underline"
-            >
-              Resume/CV
-            </a>
-            <span>•</span>
-            <a
-              href="https://sayed.blog"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline hover:no-underline"
-            >
-              Blog
-            </a>
-            <span>•</span>
-            <a
-              href="https://github.com/abusayed0206"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline hover:no-underline"
-            >
-              GitHub
-            </a>
-            <span>•</span>
-            <a
-              href="https://linkedin.com/in/abusayed0206"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline hover:no-underline"
-            >
-              LinkedIn
-            </a>
-            <span>•</span>
-            <a
-              href="https://orcid.org/0009-0007-8994-5252"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline hover:no-underline"
-            >
-              ORCiD
-            </a>
-            <span>•</span>
-            <a
-              href="https://bsky.app/profile/sayed.page"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline hover:no-underline"
-            >
-              Bluesky
-            </a>
-            <span>•</span>
-            <a
-              href="https://mastodon.social/@abusayed"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline hover:no-underline"
-            >
-              Mastodon
-            </a>
-          </div>
+    <footer className="mt-24 border-t border-border">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 py-14 grid gap-10 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
+        <div>
+          <p className="font-serif text-3xl text-headings leading-tight">
+            Found a bug, or have an idea<br />for something to build?
+          </p>
+          <a href="mailto:hello@sayed.app" className="inline-block mt-4 font-mono text-sm text-primary link-underline">
+            hello@sayed.app
+          </a>
         </div>
+        <FooterCol title="Projects" links={categories.map((c) => ({ href: `/projects?c=${c.id}`, label: c.title }))} internal />
+        <FooterCol title="Elsewhere" links={elsewhere} />
+        <FooterCol title="Social" links={social} />
+      </div>
+      <div className="mx-auto max-w-6xl px-4 sm:px-6 py-6 border-t border-border flex flex-wrap justify-between gap-2 font-mono text-xs text-muted-foreground">
+        <span>© {new Date().getFullYear()} ABU SAYED · Darmstadt / Chattogram</span>
+        <span>Built with Next.js · served via Cloudflare</span>
       </div>
     </footer>
+  );
+}
+
+function FooterCol({ title, links, internal }: { title: string; links: { href: string; label: string }[]; internal?: boolean }) {
+  return (
+    <div>
+      <p className="font-mono text-[11px] uppercase tracking-wider text-muted-foreground mb-3">{title}</p>
+      <ul className="space-y-2 text-sm">
+        {links.map((l) => (
+          <li key={l.href}>
+            {internal ? (
+              <Link href={l.href} className="hover:text-headings transition-colors">{l.label}</Link>
+            ) : (
+              <a href={l.href} className="hover:text-headings transition-colors">{l.label}</a>
+            )}
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 }
