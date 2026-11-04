@@ -1,53 +1,102 @@
 @import "tailwindcss";
 
-@theme {
-  --color-background-light: #fafafa;
-  --color-foreground-light: #262626;
-  --color-background-dark: #171717;
-  --color-foreground-dark: #fafafa;
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Paper & ink. Semantic names are shared by every page; only these values change between themes. */
+:root {
+  --paper: #f4f2ec;
+  --paper-2: #ebe8df;
+  --card: #fbfaf7;
+  --ink: #161614;
+  --ink-2: #3d3b36;
+  --mute: #75726a;
+  --line: #dcd8cc;
+  --accent: #0f6b4a;
+  --signal: #e2483d;
+  --cat-web: #0f7a55;
+  --cat-windows: #2f5bd3;
+  --cat-other: #b8700c;
+  --cat-academic: #b9452f;
 }
 
-@variant dark (&:where(.dark, .dark *));
-
-body {
-  background-color: var(--color-background-light);
-  color: var(--color-foreground-light);
-  transition: background-color 0.3s ease, color 0.3s ease;
+.dark {
+  --paper: #0f100e;
+  --paper-2: #181916;
+  --card: #151613;
+  --ink: #eeede8;
+  --ink-2: #c4c2bb;
+  --mute: #8d8a82;
+  --line: #2a2b27;
+  --accent: #4fcf94;
+  --signal: #ff6b5e;
+  --cat-web: #4fcf94;
+  --cat-windows: #7f9cff;
+  --cat-other: #f0b350;
+  --cat-academic: #ff8a70;
 }
 
-.dark body {
-  background-color: var(--color-background-dark);
-  color: var(--color-foreground-dark);
+@theme inline {
+  --color-background: var(--paper);
+  --color-surface: var(--paper-2);
+  --color-card: var(--card);
+  --color-headings: var(--ink);
+  --color-foreground: var(--ink-2);
+  --color-muted-foreground: var(--mute);
+  --color-muted: var(--paper-2);
+  --color-border: var(--line);
+  --color-primary: var(--accent);
+  --color-primary-foreground: var(--paper);
+  --color-signal: var(--signal);
+
+  --font-sans: var(--font-geist), var(--font-bangla), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-serif-display), var(--font-bangla), Georgia, serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
 }
 
-body {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-/* Custom styles for smooth scrolling */
 html {
   scroll-behavior: smooth;
+  color-scheme: light;
+}
+html.dark {
+  color-scheme: dark;
 }
 
-/* Line clamp utility */
-.line-clamp-2 {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
+::selection {
+  background: var(--accent);
+  color: var(--paper);
 }
 
-.line-clamp-3 {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
+/* Faint drafting grid used behind heroes and generated covers. */
+.bg-grid {
+  background-image:
+    linear-gradient(to right, color-mix(in oklab, var(--ink) 7%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in oklab, var(--ink) 7%, transparent) 1px, transparent 1px);
+  background-size: 28px 28px;
 }
 
-/* Bluesky embed custom styles */
+.link-underline {
+  text-decoration: underline;
+  text-decoration-color: color-mix(in oklab, currentColor 35%, transparent);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 150ms;
+}
+.link-underline:hover {
+  text-decoration-color: currentColor;
+}
+
 bsky-embed {
   display: block;
   width: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
 }
