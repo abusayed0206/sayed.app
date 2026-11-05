@@ -2,6 +2,8 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Redirect Service | Sayed',
+  // Utility pages (redirector, generator, per-profile redirects): keep them out of search results
+  robots: { index: false, follow: true },
   description: 'URL shortening and redirect management service - Coming soon',
   openGraph: {
     title: 'Redirect Service | Sayed',

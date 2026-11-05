@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Feed | Sayed',
+  alternates: { canonical: '/feed' },
   description: 'Updates from @sayed.app - Automated bot account feed on Bluesky',
   openGraph: {
     title: 'Feed | Sayed',

@@ -1,8 +1,12 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import FindMe from "@/components/FindMe";
 import ProjectCard from "@/components/ProjectCard";
 import { categories, categoryColor, projects } from "@/lib/projects";
+
+// Title and description come from app/layout.tsx; only the canonical is page-specific
+export const metadata: Metadata = { alternates: { canonical: "/" } };
 
 const stats = [
   { value: String(projects.length), label: "projects" },
