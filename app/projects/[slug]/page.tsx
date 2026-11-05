@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import ProjectCard from "@/components/ProjectCard";
@@ -144,13 +145,34 @@ export default async function ProjectPage({ params }: Params) {
               </h2>
               <ol className="mt-4 grid gap-px sm:grid-cols-2 bg-border border border-border rounded-2xl overflow-hidden">
                 {p.features.map((f, k) => (
-                  <li key={f.title} className="bg-card p-5">
+                  <li key={f.title} className="bg-card p-5 sm:odd:last:col-span-2">
                     <span className="font-mono text-xs" style={{ color }}>{String(k + 1).padStart(2, "0")}</span>
                     <h3 className="mt-2 font-serif text-2xl text-headings leading-tight">{f.title}</h3>
                     <p className="mt-1 text-sm leading-relaxed">{f.text}</p>
                   </li>
                 ))}
               </ol>
+            </section>
+          )}
+
+          {p.gallery && p.gallery.length > 0 && (
+            <section aria-labelledby="screenshots" className="mt-14">
+              <h2 id="screenshots" className="font-mono text-xs uppercase tracking-wider text-muted-foreground">Screenshots</h2>
+              <ul className={`mt-4 grid gap-4 ${p.gallery.length > 1 ? "sm:grid-cols-2" : ""}`}>
+                {p.gallery.map((src, k) => (
+                  <li key={src}>
+                    <a href={src} target="_blank" rel="noopener" className="group block relative aspect-[16/10] overflow-hidden rounded-2xl border border-border bg-surface">
+                      <Image
+                        src={src}
+                        alt={`${p.name} screenshot ${k + 2}`}
+                        fill
+                        sizes="(min-width: 1024px) 400px, (min-width: 640px) 50vw, 100vw"
+                        className="object-cover object-top transition-transform duration-300 group-hover:scale-[1.02]"
+                      />
+                    </a>
+                  </li>
+                ))}
+              </ul>
             </section>
           )}
         </div>

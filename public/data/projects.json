@@ -61,7 +61,8 @@
         "label": "Open kriti.app",
         "url": "https://kriti.app/"
       }
-    ]
+    ],
+    "image": "/imgs/kriti.png"
   },
   {
     "slug": "filmie",
@@ -261,6 +262,10 @@
         "label": "Source",
         "url": "https://github.com/lawsofbangladesh/laws"
       }
+    ],
+    "gallery": [
+      "/imgs/laws-of-bangladesh-app.png",
+      "/imgs/laws-of-bangladesh-app-ss2.png"
     ]
   },
   {
@@ -315,6 +320,10 @@
         "label": "Microsoft Store",
         "url": "https://apps.microsoft.com/detail/9n3gsz7v18zp?hl=en-US&gl=BD"
       }
+    ],
+    "image": "/imgs/bangla-quran-app.png",
+    "gallery": [
+      "/imgs/bangla-quran-app-ss2.png"
     ]
   },
   {
@@ -437,6 +446,9 @@
         "label": "Source",
         "url": "https://github.com/abusayed0206/trakt"
       }
+    ],
+    "gallery": [
+      "/imgs/tr.png"
     ]
   },
   {
@@ -478,6 +490,10 @@
         "label": "Microsoft Store",
         "url": "https://apps.microsoft.com/detail/9mwd4rvnvxtr?hl=en-US&gl=BD"
       }
+    ],
+    "image": "/imgs/kriti-font-manager.png",
+    "gallery": [
+      "/imgs/kriti-font-manager-ss2.png"
     ]
   },
   {
@@ -527,6 +543,10 @@
         "label": "Download installer",
         "url": "/storeapps/BanglaSaverSetup-1.0.0.exe"
       }
+    ],
+    "image": "/imgs/bangla-saver.png",
+    "gallery": [
+      "/imgs/bangla-saver-ss2.png"
     ]
   },
   {
@@ -573,6 +593,10 @@
         "label": "Web version",
         "url": "https://bangla-library.sayed.app/"
       }
+    ],
+    "image": "/imgs/bangla-library.png",
+    "gallery": [
+      "/imgs/bangla-library-ss2.png"
     ]
   },
   {
@@ -614,6 +638,10 @@
         "label": "Microsoft Store",
         "url": "https://apps.microsoft.com/detail/9nhd77r7f8g5?hl=en-US&gl=BD"
       }
+    ],
+    "image": "/imgs/bangla-dictionary.png",
+    "gallery": [
+      "/imgs/bangla-dictionary-ss2.png"
     ]
   },
   {
@@ -668,6 +696,10 @@
         "label": "Source",
         "url": "https://github.com/abusayed0206/bangla-calendar"
       }
+    ],
+    "image": "/imgs/bangla-calendar.png",
+    "gallery": [
+      "/imgs/bangla-calendar-ss2.webp"
     ]
   },
   {
@@ -709,6 +741,10 @@
         "label": "Microsoft Store",
         "url": "https://apps.microsoft.com/detail/9p7l7bvszjq3?hl=en-US&gl=BD"
       }
+    ],
+    "image": "/imgs/hadith-bangla.png",
+    "gallery": [
+      "/imgs/hadith-bangla-ss2.png"
     ]
   },
   {
@@ -750,6 +786,10 @@
         "label": "Microsoft Store",
         "url": "https://apps.microsoft.com/detail/9p55x6t33k66?hl=en-US&gl=BD"
       }
+    ],
+    "image": "/imgs/shobdo-jaal.png",
+    "gallery": [
+      "/imgs/shobdo-jaal-ss2.png"
     ]
   },
   {
@@ -847,7 +887,8 @@
         "label": "WordPress.org",
         "url": "https://wordpress.org/plugins/kriti-bangla-fonts/"
       }
-    ]
+    ],
+    "image": "/imgs/kriti-font-plugin.png"
   },
   {
     "slug": "kriti-firefox",
@@ -883,7 +924,8 @@
         "label": "Firefox Add-ons",
         "url": "https://addons.mozilla.org/en-US/firefox/addon/kriti-bangla-font-manager/"
       }
-    ]
+    ],
+    "image": "/imgs/kriti.png"
   },
   {
     "slug": "cuet-students-directory",
@@ -1084,7 +1126,8 @@
         "label": "API docs",
         "url": "https://quran.sayed.app/docs/"
       }
-    ]
+    ],
+    "image": "/imgs/quran-api.png"
   },
   {
     "slug": "bangla-library-web",
@@ -1139,7 +1182,8 @@
         "label": "Open library",
         "url": "https://bangla-library.sayed.app/"
       }
-    ]
+    ],
+    "image": "/imgs/bangla-library-web.png"
   },
   {
     "slug": "pdpo",
@@ -1184,6 +1228,10 @@
         "label": "Open PDPO Helper",
         "url": "https://pdpo.sayed.app/"
       }
+    ],
+    "image": "/imgs/pdpo.png",
+    "gallery": [
+      "/imgs/pdpo2.png"
     ]
   },
   {
@@ -1238,7 +1286,8 @@
         "label": "Open tools",
         "url": "https://bsky.sayed.app/"
       }
-    ]
+    ],
+    "image": "/imgs/bsky.png"
   },
   {
     "slug": "rdapclient",
