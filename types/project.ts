@@ -9,6 +9,8 @@ export interface Project {
   category: ProjectCategory;
   featured?: boolean;
   image?: string;
+  /** Extra screenshots shown on the detail page after the cover. */
+  gallery?: string[];
   platforms: string[];
   stack?: string[];
   year?: number;
