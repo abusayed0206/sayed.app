@@ -7,7 +7,7 @@ type Row = { href: string; name: string; detail: string; Icon: IconType; tint: s
 
 const sites: Row[] = [
   { href: "https://sayed.dev", name: "sayed.dev", detail: "CV & research", Icon: LuGraduationCap, tint: "#0f6b4a" },
-  { href: "https://abusayed.dev", name: "abusayed.dev", detail: "Intro card", Icon: LuUserRound, tint: "#2f5bd3" },
+  { href: "https://sayed.page", name: "sayed.page", detail: "Intro card", Icon: LuUserRound, tint: "#2f5bd3" },
   { href: "https://sayed.blog", name: "sayed.blog", detail: "Writing", Icon: LuPenLine, tint: "#b8700c" },
   { href: "https://status.sayed.app", name: "Status", detail: "Uptime", Icon: LuActivity, tint: "#b9452f" },
 ];

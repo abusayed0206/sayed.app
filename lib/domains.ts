@@ -16,9 +16,9 @@ export interface DomainConfig {
 export const DOMAINS: DomainConfig[] = [
   { name: "sayed.app", role: "own", purpose: "This project hub and every *.sayed.app project", registrar: "Cloudflare" },
   { name: "sayed.dev", role: "own", purpose: "Main site: CV & research", registrar: "Cloudflare" },
-  { name: "sayed.page", role: "own", purpose: "Email, Bluesky handle and public files", registrar: "Cloudflare" },
+  { name: "sayed.page", role: "own", purpose: "Intro card, email and Bluesky handle", registrar: "Cloudflare" },
   { name: "sayed.blog", role: "own", purpose: "Blog", registrar: "Cloudflare" },
-  { name: "abusayed.dev", role: "own", purpose: "Intro card", registrar: "Cloudflare" },
+  { name: "abusayed.dev", role: "own", purpose: "Old intro address, redirects to sayed.page", registrar: "Cloudflare" },
   // fixedExpiry is the fallback when Spaceship credentials are missing (date from the actions WHOIS run, 2026-11-01).
   { name: "abusayed.de", role: "own", purpose: "German alias of sayed.dev", registrar: "Spaceship", fixedExpiry: "2027-10-16T21:20:43Z" },
   { name: "kriti.app", role: "own", purpose: "Bangla font catalog & CDN", registrar: "Name.com" },
