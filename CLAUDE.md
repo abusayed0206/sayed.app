@@ -7,7 +7,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 `sayed.app` is the **project hub** for Abu Sayed: one catalog page per app, tool, library, or research project. It uses Next.js 16 App Router, React 19, Tailwind CSS v4, and TypeScript, and is hosted on Vercel behind Cloudflare DNS. It is one of three personal sites, each with its own look and its own job. Do not copy styles between them:
 
 - **sayed.dev** (`D:\abusayed0206.github.io`): CV, research, and publications. It is the source of truth for academic facts.
-- **abusayed.dev** (`D:\abusayed.dev`): one-page intro card.
+- **sayed.page** (repo `D:\abusayed.dev`): one-page intro card; abusayed.dev redirects to it.
 - **sayed.app** (this repo): every project, with details.
 
 The GitHub profile README (`abusayed0206/abusayed0206`) also lists the projects. Keep project names and descriptions consistent with it.
