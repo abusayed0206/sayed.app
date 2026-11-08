@@ -1,21 +1,21 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Redirect Service | Sayed',
+  title: 'Fediverse profile redirect',
   // Utility pages (redirector, generator, per-profile redirects): keep them out of search results
   robots: { index: false, follow: true },
-  description: 'URL shortening and redirect management service - Coming soon',
+  description: 'Share a Fediverse profile once; everyone opens it on their own instance.',
   openGraph: {
-    title: 'Redirect Service | Sayed',
-    description: 'URL shortening and redirect management service - Coming soon',
+    title: 'Fediverse profile redirect',
+    description: 'Share a Fediverse profile once; everyone opens it on their own instance.',
     url: 'https://sayed.app/redirect',
     siteName: 'Sayed',
     images: [
       {
-        url: '/api/og/project?title=Redirect Service',
+        url: '/api/og/project?title=Fediverse profile redirect',
         width: 1200,
         height: 630,
-        alt: 'Redirect Service | Sayed',
+        alt: 'Fediverse profile redirect',
       },
     ],
     locale: 'en_US',
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Redirect Service | Sayed',
-    description: 'URL shortening and redirect management service - Coming soon',
-    images: ['/api/og/project?title=Redirect Service'],
+    title: 'Fediverse profile redirect',
+    description: 'Share a Fediverse profile once; everyone opens it on their own instance.',
+    images: ['/api/og/project?title=Fediverse profile redirect'],
   },
 };
