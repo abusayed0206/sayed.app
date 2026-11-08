@@ -50,6 +50,6 @@ There are no tests.
 **Other routes:**
 - `/feed`, `/personal-feed`: Bluesky feeds via the `bsky-embed` web component, dynamically imported on the client.
 - `/redirect*`: Fediverse profile redirector. The instance list is in `public/data/instances.json`.
-- `/api/shorten`: proxy to a Sink link shortener. It needs `SINK_API_URL` and `SINK_API_TOKEN`. `/s/[slug]` redirects to `link.sayed.app`.
+- `/api/shorten`: proxy to a Sink link shortener. It takes `{ handle, token }`, checks the Cloudflare Turnstile token (widget "sayed.app link shortener", site key in `app/redirect/generate/page.tsx`), and only ever shortens `https://sayed.app/redirect/@<handle>`, never a caller-supplied URL. It needs `SINK_API_URL`, `SINK_API_TOKEN` and `TURNSTILE_SECRET_KEY`; without any of them it answers 503 (fails closed). `/s/[slug]` redirects to `link.sayed.app`.
 - `/api/og/project?title=&tagline=&category=`: OG images in the site palette.
 - `public/storeapps/`: downloadable installers, linked from `projects.json`.
