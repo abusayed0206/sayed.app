@@ -20,10 +20,10 @@ export const DOMAINS: DomainConfig[] = [
   { name: "sayed.blog", role: "own", purpose: "Blog", registrar: "Cloudflare" },
   { name: "abusayed.dev", role: "own", purpose: "Old intro address, redirects to sayed.page", registrar: "Cloudflare" },
   // fixedExpiry is the fallback when Spaceship credentials are missing (date from the actions WHOIS run, 2026-11-01).
-  { name: "abusayed.de", role: "own", purpose: "German alias of sayed.dev", registrar: "Spaceship", fixedExpiry: "2027-10-16T21:20:43Z" },
+  { name: "abusayed.de", role: "own", purpose: "Old German CV address, redirects to sayed.dev/de/", registrar: "Spaceship", fixedExpiry: "2027-10-16T21:20:43Z" },
   { name: "kriti.app", role: "own", purpose: "Bangla font catalog & CDN", registrar: "Name.com" },
   { name: "tracker.bd", role: "own", purpose: "Bangladesh tracking platform", registrar: "BTCL" },
-  { name: "lrs.bd", role: "own", purpose: "Alias of sayed.dev", registrar: "BTCL" },
+  { name: "lrs.bd", role: "own", purpose: "Old Bengali CV address, redirects to sayed.dev/bn/", registrar: "BTCL" },
   { name: "nayem.page", role: "managed", purpose: "My brother's website", registrar: "Cloudflare" },
   { name: "nextshop.com.bd", role: "past", purpose: "My old e-commerce startup, no longer running", registrar: "BTCL" },
 ];

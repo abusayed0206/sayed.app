@@ -59,6 +59,7 @@ export default function ProjectIndex({ projects, initialCategory }: { projects: 
             <span className="sr-only">Search projects</span>
             <input
               type="search"
+              aria-label="Search projects"
               value={q}
               onChange={(e) => setQ(e.target.value)}
               placeholder="Search projects"
