@@ -1,5 +1,19 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
+import Script from "next/script";
+
+// Public Turnstile site key (widget "sayed.app link shortener"); the secret is TURNSTILE_SECRET_KEY on the server
+const TURNSTILE_SITE_KEY = "0x4AAAAAAF4tcnxnVxce4XbM";
+
+declare global {
+  interface Window {
+    turnstile?: {
+      render: (el: HTMLElement, options: Record<string, unknown>) => string;
+      reset: (id: string) => void;
+      remove: (id: string) => void;
+    };
+  }
+}
 
 interface Instance {
   domain: string;
@@ -18,6 +32,27 @@ export default function GenerateRedirectPage() {
   const [shortUrl, setShortUrl] = useState("");
   const [isShortening, setIsShortening] = useState(false);
   const [shortUrlCopied, setShortUrlCopied] = useState(false);
+  const [handle, setHandle] = useState("");
+  const [captchaToken, setCaptchaToken] = useState("");
+  const [turnstileReady, setTurnstileReady] = useState(false);
+  const widgetEl = useRef<HTMLDivElement>(null);
+  const widgetId = useRef("");
+
+  // Show the CAPTCHA only while a link can be shortened
+  useEffect(() => {
+    if (!turnstileReady || !generatedLink || shortUrl || !widgetEl.current || !window.turnstile) return;
+    widgetId.current = window.turnstile.render(widgetEl.current, {
+      sitekey: TURNSTILE_SITE_KEY,
+      action: "shorten",
+      callback: (t: string) => setCaptchaToken(t),
+      "expired-callback": () => setCaptchaToken(""),
+      "error-callback": () => setCaptchaToken(""),
+    });
+    return () => {
+      window.turnstile?.remove(widgetId.current);
+      setCaptchaToken("");
+    };
+  }, [turnstileReady, generatedLink, shortUrl]);
 
   // Load instances on mount
   useEffect(() => {
@@ -116,13 +151,14 @@ export default function GenerateRedirectPage() {
       const baseUrl = typeof window !== "undefined" ? window.location.origin : "";
       const link = `${baseUrl}/redirect/@${profileHandle}`;
       setGeneratedLink(link);
+      setHandle(profileHandle);
     } catch {
       setError("Failed to parse profile URL. Please check the format.");
     }
   };
 
   const handleShortenUrl = async () => {
-    if (!generatedLink) return;
+    if (!handle || !captchaToken) return;
 
     setIsShortening(true);
     setError("");
@@ -134,7 +170,7 @@ export default function GenerateRedirectPage() {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ url: generatedLink }),
+        body: JSON.stringify({ handle, token: captchaToken }),
       });
 
       const data = await response.json();
@@ -149,6 +185,9 @@ export default function GenerateRedirectPage() {
       setError("Failed to shorten URL. Please try again.");
     } finally {
       setIsShortening(false);
+      // Tokens are single-use: get a fresh one for a retry
+      setCaptchaToken("");
+      if (widgetId.current) window.turnstile?.reset(widgetId.current);
     }
   };
 
@@ -293,10 +332,15 @@ export default function GenerateRedirectPage() {
 
                   {/* Shorten Button - Now more prominent */}
                   {!shortUrl && (
-                    <div className="pt-2">
+                    <div className="pt-2 space-y-3">
+                      <Script
+                        src="https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit"
+                        onReady={() => setTurnstileReady(true)}
+                      />
+                      <div ref={widgetEl} className="flex justify-center" />
                       <button
                         onClick={handleShortenUrl}
-                        disabled={isShortening}
+                        disabled={isShortening || !captchaToken}
                         className="w-full px-4 py-3 text-sm bg-primary text-white rounded-md hover:bg-primary/90 transition-colors font-semibold disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
                       >
                         {isShortening ? (
