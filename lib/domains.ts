@@ -25,6 +25,7 @@ export const DOMAINS: DomainConfig[] = [
   { name: "tracker.bd", role: "own", purpose: "Bangladesh tracking platform", registrar: "BTCL" },
   { name: "lrs.bd", role: "own", purpose: "Old Bengali CV address, redirects to sayed.dev/bn/", registrar: "BTCL" },
   { name: "nayem.page", role: "managed", purpose: "My brother's website", registrar: "Cloudflare" },
+  { name: "nayem.dev", role: "managed", purpose: "My brother's new domain", registrar: "Spaceship" },
   { name: "nextshop.com.bd", role: "past", purpose: "My old e-commerce startup, no longer running", registrar: "BTCL" },
 ];
 
