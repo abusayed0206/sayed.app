@@ -1,70 +1,5 @@
 [
   {
-    "slug": "kriti",
-    "name": "kriti.app",
-    "tagline": "The largest free Bangla font catalog, with a CDN and an API.",
-    "summary": "Browse 315+ open-license Bangla fonts, test them with live previews, and use them anywhere via a WOFF2 CDN, a REST API, or one-line PowerShell & Bash installers.",
-    "category": "web",
-    "featured": true,
-    "platforms": [
-      "Web",
-      "CDN",
-      "API"
-    ],
-    "stack": [
-      "Cloudflare",
-      "WOFF2"
-    ],
-    "year": 2026,
-    "status": "Live",
-    "metrics": [
-      {
-        "value": "315+",
-        "label": "fonts"
-      }
-    ],
-    "overview": [
-      "Finding Bangla fonts you are actually allowed to use has always meant digging through forums and mirror sites. kriti.app collects fonts released under OFL, Creative Commons and GPL licenses in one catalog, credits each font's original author, and lets you try every one with your own text before downloading.",
-      "Kriti is also infrastructure: every font is served from a WOFF2 CDN, so a website can load Bangla typography with a single stylesheet link, and the catalog is exposed through a REST API. The same catalog powers the Kriti Windows app, the WordPress plugin, and the Firefox add-on."
-    ],
-    "features": [
-      {
-        "title": "Live previews",
-        "text": "Type your own Bangla text and see it rendered in every font."
-      },
-      {
-        "title": "WOFF2 CDN",
-        "text": "Drop-in stylesheet links for using any font on the web."
-      },
-      {
-        "title": "REST API",
-        "text": "Query the catalog programmatically for your own tools."
-      },
-      {
-        "title": "Automatic installers",
-        "text": "PowerShell and Bash one-liners that install fonts locally."
-      },
-      {
-        "title": "Open licenses only",
-        "text": "Every font is OFL, Creative Commons or GPL, with its author credited."
-      }
-    ],
-    "tags": [
-      "fonts",
-      "typography",
-      "cdn",
-      "api",
-      "bangla"
-    ],
-    "links": [
-      {
-        "label": "Open kriti.app",
-        "url": "https://kriti.app/"
-      }
-    ],
-    "image": "/imgs/kriti.png"
-  },
-  {
     "slug": "vtray",
     "name": "VT Tray",
     "tagline": "VirusTotal checks from your Windows tray. Nothing is uploaded without your consent.",
@@ -165,6 +100,71 @@
         "url": "https://github.com/abusayed0206/vtray"
       }
     ]
+  },
+  {
+    "slug": "kriti",
+    "name": "kriti.app",
+    "tagline": "The largest free Bangla font catalog, with a CDN and an API.",
+    "summary": "Browse 315+ open-license Bangla fonts, test them with live previews, and use them anywhere via a WOFF2 CDN, a REST API, or one-line PowerShell & Bash installers.",
+    "category": "web",
+    "featured": true,
+    "platforms": [
+      "Web",
+      "CDN",
+      "API"
+    ],
+    "stack": [
+      "Cloudflare",
+      "WOFF2"
+    ],
+    "year": 2026,
+    "status": "Live",
+    "metrics": [
+      {
+        "value": "315+",
+        "label": "fonts"
+      }
+    ],
+    "overview": [
+      "Finding Bangla fonts you are actually allowed to use has always meant digging through forums and mirror sites. kriti.app collects fonts released under OFL, Creative Commons and GPL licenses in one catalog, credits each font's original author, and lets you try every one with your own text before downloading.",
+      "Kriti is also infrastructure: every font is served from a WOFF2 CDN, so a website can load Bangla typography with a single stylesheet link, and the catalog is exposed through a REST API. The same catalog powers the Kriti Windows app, the WordPress plugin, and the Firefox add-on."
+    ],
+    "features": [
+      {
+        "title": "Live previews",
+        "text": "Type your own Bangla text and see it rendered in every font."
+      },
+      {
+        "title": "WOFF2 CDN",
+        "text": "Drop-in stylesheet links for using any font on the web."
+      },
+      {
+        "title": "REST API",
+        "text": "Query the catalog programmatically for your own tools."
+      },
+      {
+        "title": "Automatic installers",
+        "text": "PowerShell and Bash one-liners that install fonts locally."
+      },
+      {
+        "title": "Open licenses only",
+        "text": "Every font is OFL, Creative Commons or GPL, with its author credited."
+      }
+    ],
+    "tags": [
+      "fonts",
+      "typography",
+      "cdn",
+      "api",
+      "bangla"
+    ],
+    "links": [
+      {
+        "label": "Open kriti.app",
+        "url": "https://kriti.app/"
+      }
+    ],
+    "image": "/imgs/kriti.png"
   },
   {
     "slug": "filmie",
@@ -434,7 +434,7 @@
     "tagline": "Use Telegram's Telegraph as a headless CMS for your blog.",
     "summary": "Write on Telegraph, publish on your own site. A Next.js front end that turns Telegraph pages into a blog, currently serving 500k+ posts.",
     "category": "web",
-    "featured": true,
+    "featured": false,
     "platforms": [
       "Web"
     ],
