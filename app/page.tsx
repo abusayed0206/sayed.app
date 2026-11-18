@@ -47,7 +47,7 @@ export default function Home() {
               </div>
             </div>
             <h1 className="mt-8 font-serif text-5xl sm:text-7xl lg:text-[5.5rem] leading-[0.95] text-headings tracking-tight text-balance">
-              I build small, ad-free software <em className="text-primary">for Bangla.</em>
+              I build small, ad-free software, <em className="text-primary">mostly for Bangla.</em>
             </h1>
             <ul className="mt-8 flex flex-wrap gap-2 font-mono text-xs">
               {stats.map((s) => (

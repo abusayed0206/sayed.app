@@ -1,5 +1,107 @@
 [
   {
+    "slug": "vtray",
+    "name": "VT Tray",
+    "tagline": "VirusTotal checks from your Windows tray. Nothing is uploaded without your consent.",
+    "summary": "A tiny, always-on tray app that notices new programs in the folders you choose, fingerprints them locally, and checks their hashes against VirusTotal. Unknown files are uploaded only after you confirm, file by file. Free, open source, no telemetry.",
+    "category": "windows",
+    "featured": true,
+    "image": "/imgs/vtray.png",
+    "gallery": [
+      "/imgs/vtray-settings.png",
+      "/imgs/vtray-api-key.png",
+      "/imgs/vtray-setup.png"
+    ],
+    "platforms": [
+      "Windows"
+    ],
+    "stack": [
+      "Rust",
+      "Win32",
+      "SQLite",
+      "VirusTotal API",
+      "Inno Setup"
+    ],
+    "year": 2026,
+    "status": "Live",
+    "metrics": [
+      {
+        "value": "0.4 MB",
+        "label": "memory while idle"
+      },
+      {
+        "value": "0",
+        "label": "uploads without consent"
+      }
+    ],
+    "facts": [
+      {
+        "label": "Version",
+        "value": "1.0.0"
+      },
+      {
+        "label": "License",
+        "value": "MIT"
+      },
+      {
+        "label": "Install",
+        "value": "Per-user, no admin rights"
+      }
+    ],
+    "overview": [
+      "VT Tray sits in the Windows notification area and watches the folders you choose. When a new program or script appears and stops changing, it hashes the file on your PC and looks up only that fingerprint on VirusTotal, so known files never need an upload.",
+      "If VirusTotal has never seen a file, VT Tray asks before sending anything: the confirmation shows the file name, size, fingerprint and a community-sharing warning, and No is the default. The report opens in your browser when the analysis finishes.",
+      "It is built in Rust on the native Win32 tray, uses about 0.4 MB of memory and no CPU while idle, and stays inside the free VirusTotal API limits with one persistent quota gate. Your API key lives in Windows Credential Manager, and uninstalling removes every entry, setting and log it created."
+    ],
+    "features": [
+      {
+        "title": "Hash first",
+        "text": "Check any file from the tray or Explorer; only its SHA-256 is sent."
+      },
+      {
+        "title": "Consent before every upload",
+        "text": "A per-file confirmation with a sharing warning, No by default, and the report opens when done."
+      },
+      {
+        "title": "Folder monitoring",
+        "text": "New programs in watched folders are announced once; unplugged drives are picked up again when they return."
+      },
+      {
+        "title": "Explorer menu",
+        "text": "Check with VT Tray never uploads; Upload with VT Tray always asks first."
+      },
+      {
+        "title": "Quota aware",
+        "text": "4 requests a minute, 500 a day, 15.5K a month, with 100 a day kept for manual checks and warnings before a limit."
+      },
+      {
+        "title": "Private and light",
+        "text": "No telemetry, the key stays in Credential Manager, and idle memory is checked on every build."
+      }
+    ],
+    "tags": [
+      "virustotal",
+      "security",
+      "rust",
+      "tray",
+      "windows"
+    ],
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://vtray.sayed.app"
+      },
+      {
+        "label": "Download for Windows",
+        "url": "https://github.com/abusayed0206/vtray/releases/latest/download/VTray-Setup-1.0.0.exe"
+      },
+      {
+        "label": "Source",
+        "url": "https://github.com/abusayed0206/vtray"
+      }
+    ]
+  },
+  {
     "slug": "kriti",
     "name": "kriti.app",
     "tagline": "The largest free Bangla font catalog, with a CDN and an API.",
@@ -332,7 +434,7 @@
     "tagline": "Use Telegram's Telegraph as a headless CMS for your blog.",
     "summary": "Write on Telegraph, publish on your own site. A Next.js front end that turns Telegraph pages into a blog, currently serving 500k+ posts.",
     "category": "web",
-    "featured": true,
+    "featured": false,
     "platforms": [
       "Web"
     ],
